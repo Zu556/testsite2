@@ -6,13 +6,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Extracurriculars • Activities</title>
   <link rel="stylesheet" href="style.css" />
-<!-- Choices.js CSS -->
+  <!-- Choices.js CSS -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/choices.js/public/assets/styles/choices.min.css" />
   
   <style>
     body { font-family: 'Segoe UI', sans-serif; background: #fafafa; color: #222; margin: 0; }
 
-    /* --- Navbar (same as index) --- */
+    /* --- Navbar --- */
     .navbar { display: flex; justify-content: space-between; align-items: center;
       padding: 1rem 5%; background: white; box-shadow: 0 2px 6px rgba(0,0,0,0.05); position: sticky; top: 0; z-index: 1000; }
     .logo { font-weight: bold; font-size: 1.2rem; color: #222; text-decoration: none; }
@@ -30,7 +30,6 @@
     .filter-group label { display: block; margin-bottom: 0.3rem; font-weight: 500; }
     .filter-group select, .filter-group input { width: 100%; padding: 0.5rem; border: 1px solid #ddd; border-radius: 0.5rem; }
 
-    /* Clear Filters button styled like Search button */
     #clearFilters {
       padding: 0.7rem 1.2rem;
       border: none;
@@ -40,9 +39,7 @@
       cursor: pointer;
       width: 100%;
     }
-    #clearFilters:hover {
-      background: #444;
-    }
+    #clearFilters:hover { background: #444; }
 
     /* --- Main Content --- */
     .content { padding: 2rem; }
@@ -52,7 +49,7 @@
     .search-bar button { padding: 0.7rem 1.2rem; border: none; background: #222; color: white; border-radius: 0.5rem; cursor: pointer; }
     .search-bar button:hover { background: #444; }
 
-    /* --- New Activity Cards --- */
+    /* --- Activity Cards --- */
     .activities { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem; }
 
     .activity-card { 
@@ -93,6 +90,7 @@
       max-width: 500px;
       width: 90%;
       border-radius: 5px;
+      position: relative;
     }
     #contactModal input, #contactModal textarea {
       width: 100%;
@@ -105,6 +103,39 @@
       border: 1px solid #222;
       background: transparent;
       cursor: pointer;
+    }
+
+    /* --- Activity Modal --- */
+    #activityModal {
+      display: none;
+      position: fixed;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background: rgba(0,0,0,0.5);
+      justify-content: center;
+      align-items: center;
+      z-index: 2000;
+    }
+    #activityModal .modal-content {
+      background: #fff;
+      padding: 2rem;
+      max-width: 600px;
+      width: 90%;
+      border-radius: 10px;
+      box-shadow: 0 6px 20px rgba(0,0,0,0.2);
+      position: relative;
+      animation: fadeIn 0.2s ease-in-out;
+    }
+    #activityModal .close-btn {
+      position: absolute;
+      top: 15px;
+      right: 20px;
+      font-size: 1.5rem;
+      cursor: pointer;
+      color: #444;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(-10px); }
+      to { opacity: 1; transform: translateY(0); }
     }
 
     /* --- Contact Icon --- */
@@ -181,6 +212,20 @@
       <!-- Cards injected here -->
       <div id="activityGrid" class="activities"></div>
 
+      <!-- Activity Modal -->
+      <div id="activityModal">
+        <div class="modal-content">
+          <span class="close-btn" onclick="document.getElementById('activityModal').style.display='none'">&times;</span>
+          <h2 id="modalTitle"></h2>
+          <p id="modalSubtitle"></p>
+          <p id="modalDesc"></p>
+          <div id="modalTags" class="tags"></div>
+          <p id="modalDeadline" class="deadline"></p>
+          <p id="modalLocation"></p>
+          <p id="modalLanguage"></p>
+        </div>
+      </div>
+
       <!-- Contact Us Icon and Modal -->
       <div class="contact-icon" onclick="document.getElementById('contactModal').style.display='flex'">✉️</div>
       <div id="contactModal">
@@ -203,9 +248,8 @@
     </main>
   </div>
   
-<!-- Choices.js JS -->
+  <!-- Choices.js JS -->
   <script src="https://cdn.jsdelivr.net/npm/choices.js/public/assets/scripts/choices.min.js"></script>
-  
   <script src="activities.js"></script>
 </body>
 </html>
