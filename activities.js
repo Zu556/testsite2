@@ -149,16 +149,23 @@ function applyFilters(data) {
   const language = choicesInstances["languageFilter"].getValue(true);
   const search   = document.getElementById("searchInput").value.toLowerCase().trim();
 
+  const searchWords = search ? search.split(/\s+/).filter(Boolean) : [];
+
   const filtered = data.filter(item => {
     const matchCategory = itemMatchesMultiSelect(category, item.Category);
     const matchAge      = itemMatchesMultiSelect(ageGroup, item.AgeGroup);
     const matchLocation = itemMatchesMultiSelect(location, item.Location);
     const matchLanguage = itemMatchesMultiSelect(language, item.Language);
-    const matchSearch   =
-      !search ||
-      (item.Title || "").toLowerCase().includes(search) ||
-      (item.Description || "").toLowerCase().includes(search) ||
-      (item.Category || "").toLowerCase().includes(search);
+
+    const searchableText = [
+      item.Title || "",
+      item.Description || "",
+      item.Category || "",
+      item.Location || "",
+      item.Language || ""
+    ].join(" ").toLowerCase();
+
+    const matchSearch = searchWords.every(word => searchableText.includes(word));
 
     return matchCategory && matchAge && matchLocation && matchLanguage && matchSearch;
   });
