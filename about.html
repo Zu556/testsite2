@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Extracurriculars • About</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    body { font-family: 'Segoe UI', sans-serif; margin: 0; background: #fafafa; color: #222; }
+
+    /* Navbar */
+    .navbar { display: flex; justify-content: space-between; align-items: center; padding: 1rem 5%; background: white; box-shadow: 0 2px 6px rgba(0,0,0,0.05); position: sticky; top: 0; z-index: 100; }
+    .logo { font-weight: bold; font-size: 1.2rem; text-decoration: none; color: #000; }
+    .nav-links { list-style: none; display: flex; gap: 1.5rem; }
+    .nav-links a { text-decoration: none; color: #444; font-weight: 500; transition: 0.2s; }
+    .nav-links a:hover, .nav-links a.active { color: #000; border-bottom: 2px solid #000; }
+
+    main.page { padding: 2rem 8%; }
+
+    /* Hero */
+    .about-hero { text-align: center; padding: 3rem 0; }
+    .about-hero h1 { font-size: 2rem; margin-bottom: 0.5rem; }
+    .about-hero .subtext { font-size: 1.1rem; color: #555; }
+
+    /* Two Column */
+    .two-col { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem; margin-top: 2rem; }
+    .two-col .card { background: #fff; padding: 2rem; border-radius: 1rem; box-shadow: 0 3px 10px rgba(0,0,0,0.05); }
+
+    /* Values Grid */
+    .values-grid { margin-top: 3rem; }
+    .feature-cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1.5rem; margin-top: 1.5rem; }
+    .feature-card { background: #fff; padding: 2rem; border-radius: 1rem; box-shadow: 0 3px 10px rgba(0,0,0,0.05); text-align: center; }
+
+    /* Timeline */
+    .timeline { margin-top: 3rem; }
+    .timeline-list { list-style: none; padding: 0; margin-top: 1.5rem; border-left: 3px solid #ddd; }
+    .timeline-list li { margin-bottom: 2rem; padding-left: 1.5rem; position: relative; }
+    .timeline-list li::before {
+      content: ""; position: absolute; left: -10px; top: 5px;
+      width: 15px; height: 15px; border-radius: 50%; background: #000;
+    }
+    .timeline-year { font-weight: bold; margin-bottom: 0.3rem; }
+    .timeline-content h3 { margin: 0 0 0.3rem; }
+    .timeline-content p { margin: 0; color: #555; }
+
+    /* Team Members */
+    .team { margin-top: 3rem; }
+    .team-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1.5rem; margin-top: 1.5rem; }
+    .member-card { background: #fff; border-radius: 1rem; padding: 1.5rem; text-align: center; box-shadow: 0 3px 10px rgba(0,0,0,0.05); }
+    .member-icon { font-size: 3rem; margin-bottom: 1rem; color: black; }
+    .member-card h3 { margin-bottom: 0.3rem; font-size: 1.1rem; }
+    .member-card p { margin: 0; font-size: 0.9rem; color: #555; }
+
+    /* Footer */
+    .footer { text-align: center; padding: 1.5rem; margin-top: 3rem; background: #fff; border-top: 1px solid #eee; }
+  </style>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar">
+    <a class="logo" href="index2.html">Extracurriculars</a>
+    <ul class="nav-links">
+      <li><a href="index2.html">Home</a></li>
+      <li><a href="guide.html">Guide</a></li>
+      <li><a href="activity.html">Activities</a></li>
+      <li><a class="active" href="about.html">About</a></li>
+    </ul>
+  </nav>
+
+  <main class="page">
+    <!-- About Hero -->
+    <section class="about-hero fade-up">
+      <h1>About Us</h1>
+      <p class="subtext">Built by students, for students — helping you find opportunities that match your passions.</p>
+    </section>
+
+    <!-- Two Column -->
+    <section class="two-col fade-up">
+      <div class="card">
+        <h2>Our Mission</h2>
+        <p>We help students discover extracurricular activities that align with their goals, from STEM to Arts, Sports, and Leadership.</p>
+      </div>
+      <div class="card">
+        <h2>Our Vision</h2>
+        <p>A world where every student can easily access opportunities to grow, explore, and lead — beyond the classroom.</p>
+      </div>
+    </section>
+
+    <!-- Values -->
+    <section class="values-grid fade-up">
+      <h2>Our Values</h2>
+      <div class="feature-cards">
+        <div class="feature-card">
+          <h3>Accessibility</h3>
+          <p>Free and easy access for every student.</p>
+        </div>
+        <div class="feature-card">
+          <h3>Diversity</h3>
+          <p>Activities across STEM, Arts, Sports, Leadership, and more.</p>
+        </div>
+        <div class="feature-card">
+          <h3>Community</h3>
+          <p>Built by students, for students — we grow together.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Timeline -->
+    <section class="timeline fade-up">
+      <h2>Our Journey</h2>
+      <ul class="timeline-list">
+        <li>
+          <div class="timeline-year">2022</div>
+          <div class="timeline-content">
+            <h3>Started the Project</h3>
+            <p>Created as a student initiative to make extracurriculars more accessible.</p>
+          </div>
+        </li>
+        <li>
+          <div class="timeline-year">2023</div>
+          <div class="timeline-content">
+            <h3>Expanded Database</h3>
+            <p>Now featuring 200+ opportunities across multiple categories.</p>
+          </div>
+        </li>
+        <li>
+          <div class="timeline-year">2024</div>
+          <div class="timeline-content">
+            <h3>Community Growth</h3>
+            <p>Partnered with schools and organizations to help thousands of students.</p>
+          </div>
+        </li>
+      </ul>
+    </section>
+
+    <!-- Team -->
+    <section class="team fade-up">
+      <h2>Meet Our Team</h2>
+      <div class="team-grid">
+        <div class="member-card">
+          <i class="fas fa-user-circle member-icon"></i>
+          <h3>Student Name 1</h3>
+          <p>Role / Area of Interest</p>
+        </div>
+        <div class="member-card">
+          <i class="fas fa-user-circle member-icon"></i>
+          <h3>Student Name 2</h3>
+          <p>Role / Area of Interest</p>
+        </div>
+        <div class="member-card">
+          <i class="fas fa-user-circle member-icon"></i>
+          <h3>Student Name 3</h3>
+          <p>Role / Area of Interest</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>© <span id="year"></span> Extracurriculars</p>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+    const elements = document.querySelectorAll('.fade-up');
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+          observer.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.1 });
+    elements.forEach(el => observer.observe(el));
+  </script>
+</body>
+</html>
