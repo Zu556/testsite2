@@ -91,71 +91,54 @@ function renderActivities(data) {
     const card = document.createElement("div");
     card.className = "activity-card";
 
-    // Icon placeholder (you can map categories to icons later)
-    const icon = document.createElement("div");
-    icon.className = "icon";
-    icon.textContent = "🔹"; // placeholder icon, can map based on Category
+    // Short description
+    const shortDesc = (item.Description || "").slice(0, 120) +
+      ((item.Description || "").length > 120 ? "..." : "");
 
-    // Tags at bottom
-    const tags = document.createElement("div");
-    tags.className = "tags";
-    // Keep AgeGroup
-    toList(item.AgeGroup).forEach(tag => {
-      const span = document.createElement("span");
-      span.className = "tag";
-      span.textContent = tag;
-      tags.appendChild(span);
-    });
-    // Location
-    if (item.Location) {
-      const locTag = document.createElement("span");
-      locTag.className = "tag";
-      locTag.textContent = item.Location;
-      tags.appendChild(locTag);
-    }
-    // Language
-    if (item.Language) {
-      const langTag = document.createElement("span");
-      langTag.className = "tag";
-      langTag.textContent = item.Language;
-      tags.appendChild(langTag);
-    }
+    // Tags: AgeGroup + Location + Language
+    let tagsHtml = "";
+    if (item.AgeGroup) tagsHtml += `<span class="tag">${item.AgeGroup}</span>`;
+    if (item.Location) tagsHtml += `<span class="tag">${item.Location}</span>`;
+    if (item.Language) tagsHtml += `<span class="tag">${item.Language}</span>`;
 
-    // Short description (first 100 chars)
-    const shortDesc = (item.Description || "").slice(0, 120) + ((item.Description || "").length > 120 ? "..." : "");
-
-    // Learn more button
-    const learnMore = document.createElement("a");
-    learnMore.href = "#";
-    learnMore.className = "learn-more";
-    learnMore.textContent = "Learn More →";
-    
-    // Modal or expand on click
-    learnMore.addEventListener("click", (e) => {
-      e.preventDefault();
-      alert(`
-        Title: ${item.Title}
-        Category: ${item.Category}
-        Age Group: ${item.AgeGroup}
-        Language: ${item.Language}
-        Location: ${item.Location}
-        Description: ${item.Description}
-        How to Apply: ${item.HowToApply}
-        Links: ${["Link1","Link2","Link3","Link4","Link5"].map(k => item[k]).filter(Boolean).join(", ")}
-      `);
-    });
+    // Hidden extra info
+    const extraInfo = `
+      <div class="extra-info" style="display:none; margin-top:1rem; font-size:0.9rem; line-height:1.4; color:#444;">
+        <p><strong>Full Description:</strong> ${item.Description || "N/A"}</p>
+        <p><strong>How to Apply:</strong> ${item.HowToApply || "N/A"}</p>
+        <p><strong>Links:</strong> ${
+          ["Link1","Link2","Link3","Link4","Link5"]
+            .map(k => item[k])
+            .filter(Boolean)
+            .map(link => `<a href="${link}" target="_blank">${link}</a>`)
+            .join(", ") || "N/A"
+        }</p>
+      </div>
+    `;
 
     card.innerHTML = `
-      <div class="icon">${icon.textContent}</div>
       <h3 class="title">${item.Title || "Untitled"}</h3>
       <p class="desc">${shortDesc}</p>
+      <div class="tags">${tagsHtml}</div>
+      <a href="#" class="learn-more">Learn More →</a>
+      ${extraInfo}
     `;
-    card.appendChild(tags);
-    card.appendChild(learnMore);
+
+    // Expand/collapse toggle
+    const learnMoreLink = card.querySelector(".learn-more");
+    const extraInfoDiv = card.querySelector(".extra-info");
+
+    learnMoreLink.addEventListener("click", (e) => {
+      e.preventDefault();
+      const isVisible = extraInfoDiv.style.display === "block";
+      extraInfoDiv.style.display = isVisible ? "none" : "block";
+      learnMoreLink.textContent = isVisible ? "Show Less ↑" : "Learn More →";
+    });
 
     grid.appendChild(card);
   });
 }
+
 
 // ---- filtering -------------------------------------------------------------
 
