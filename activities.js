@@ -91,31 +91,67 @@ function renderActivities(data) {
     const card = document.createElement("div");
     card.className = "activity-card";
 
-    // collect links (trim blanks like " ")
-    const links = ["Link1","Link2","Link3","Link4","Link5"]
-      .map(k => (item[k] || "").trim())
-      .filter(v => v.length > 0);
+    // Icon placeholder (you can map categories to icons later)
+    const icon = document.createElement("div");
+    icon.className = "icon";
+    icon.textContent = "🔹"; // placeholder icon, can map based on Category
 
-    const linksHtml = links.length
-      ? `<div class="links">` +
-        links.map((v, idx) => 
-          v.startsWith("http")
-            ? `<a href="${v}" target="_blank" rel="noopener">Link ${idx + 1}</a>`
-            : `<span>${v}</span>`
-        ).join(" • ") +
-        `</div>`
-      : "";
+    // Tags at bottom
+    const tags = document.createElement("div");
+    tags.className = "tags";
+    // Keep AgeGroup
+    toList(item.AgeGroup).forEach(tag => {
+      const span = document.createElement("span");
+      span.className = "tag";
+      span.textContent = tag;
+      tags.appendChild(span);
+    });
+    // Location
+    if (item.Location) {
+      const locTag = document.createElement("span");
+      locTag.className = "tag";
+      locTag.textContent = item.Location;
+      tags.appendChild(locTag);
+    }
+    // Language
+    if (item.Language) {
+      const langTag = document.createElement("span");
+      langTag.className = "tag";
+      langTag.textContent = item.Language;
+      tags.appendChild(langTag);
+    }
+
+    // Short description (first 100 chars)
+    const shortDesc = (item.Description || "").slice(0, 120) + ((item.Description || "").length > 120 ? "..." : "");
+
+    // Learn more button
+    const learnMore = document.createElement("a");
+    learnMore.href = "#";
+    learnMore.className = "learn-more";
+    learnMore.textContent = "Learn More →";
+    
+    // Modal or expand on click
+    learnMore.addEventListener("click", (e) => {
+      e.preventDefault();
+      alert(`
+        Title: ${item.Title}
+        Category: ${item.Category}
+        Age Group: ${item.AgeGroup}
+        Language: ${item.Language}
+        Location: ${item.Location}
+        Description: ${item.Description}
+        How to Apply: ${item.HowToApply}
+        Links: ${["Link1","Link2","Link3","Link4","Link5"].map(k => item[k]).filter(Boolean).join(", ")}
+      `);
+    });
 
     card.innerHTML = `
-      <h3>${item.Title}</h3>
-      <p><strong>Category:</strong> ${item.Category}</p>
-      <p><strong>Age Group:</strong> ${Array.isArray(item.AgeGroup) ? item.AgeGroup.join(", ") : item.AgeGroup}</p>
-      <p><strong>Language:</strong> ${item.Language}</p>
-      <p><strong>Location:</strong> ${item.Location}</p>
-      <p><strong>Description:</strong> ${item.Description}</p>
-      <p><strong>How to Apply:</strong> ${item.HowToApply || ""}</p>
-      ${linksHtml}
+      <div class="icon">${icon.textContent}</div>
+      <h3 class="title">${item.Title || "Untitled"}</h3>
+      <p class="desc">${shortDesc}</p>
     `;
+    card.appendChild(tags);
+    card.appendChild(learnMore);
 
     grid.appendChild(card);
   });
