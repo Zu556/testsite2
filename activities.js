@@ -86,7 +86,10 @@ function renderActivities(data) {
       ((item.Description || "").length > 120 ? "..." : "");
 
     let tags = [];
-    if (item.AgeGroup && item.AgeGroup.toLowerCase() !== "all") tags.push(item.AgeGroup);
+    if (item.AgeGroup) {
+  const ag = Array.isArray(item.AgeGroup) ? item.AgeGroup.join(", ") : item.AgeGroup.toString();
+  if (ag.toLowerCase() !== "all") tags.push(ag);
+}
     if (item.Location) tags.push(item.Location);
     if (item.Language) tags.push(item.Language);
 
