@@ -1,0 +1,37 @@
+.activity-card {
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  padding: 1.5rem;
+  transition: transform 0.2s ease;
+}
+
+.activity-card:hover {
+  transform: translateY(-4px);
+}
+
+.activity-card .tags {
+  margin: 1rem 0;
+}
+
+.activity-card .tag {
+  display: inline-block;
+  background: #f5f5f5;
+  border-radius: 12px;
+  padding: 4px 10px;
+  font-size: 0.75rem;
+  margin-right: 6px;
+  color: #333;
+}
+
+.activity-card .learn-more {
+  display: inline-block;
+  margin-top: 0.5rem;
+  color: #2563eb;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.activity-card .learn-more:hover {
+  text-decoration: underline;
+}
