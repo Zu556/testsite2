@@ -23,7 +23,7 @@ function uniqueFromCommaSeparated(values) {
 // ---- data ------------------------------------------------------------------
 
 async function loadData() {
-  const response = await fetch("https://zu556.github.io/testsite/activities.json", { cache: "no-store" });
+  const response = await fetch("https://zu556.github.io/testsite2/activities.json", { cache: "no-store" });
   return await response.json();
 }
 
