@@ -30,11 +30,6 @@ async function loadData() {
 
 function createOptions(select, options, placeholderText) {
   select.innerHTML = "";
-  const def = document.createElement("option");
-  def.value = "";
-  def.textContent = placeholderText;
-  select.appendChild(def);
-
   options.forEach(val => {
     const opt = document.createElement("option");
     opt.value = val;
@@ -63,11 +58,11 @@ function enhanceSelectsWithChoices() {
     const el = document.getElementById(id);
     if (!el || choicesInstances[id]) return;
     choicesInstances[id] = new Choices(el, {
-      removeItemButton: false,
-      searchEnabled: false,
+      removeItemButton: true,
+      searchEnabled: true,
       shouldSort: false,
       placeholder: true,
-      placeholderValue: el.options[0]?.textContent || "Select"
+      placeholderValue: `Select ${id.replace("Filter", "").toLowerCase()}`
     });
   });
 }
@@ -90,7 +85,6 @@ function renderActivities(data) {
     const shortDesc = (item.Description || "").slice(0, 120) +
       ((item.Description || "").length > 120 ? "..." : "");
 
-    // Tags
     let tags = [];
     if (item.AgeGroup && item.AgeGroup.toLowerCase() !== "all") tags.push(item.AgeGroup);
     if (item.Location) tags.push(item.Location);
@@ -141,25 +135,25 @@ function renderActivities(data) {
 
 // ---- filtering -------------------------------------------------------------
 
-function itemContainsToken(selected, fieldVal) {
-  if (!selected) return true;
+function itemMatchesMultiSelect(selectedValues, fieldVal) {
+  if (!selectedValues.length) return true; // no filter
   const tokens = toList(fieldVal);
   if (typeof fieldVal === "string" && fieldVal.trim().toLowerCase() === "all") return true;
-  return tokens.includes(selected);
+  return selectedValues.some(val => tokens.includes(val));
 }
 
 function applyFilters(data) {
-  const category = document.getElementById("categoryFilter").value;
-  const ageGroup = document.getElementById("ageGroupFilter").value;
-  const location = document.getElementById("locationFilter").value;
-  const language = document.getElementById("languageFilter").value;
+  const category = choicesInstances["categoryFilter"].getValue(true);
+  const ageGroup = choicesInstances["ageGroupFilter"].getValue(true);
+  const location = choicesInstances["locationFilter"].getValue(true);
+  const language = choicesInstances["languageFilter"].getValue(true);
   const search   = document.getElementById("searchInput").value.toLowerCase().trim();
 
   const filtered = data.filter(item => {
-    const matchCategory = itemContainsToken(category, item.Category);
-    const matchAge      = itemContainsToken(ageGroup, item.AgeGroup);
-    const matchLocation = !location || (item.Location || "").includes(location);
-    const matchLanguage = !language || (item.Language || "").includes(language);
+    const matchCategory = itemMatchesMultiSelect(category, item.Category);
+    const matchAge      = itemMatchesMultiSelect(ageGroup, item.AgeGroup);
+    const matchLocation = itemMatchesMultiSelect(location, item.Location);
+    const matchLanguage = itemMatchesMultiSelect(language, item.Language);
     const matchSearch   =
       !search ||
       (item.Title || "").toLowerCase().includes(search) ||
@@ -190,7 +184,6 @@ async function init() {
     document.getElementById("searchInput").value = "";
     Object.values(choicesInstances).forEach(instance => {
       instance.removeActiveItems();
-      instance.setChoiceByValue("");
     });
     renderActivities(data);
   });
