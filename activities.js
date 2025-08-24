@@ -3,8 +3,7 @@
 // ---- helpers ---------------------------------------------------------------
 
 function toList(val) {
-  // Turn Category / AgeGroup into an array of trimmed tokens
-  if (Array.isArray(val)) val = val.join(",");           // some items have ["IG1, IG2, IB1, IB2"]
+  if (Array.isArray(val)) val = val.join(",");
   if (typeof val !== "string") return [];
   return val.split(",").map(s => s.trim()).filter(Boolean);
 }
@@ -30,9 +29,7 @@ async function loadData() {
 // ---- UI build --------------------------------------------------------------
 
 function createOptions(select, options, placeholderText) {
-  // wipe existing
   select.innerHTML = "";
-  // default "all" option
   const def = document.createElement("option");
   def.value = "";
   def.textContent = placeholderText;
@@ -64,8 +61,7 @@ const choicesInstances = {};
 function enhanceSelectsWithChoices() {
   ["categoryFilter","ageGroupFilter","locationFilter","languageFilter"].forEach(id => {
     const el = document.getElementById(id);
-    if (!el) return;
-    if (choicesInstances[id]) return; // already enhanced
+    if (!el || choicesInstances[id]) return;
     choicesInstances[id] = new Choices(el, {
       removeItemButton: false,
       searchEnabled: false,
@@ -91,40 +87,44 @@ function renderActivities(data) {
     const card = document.createElement("div");
     card.className = "activity-card";
 
-    // Short description
     const shortDesc = (item.Description || "").slice(0, 120) +
       ((item.Description || "").length > 120 ? "..." : "");
 
-    // Tags: AgeGroup + Location + Language
-    let tagsHtml = "";
-    if (item.AgeGroup) tagsHtml += `<span class="tag">${item.AgeGroup}</span>`;
-    if (item.Location) tagsHtml += `<span class="tag">${item.Location}</span>`;
-    if (item.Language) tagsHtml += `<span class="tag">${item.Language}</span>`;
+    // Tags
+    let tags = [];
+    if (item.AgeGroup && item.AgeGroup.toLowerCase() !== "all") tags.push(item.AgeGroup);
+    if (item.Location) tags.push(item.Location);
+    if (item.Language) tags.push(item.Language);
 
-    // Hidden extra info
+    const tagsHtml = tags.map(t => `<span class="tag">${t}</span>`).join("");
+
+    const deadlineHtml = item.Deadline
+      ? `<p class="deadline"><strong>Deadline:</strong> ${item.Deadline}</p>`
+      : "";
+
+    const linksHtml = ["Link1","Link2","Link3","Link4","Link5"]
+      .map(k => item[k])
+      .filter(Boolean)
+      .map(link => `<a href="${link}" target="_blank">${link}</a>`)
+      .join(", ") || "N/A";
+
     const extraInfo = `
       <div class="extra-info" style="display:none; margin-top:1rem; font-size:0.9rem; line-height:1.4; color:#444;">
         <p><strong>Full Description:</strong> ${item.Description || "N/A"}</p>
         <p><strong>How to Apply:</strong> ${item.HowToApply || "N/A"}</p>
-        <p><strong>Links:</strong> ${
-          ["Link1","Link2","Link3","Link4","Link5"]
-            .map(k => item[k])
-            .filter(Boolean)
-            .map(link => `<a href="${link}" target="_blank">${link}</a>`)
-            .join(", ") || "N/A"
-        }</p>
+        <p><strong>Links:</strong> ${linksHtml}</p>
       </div>
     `;
 
     card.innerHTML = `
       <h3 class="title">${item.Title || "Untitled"}</h3>
       <p class="desc">${shortDesc}</p>
+      ${deadlineHtml}
       <div class="tags">${tagsHtml}</div>
       <a href="#" class="learn-more">Learn More →</a>
       ${extraInfo}
     `;
 
-    // Expand/collapse toggle
     const learnMoreLink = card.querySelector(".learn-more");
     const extraInfoDiv = card.querySelector(".extra-info");
 
@@ -139,13 +139,11 @@ function renderActivities(data) {
   });
 }
 
-
 // ---- filtering -------------------------------------------------------------
 
 function itemContainsToken(selected, fieldVal) {
-  if (!selected) return true; // no filter
+  if (!selected) return true;
   const tokens = toList(fieldVal);
-  // treat "All" as matching any age group
   if (typeof fieldVal === "string" && fieldVal.trim().toLowerCase() === "all") return true;
   return tokens.includes(selected);
 }
@@ -179,37 +177,23 @@ function applyFilters(data) {
 async function init() {
   const data = await loadData();
 
-  // 1) Fill selects
   populateFilters(data);
-
-  // 2) Enhance selects with Choices AFTER options exist
   enhanceSelectsWithChoices();
-
-  // 3) Render all cards initially
   renderActivities(data);
 
-  // 4) Wire change events for filters
   ["categoryFilter","ageGroupFilter","locationFilter","languageFilter"].forEach(id => {
     document.getElementById(id).addEventListener("change", () => applyFilters(data));
   });
   document.getElementById("searchInput").addEventListener("input", () => applyFilters(data));
 
-  // 5) Clear filters button
   document.getElementById("clearFilters").addEventListener("click", () => {
-    // Reset search input
     document.getElementById("searchInput").value = "";
-
-    // Reset all dropdowns using Choices API
     Object.values(choicesInstances).forEach(instance => {
-      instance.removeActiveItems();      // clears selected values
-      instance.setChoiceByValue("");     // reset to placeholder
+      instance.removeActiveItems();
+      instance.setChoiceByValue("");
     });
-
-    // Re-render all activities
     renderActivities(data);
   });
 }
 
-// Initialize when DOM is ready
 document.addEventListener("DOMContentLoaded", init);
-
