@@ -228,15 +228,25 @@ async function init() {
     searchButton.addEventListener("click", () => applyFilters(data));
   }
 
-// 7) Clear filters button
-document.getElementById("clearFilters").addEventListener("click", () => {
-  document.getElementById("searchInput").value = "";
-  Object.values(choicesInstances).forEach(instance => {
-    instance.removeActiveItems();
-    instance.setChoiceByValue(""); // reset to placeholder
+  // 7) Clear filters button
+  document.getElementById("clearFilters").addEventListener("click", () => {
+    document.getElementById("searchInput").value = "";
+    Object.values(choicesInstances).forEach(instance => {
+      instance.removeActiveItems();
+      instance.setChoiceByValue(""); // reset to placeholder
+    });
+    applyFilters(data); // reset results
   });
-  applyFilters(data); // 👈 use this instead of renderActivities
-});
+
+  // 8) Close activity modal when clicking outside
+  window.addEventListener("click", (e) => {
+    const modal = document.getElementById("activityModal");
+    if (e.target === modal) {
+      modal.style.display = "none";
+    }
+  });
 }
+
+document.addEventListener("DOMContentLoaded", init);
 
 document.addEventListener("DOMContentLoaded", init);
