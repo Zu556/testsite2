@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Extracurriculars • Help Sessions</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    body { font-family: 'Segoe UI', sans-serif; background: #fafafa; color: #222; margin: 0; }
+
+    /* --- Navbar --- */
+    .navbar { display: flex; justify-content: space-between; align-items: center;
+      padding: 1rem 5%; background: white; box-shadow: 0 2px 6px rgba(0,0,0,0.05); position: sticky; top: 0; z-index: 1000; }
+    .logo { font-weight: bold; font-size: 1.2rem; color: #222; text-decoration: none; }
+    .nav-links { list-style: none; display: flex; gap: 1.5rem; }
+    .nav-links a { text-decoration: none; color: #444; font-weight: 500; transition: 0.2s; }
+    .nav-links a:hover, .nav-links a.active { color: #000; border-bottom: 2px solid #000; }
+
+    /* --- Content --- */
+    .content { padding: 2rem; max-width: 1100px; margin: auto; }
+    .content h1 { margin-bottom: 1rem; }
+
+    /* --- Search --- */
+    .search-bar { margin-bottom: 2rem; display: flex; gap: 1rem; }
+    .search-bar input { flex: 1; padding: 0.7rem; border: 1px solid #ddd; border-radius: 0.5rem; }
+    .search-bar button { padding: 0.7rem 1.2rem; border: none; background: #222; color: white; border-radius: 0.5rem; cursor: pointer; }
+    .search-bar button:hover { background: #444; }
+
+    /* --- Session Cards --- */
+    .sessions { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem; }
+
+    .session-card {
+      background: #fff;
+      border-radius: 1rem;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+      padding: 1.5rem;
+      display: flex;
+      flex-direction: column;
+      transition: transform 0.2s ease;
+    }
+    .session-card:hover { transform: translateY(-4px); }
+
+    .title { font-weight: 600; font-size: 1.1rem; margin: 0; }
+    .subtitle { font-size: 0.9rem; font-weight: 500; margin: 0.3rem 0 0.8rem; color: #666; }
+    .desc { font-size: 0.85rem; color: #444; margin-bottom: 1rem; }
+    .details { font-size: 0.8rem; color: #555; margin-bottom: 1rem; }
+
+    .join-btn {
+      margin-top: auto;
+      padding: 0.6rem 1rem;
+      border: none;
+      background: #2563eb;
+      color: white;
+      border-radius: 0.5rem;
+      cursor: pointer;
+      font-size: 0.85rem;
+      font-weight: 500;
+      text-align: center;
+      text-decoration: none;
+    }
+    .join-btn:hover { background: #1d4ed8; }
+
+    /* --- Footer --- */
+    footer {
+      margin-top: 2rem;
+      padding: 1rem;
+      text-align: center;
+      background: #fff;
+      border-top: 1px solid #eee;
+      font-size: 0.9rem;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar">
+    <a class="logo" href="index.html">Extracurriculars</a>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="guide.html">Guide</a></li>
+      <li><a href="activity.html">Activities</a></li>
+      <li><a class="active" href="helpsessions.html">Help Sessions</a></li>
+      <li><a href="about.html">About</a></li>
+    </ul>
+  </nav>
+
+  <!-- Main Content -->
+  <main class="content">
+    <h1>Help Sessions</h1>
+
+    <!-- Search -->
+    <div class="search-bar">
+      <input type="text" id="searchInput" placeholder="Search sessions..." />
+      <button id="searchBtn">Search</button>
+    </div>
+
+    <!-- Cards -->
+    <div id="sessionGrid" class="sessions"></div>
+
+    <!-- Footer -->
+    <footer>
+      <p>&copy; 2025 Explore Extracurriculars. All rights reserved.</p>
+    </footer>
+  </main>
+
+  <script src="helpsessions.js"></script>
+</body>
+</html>
