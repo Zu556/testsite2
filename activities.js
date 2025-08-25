@@ -122,15 +122,28 @@ function renderActivities(data) {
       ${extraInfo}
     `;
 
-    const learnMoreLink = card.querySelector(".learn-more");
-    const extraInfoDiv = card.querySelector(".extra-info");
+   const learnMoreLink = card.querySelector(".learn-more");
 
-    learnMoreLink.addEventListener("click", (e) => {
-      e.preventDefault();
-      const isVisible = extraInfoDiv.style.display === "block";
-      extraInfoDiv.style.display = isVisible ? "none" : "block";
-      learnMoreLink.textContent = isVisible ? "Show Less ↑" : "Learn More →";
-    });
+learnMoreLink.addEventListener("click", (e) => {
+  e.preventDefault();
+
+  // Populate modal with this card’s data
+  document.getElementById("modalTitle").textContent = item.Title || "Untitled";
+  document.getElementById("modalSubtitle").textContent = item.Category || "";
+  document.getElementById("modalDesc").textContent = item.Description || "No description available.";
+
+  // Tags
+  const tagsContainer = document.getElementById("modalTags");
+  tagsContainer.innerHTML = tagsHtml;
+
+  // Deadline, location, language
+  document.getElementById("modalDeadline").textContent = item.Deadline ? `Deadline: ${item.Deadline}` : "";
+  document.getElementById("modalLocation").textContent = item.Location ? `Location: ${item.Location}` : "";
+  document.getElementById("modalLanguage").textContent = item.Language ? `Language: ${item.Language}` : "";
+
+  // Show modal
+  document.getElementById("activityModal").style.display = "flex";
+});
 
     grid.appendChild(card);
   });
