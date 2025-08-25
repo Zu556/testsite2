@@ -145,16 +145,19 @@ document.getElementById("modalHowToApply").textContent = item.HowToApply || item
     ? `How to apply: ${item.HowToApply || item["How to Apply"]}`
   : "";
 
-// ✅ New: Links
-const linksHtml = Array.isArray(item.Links)
-  ? item.Links.map(link => `<a href="${link}" target="_blank">${link}</a>`).join(", ")
-  : ["Link1","Link2","Link3","Link4","Link5"]
-      .map(k => item[k])
-      .filter(Boolean)
-      .map(link => `<a href="${link}" target="_blank">${link}</a>`)
-      .join(", ") || "N/A";
-
-document.getElementById("modalLinks").innerHTML = linksHtml;
+ // ✅ Links (only clickable if valid URL)
+  const linksHtml = ["Link1","Link2","Link3","Link4","Link5"]
+    .map(k => item[k])
+    .filter(Boolean)
+    .map(link => {
+      if (/^https?:\/\//i.test(link)) {
+        return `<a href="${link}" target="_blank">${link}</a>`;
+      } else {
+        return link; // plain text
+      }
+    })
+    .join(", ") || "N/A";
+  document.getElementById("modalLinks").innerHTML = linksHtml;
 
   // Show modal
   document.getElementById("activityModal").style.display = "flex";
