@@ -28,7 +28,7 @@ async function loadData() {
 
 // ---- UI build --------------------------------------------------------------
 
-function createOptions(select, options, placeholderText) {
+function createOptions(select, options) {
   select.innerHTML = "";
   options.forEach(val => {
     const opt = document.createElement("option");
@@ -44,10 +44,10 @@ function populateFilters(data) {
   const locations  = uniqueSorted(data.map(i => i.Location));
   const languages  = uniqueSorted(data.map(i => i.Language));
 
-  createOptions(document.getElementById("categoryFilter"), categories, "All categories");
-  createOptions(document.getElementById("ageGroupFilter"),  ageGroups,  "All age groups");
-  createOptions(document.getElementById("locationFilter"),  locations,  "All locations");
-  createOptions(document.getElementById("languageFilter"),  languages,  "All languages");
+  createOptions(document.getElementById("categoryFilter"), categories);
+  createOptions(document.getElementById("ageGroupFilter"),  ageGroups);
+  createOptions(document.getElementById("locationFilter"),  locations);
+  createOptions(document.getElementById("languageFilter"),  languages);
 }
 
 // Keep Choices instances so we don't initialize twice
@@ -87,9 +87,9 @@ function renderActivities(data) {
 
     let tags = [];
     if (item.AgeGroup) {
-  const ag = Array.isArray(item.AgeGroup) ? item.AgeGroup.join(", ") : item.AgeGroup.toString();
-  if (ag.toLowerCase() !== "all") tags.push(ag);
-}
+      const ag = Array.isArray(item.AgeGroup) ? item.AgeGroup.join(", ") : item.AgeGroup.toString();
+      if (ag.toLowerCase() !== "all") tags.push(ag);
+    }
     if (item.Location) tags.push(item.Location);
     if (item.Language) tags.push(item.Language);
 
@@ -139,10 +139,21 @@ function renderActivities(data) {
 // ---- filtering -------------------------------------------------------------
 
 function itemMatchesMultiSelect(selectedValues, fieldVal) {
-  if (!selectedValues.length) return true; // no filter
+  if (!selectedValues || (Array.isArray(selectedValues) && selectedValues.length === 0)) {
+    return true; // no filter
+  }
+
+  // normalize to array
+  if (!Array.isArray(selectedValues)) {
+    selectedValues = [selectedValues];
+  }
+
   const tokens = toList(fieldVal);
   if (typeof fieldVal === "string" && fieldVal.trim().toLowerCase() === "all") return true;
-  return selectedValues.some(val => tokens.includes(val));
+
+  return selectedValues.some(val =>
+    tokens.map(t => t.toLowerCase()).includes((val || "").toLowerCase())
+  );
 }
 
 function applyFilters(data) {
@@ -198,8 +209,8 @@ async function init() {
   // 5) Wire search input (live typing)
   document.getElementById("searchInput").addEventListener("input", () => applyFilters(data));
 
-  // 6) If you have a search button, wire it up too
-  const searchButton = document.getElementById("searchButton");
+  // 6) If you have a search button, wire it up too (optional now)
+  const searchButton = document.getElementById("searchBtn");
   if (searchButton) {
     searchButton.addEventListener("click", () => applyFilters(data));
   }
@@ -209,7 +220,6 @@ async function init() {
     document.getElementById("searchInput").value = "";
     Object.values(choicesInstances).forEach(instance => {
       instance.removeActiveItems();
-      instance.setChoiceByValue(""); // reset to placeholder
     });
     renderActivities(data);
   });
