@@ -141,9 +141,9 @@ learnMoreLink.addEventListener("click", (e) => {
   document.getElementById("modalLanguage").textContent = item.Language ? `Language: ${item.Language}` : "";
   
   // ✅ New: How to Apply
-document.getElementById("modalHowToApply").textContent = item.HowToApply || item["How to Apply"] || "N/A";
-    ? `How to apply: ${item.HowToApply || item["How to Apply"]}`
-  : "";
+const howToApply = item.HowToApply || item["How to Apply"];
+document.getElementById("modalHowToApply").textContent =
+  howToApply ? `How to apply: ${howToApply}` : "N/A";
 
  // ✅ Links (only clickable if valid URL)
   const linksHtml = ["Link1","Link2","Link3","Link4","Link5"]
