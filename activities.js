@@ -140,6 +140,20 @@ learnMoreLink.addEventListener("click", (e) => {
   document.getElementById("modalDeadline").textContent = item.Deadline ? `Deadline: ${item.Deadline}` : "";
   document.getElementById("modalLocation").textContent = item.Location ? `Location: ${item.Location}` : "";
   document.getElementById("modalLanguage").textContent = item.Language ? `Language: ${item.Language}` : "";
+  
+  // ✅ New: How to Apply
+document.getElementById("modalHowToApply").textContent = item.HowToApply || item["How to Apply"] || "N/A";
+
+// ✅ New: Links
+const linksHtml = Array.isArray(item.Links)
+  ? item.Links.map(link => `<a href="${link}" target="_blank">${link}</a>`).join(", ")
+  : ["Link1","Link2","Link3","Link4","Link5"]
+      .map(k => item[k])
+      .filter(Boolean)
+      .map(link => `<a href="${link}" target="_blank">${link}</a>`)
+      .join(", ") || "N/A";
+
+document.getElementById("modalLinks").innerHTML = linksHtml;
 
   // Show modal
   document.getElementById("activityModal").style.display = "flex";
