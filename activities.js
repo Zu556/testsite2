@@ -142,6 +142,8 @@ learnMoreLink.addEventListener("click", (e) => {
   
   // ✅ New: How to Apply
 document.getElementById("modalHowToApply").textContent = item.HowToApply || item["How to Apply"] || "N/A";
+    ? `How to apply: ${item.HowToApply || item["How to Apply"]}`
+  : "";
 
 // ✅ New: Links
 const linksHtml = Array.isArray(item.Links)
