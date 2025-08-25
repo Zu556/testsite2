@@ -136,8 +136,7 @@ learnMoreLink.addEventListener("click", (e) => {
   const tagsContainer = document.getElementById("modalTags");
   tagsContainer.innerHTML = tagsHtml;
 
-  // Deadline, location, language
-  document.getElementById("modalDeadline").textContent = item.Deadline ? `Deadline: ${item.Deadline}` : "";
+  // location, language
   document.getElementById("modalLocation").textContent = item.Location ? `Location: ${item.Location}` : "";
   document.getElementById("modalLanguage").textContent = item.Language ? `Language: ${item.Language}` : "";
   
