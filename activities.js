@@ -215,14 +215,15 @@ async function init() {
     searchButton.addEventListener("click", () => applyFilters(data));
   }
 
-  // 7) Clear filters button
-  document.getElementById("clearFilters").addEventListener("click", () => {
-    document.getElementById("searchInput").value = "";
-    Object.values(choicesInstances).forEach(instance => {
-      instance.removeActiveItems();
-    });
-    renderActivities(data);
+// 7) Clear filters button
+document.getElementById("clearFilters").addEventListener("click", () => {
+  document.getElementById("searchInput").value = "";
+  Object.values(choicesInstances).forEach(instance => {
+    instance.removeActiveItems();
+    instance.setChoiceByValue(""); // reset to placeholder
   });
+  applyFilters(data); // 👈 use this instead of renderActivities
+});
 }
 
 document.addEventListener("DOMContentLoaded", init);
