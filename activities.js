@@ -181,19 +181,35 @@ function applyFilters(data) {
 async function init() {
   const data = await loadData();
 
+  // 1) Fill selects
   populateFilters(data);
+
+  // 2) Enhance selects with Choices AFTER options exist
   enhanceSelectsWithChoices();
+
+  // 3) Render all cards initially
   renderActivities(data);
 
-  ["categoryFilter","ageGroupFilter","locationFilter","languageFilter"].forEach(id => {
-    document.getElementById(id).addEventListener("change", () => applyFilters(data));
+  // 4) Wire Choices change events so filtering happens immediately
+  Object.entries(choicesInstances).forEach(([id, instance]) => {
+    instance.passedElement.element.addEventListener("change", () => applyFilters(data));
   });
+
+  // 5) Wire search input (live typing)
   document.getElementById("searchInput").addEventListener("input", () => applyFilters(data));
 
+  // 6) If you have a search button, wire it up too
+  const searchButton = document.getElementById("searchButton");
+  if (searchButton) {
+    searchButton.addEventListener("click", () => applyFilters(data));
+  }
+
+  // 7) Clear filters button
   document.getElementById("clearFilters").addEventListener("click", () => {
     document.getElementById("searchInput").value = "";
     Object.values(choicesInstances).forEach(instance => {
       instance.removeActiveItems();
+      instance.setChoiceByValue(""); // reset to placeholder
     });
     renderActivities(data);
   });
