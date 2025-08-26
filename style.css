@@ -1,3 +1,257 @@
+/* =========================================================
+   GLOBAL STYLES
+========================================================= */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  background: #fafafa;
+  color: #222;
+  line-height: 1.6;
+}
+
+/* =========================================================
+   SHARED COMPONENTS (Navbar, Footer, Utilities)
+========================================================= */
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 5%;
+  background: white;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+.logo {
+  font-weight: bold;
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: #000;
+}
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+.nav-links a {
+  text-decoration: none;
+  color: #444;
+  font-weight: 500;
+  transition: 0.2s;
+}
+.nav-links a:hover,
+.nav-links a.active {
+  color: #000;
+  border-bottom: 2px solid #000;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  padding: 1.5rem;
+  margin-top: 3rem;
+  background: #fff;
+  border-top: 1px solid #eee;
+  color: inherit;
+}
+
+/* Animation Utility */
+.fade-up {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: 0.6s ease-out;
+}
+.fade-up.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* =========================================================
+   HOME PAGE (index.html)
+========================================================= */
+
+/* Hero */
+.hero {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  padding: 5% 8%;
+  gap: 2rem;
+  min-height: 85vh;
+}
+.hero-text h2 {
+  font-size: 1.5rem;
+  color: #777;
+  margin-bottom: 0.5rem;
+}
+.hero-text h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+.hero-text p {
+  margin-bottom: 2rem;
+  max-width: 500px;
+}
+.hero-cta {
+  display: flex;
+  gap: 1rem;
+}
+.btn {
+  padding: 0.8rem 1.4rem;
+  border-radius: 2rem;
+  text-decoration: none;
+  background: #222;
+  color: white;
+  transition: 0.3s;
+}
+.btn:hover { background: #444; }
+.btn-secondary { background: #eee; color: #222; }
+.btn-secondary:hover { background: #ddd; }
+.hero img {
+  width: 100%;
+  border-radius: 1rem;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+}
+
+/* Features (Home + also reused in About) */
+.feature-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  padding: 5% 8%;
+  text-align: center;
+}
+.feature-card {
+  background: white;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.05);
+  transition: transform 0.3s;
+}
+.feature-card:hover { transform: translateY(-5px); }
+.feature-card h3 {
+  margin-bottom: 1rem;
+  font-size: 1.3rem;
+}
+
+/* =========================================================
+   ABOUT PAGE (about.html)
+========================================================= */
+
+/* Page Layout */
+main.page {
+  padding: 2rem 8%;
+}
+
+/* Hero */
+.about-hero {
+  text-align: center;
+  padding: 3rem 0;
+}
+.about-hero h1 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+.about-hero .subtext {
+  font-size: 1.1rem;
+  color: #555;
+}
+
+/* Two Column */
+.two-col {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+.two-col .card {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.05);
+}
+
+/* Values Grid */
+.values-grid {
+  margin-top: 3rem;
+}
+
+/* Timeline */
+.timeline {
+  margin-top: 3rem;
+}
+.timeline-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 1.5rem;
+  border-left: 3px solid #ddd;
+}
+.timeline-list li {
+  margin-bottom: 2rem;
+  padding-left: 1.5rem;
+  position: relative;
+}
+.timeline-list li::before {
+  content: "";
+  position: absolute;
+  left: -10px;
+  top: 5px;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background: #000;
+}
+.timeline-year {
+  font-weight: bold;
+  margin-bottom: 0.3rem;
+}
+.timeline-content h3 {
+  margin: 0 0 0.3rem;
+}
+.timeline-content p {
+  margin: 0;
+  color: #555;
+}
+
+/* Team Members */
+.team {
+  margin-top: 3rem;
+}
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+.member-card {
+  background: #fff;
+  border-radius: 1rem;
+  padding: 1.5rem;
+  text-align: center;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.05);
+}
+.member-icon {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  color: black;
+}
+.member-card h3 {
+  margin-bottom: 0.3rem;
+  font-size: 1.1rem;
+}
+.member-card p {
+  margin: 0;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+/* =========================================================
+   ACTIVITIES PAGE (activities.html)
+========================================================= */
+
 /* --- Activity Cards --- */
 #activityGrid {
   display: grid;
@@ -5,7 +259,6 @@
   gap: 1rem;
   padding: 1rem;
 }
-
 .activity-card {
   background: #fff;
   border-radius: 16px;
@@ -13,15 +266,12 @@
   padding: 1.25rem;
   transition: transform 0.2s ease;
 }
-
 .activity-card:hover {
   transform: translateY(-4px);
 }
-
 .activity-card .tags {
   margin: 1rem 0;
 }
-
 .activity-card .tag {
   display: inline-block;
   background: #f5f5f5;
@@ -31,7 +281,6 @@
   margin: 0.25rem 0.4rem 0.25rem 0;
   color: #333;
 }
-
 .activity-card .learn-more {
   display: inline-block;
   margin-top: 0.75rem;
@@ -40,7 +289,6 @@
   text-decoration: none;
   font-size: 0.9rem;
 }
-
 .activity-card .learn-more:hover {
   text-decoration: underline;
 }
@@ -57,7 +305,6 @@
   z-index: 2000;
 }
 .modal-overlay.show { display: flex; }
-
 .modal-box {
   position: relative;
   background: #fff;
@@ -68,7 +315,6 @@
   box-shadow: 0 12px 40px rgba(0,0,0,0.12);
   padding: 1.5rem;
 }
-
 .modal-close {
   position: absolute;
   top: 10px; right: 12px;
@@ -76,59 +322,10 @@
   font-size: 1.6rem; line-height: 1;
   color: #666; cursor: pointer;
 }
-
 .modal-title { margin: 0 2rem 0.25rem 0; font-size: 1.25rem; font-weight: 600; }
 .modal-meta  { color: #667085; font-size: 0.9rem; margin-bottom: 1rem; }
 .modal-section h4 { margin: 1rem 0 0.5rem; font-size: 0.95rem; }
 .modal-links a { display:inline-block; margin-right:0.6rem; font-size:0.9rem; }
-
-/* --- Responsive Adjustments --- */
-@media (max-width: 768px) {
-  .activity-card {
-    padding: 1rem;
-    border-radius: 12px;
-  }
-
-  .activity-card .tag {
-    font-size: 0.75rem;
-    padding: 4px 10px;
-  }
-
-  .activity-card .learn-more {
-    font-size: 0.85rem;
-  }
-
-  .modal-box {
-    width: 100%;
-    height: 100%;
-    max-height: none;
-    border-radius: 0; /* fullscreen on mobile */
-    padding: 1rem;
-  }
-  .modal-title {
-    font-size: 1.1rem;
-  }
-}
-
-@media (max-width: 480px) {
-  #activityGrid {
-    grid-template-columns: 1fr; /* one card per row */
-    gap: 0.75rem;
-  }
-
-  .activity-card {
-    padding: 0.9rem;
-  }
-
-  .activity-card .title {
-    font-size: 1rem;
-  }
-
-  .modal-close {
-    font-size: 2rem;
-    top: 8px; right: 10px;
-  }
-}
 
 /* --- Filters Container --- */
 .filters {
@@ -138,14 +335,12 @@
   margin: 1.5rem 0;
   align-items: center;
 }
-
 .filters label {
   font-size: 0.9rem;
   font-weight: 500;
   margin-right: 0.4rem;
   color: #333;
 }
-
 .filters select,
 .filters input[type="text"] {
   padding: 0.5rem 0.75rem;
@@ -154,12 +349,7 @@
   font-size: 0.9rem;
   min-width: 160px;
 }
-
-#searchInput {
-  flex: 1; /* grows wider on desktop */
-  min-width: 200px;
-}
-
+#searchInput { flex: 1; min-width: 200px; }
 #searchButton,
 #clearFilters {
   padding: 0.55rem 1rem;
@@ -168,61 +358,44 @@
   cursor: pointer;
   font-size: 0.9rem;
 }
-
-#searchButton {
-  background: #2563eb;
-  color: #fff;
-}
-
-#clearFilters {
-  background: #f3f4f6;
-  color: #333;
-}
+#searchButton { background: #2563eb; color: #fff; }
+#clearFilters { background: #f3f4f6; color: #333; }
 
 /* --- Responsive Adjustments --- */
 @media (max-width: 768px) {
-  .filters {
-    flex-direction: column;
-    align-items: stretch;
-    gap: 0.75rem;
-  }
-
-  .filters label {
-    margin-right: 0;
-    margin-bottom: 0.25rem;
-    font-size: 0.85rem;
-  }
-
-  .filters select,
-  .filters input[type="text"] {
-    width: 100%; /* full width on mobile */
-    min-width: unset;
-    font-size: 1rem;
-    padding: 0.6rem 0.8rem;
-  }
-
-  #searchInput {
+  /* Activities */
+  .activity-card { padding: 1rem; border-radius: 12px; }
+  .activity-card .tag { font-size: 0.75rem; padding: 4px 10px; }
+  .activity-card .learn-more { font-size: 0.85rem; }
+  .modal-box {
     width: 100%;
+    height: 100%;
+    max-height: none;
+    border-radius: 0;
+    padding: 1rem;
   }
+  .modal-title { font-size: 1.1rem; }
 
-  #searchButton,
-  #clearFilters {
-    width: 100%; /* buttons span full width */
-    padding: 0.75rem;
-    font-size: 1rem;
+  .filters { flex-direction: column; align-items: stretch; gap: 0.75rem; }
+  .filters label { margin: 0 0 0.25rem; font-size: 0.85rem; }
+  .filters select, .filters input[type="text"] {
+    width: 100%; min-width: unset; font-size: 1rem; padding: 0.6rem 0.8rem;
+  }
+  #searchInput { width: 100%; }
+  #searchButton, #clearFilters {
+    width: 100%; padding: 0.75rem; font-size: 1rem;
   }
 }
-
 @media (max-width: 480px) {
-  .filters {
-    gap: 0.6rem;
-  }
+  /* Activities */
+  #activityGrid { grid-template-columns: 1fr; gap: 0.75rem; }
+  .activity-card { padding: 0.9rem; }
+  .activity-card .title { font-size: 1rem; }
+  .modal-close { font-size: 2rem; top: 8px; right: 10px; }
 
-  .filters select,
-  .filters input[type="text"],
-  #searchButton,
-  #clearFilters {
-    font-size: 0.95rem;
-    padding: 0.7rem;
+  .filters { gap: 0.6rem; }
+  .filters select, .filters input[type="text"],
+  #searchButton, #clearFilters {
+    font-size: 0.95rem; padding: 0.7rem;
   }
 }
