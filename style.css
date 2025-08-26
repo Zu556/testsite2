@@ -141,9 +141,20 @@ body {
    ABOUT PAGE (about.html)
 ========================================================= */
 
-/* Page Layout */
+/* About Page Layout */
 main.page {
-  padding: 2rem 8%;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 2rem 5%;
+  display: block;   /* stack sections vertically */
+}
+
+/* Feature Cards inside Values Grid */
+.feature-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1rem;
 }
 
 /* Hero */
@@ -183,17 +194,22 @@ main.page {
 .timeline {
   margin-top: 3rem;
 }
+
 .timeline-list {
   list-style: none;
   padding: 0;
   margin-top: 1.5rem;
   border-left: 3px solid #ddd;
 }
+
 .timeline-list li {
+  display: flex;        /* align year and content horizontally */
+  gap: 1rem;            /* space between year and content */
   margin-bottom: 2rem;
   padding-left: 1.5rem;
   position: relative;
 }
+
 .timeline-list li::before {
   content: "";
   position: absolute;
@@ -204,13 +220,18 @@ main.page {
   border-radius: 50%;
   background: #000;
 }
+
 .timeline-year {
+  flex-shrink: 0;       /* keep year from shrinking */
+  width: 60px;          /* fixed width for year */
   font-weight: bold;
   margin-bottom: 0.3rem;
 }
+
 .timeline-content h3 {
   margin: 0 0 0.3rem;
 }
+
 .timeline-content p {
   margin: 0;
   color: #555;
@@ -220,10 +241,11 @@ main.page {
 .team {
   margin-top: 3rem;
 }
+/* Team Grid */
 .team-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: 1.5rem;
+  gap: 2rem; 
   margin-top: 1.5rem;
 }
 .member-card {
