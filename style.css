@@ -213,8 +213,9 @@ main.page {
 .timeline-list li::before {
   content: "";
   position: absolute;
-  left: -10px;
-  top: 5px;
+  left: -10px;             /* horizontal position from the line */
+  top: 50%;                /* center vertically */
+  transform: translateY(-50%); /* adjust so the circle is truly centered */
   width: 15px;
   height: 15px;
   border-radius: 50%;
