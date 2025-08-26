@@ -252,6 +252,19 @@ main.page {
    ACTIVITIES PAGE (activities.html)
 ========================================================= */
 
+.page {
+  display: flex;
+  min-height: 100vh;
+}
+.sidebar {
+  width: 250px;
+  flex-shrink: 0;
+}
+.content {
+  flex: 1;
+}
+
+
 /* --- Sidebar Filter --- */
 .sidebar {
   background: #fff;
