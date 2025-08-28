@@ -16,5 +16,12 @@ if (filtersToggle && filtersPanel) {
   filtersToggle.addEventListener('click', () => {
     filtersPanel.classList.toggle('show');
   });
-}
 
+  // Close panel when clicking outside
+  document.addEventListener('click', (event) => {
+    const isClickInside = filtersPanel.contains(event.target) || filtersToggle.contains(event.target);
+    if (!isClickInside && filtersPanel.classList.contains('show')) {
+      filtersPanel.classList.remove('show');
+    }
+  });
+}
