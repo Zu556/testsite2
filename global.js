@@ -13,17 +13,20 @@ if (navToggle && navLinks) {
 // ==============================
 // Filters Toggle (only exists on activities.html)
 // ==============================
-const filtersToggle = document.querySelector('.filters-toggle');
-const filtersWrapper = document.querySelector('.filters');
+const desktopToggle = document.querySelector('.desktop-filters .filters-toggle');
+const desktopFilters = document.querySelector('.desktop-filters .filters');
 
-if (filtersToggle && filtersWrapper) {
-  filtersToggle.addEventListener('click', () => {
-    if (window.innerWidth > 768) {
-      // Desktop: toggle collapsed class
-      filtersWrapper.classList.toggle('collapsed');
-    } else {
-      // Mobile: toggle show class
-      filtersWrapper.classList.toggle('show');
-    }
+if (desktopToggle && desktopFilters) {
+  desktopToggle.addEventListener('click', () => {
+    desktopFilters.classList.toggle('collapsed'); // Desktop collapse
+  });
+}
+
+const mobileToggle = document.querySelector('.mobile-filters .filters-toggle');
+const mobileFilters = document.querySelector('.mobile-filters .filters');
+
+if (mobileToggle && mobileFilters) {
+  mobileToggle.addEventListener('click', () => {
+    mobileFilters.classList.toggle('show'); // Mobile panel toggle
   });
 }
