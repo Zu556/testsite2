@@ -609,7 +609,10 @@ footer {
     display: block;
   }
 }
-/* Navbar Toggle (Hamburger) */
+/* ==============================
+   Navbar Toggle (Hamburger)
+=================================
+
 .nav-toggle {
   display: none; /* hidden on desktop */
   background: #000;
