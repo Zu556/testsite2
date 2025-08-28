@@ -660,14 +660,6 @@ footer {
     display: flex;
   }
 
-/* Mobile adjustments */
-@media (max-width: 768px) {
-  .filters-wrapper {
-    width: 100%;       /* full width */
-    padding: 0;        /* remove extra padding */
-    border-right: none; /* no sidebar border */
-    display: block;    /* container still exists for toggle */
-  }
 
   /* Filters panel hidden by default */
   .filters {
