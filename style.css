@@ -636,54 +636,6 @@ footer {
 }
 
 /* ==============================
-   Choices.js integration
-============================== */
-.choices {
-  width: 100%;
-}
-
-.choices__inner {
-  min-height: 2.5rem;
-  padding: 0.35rem 0.75rem;
-  font-size: 0.95rem;
-  line-height: 1.3;
-}
-
-.choices__list--dropdown {
-  width: auto !important;
-  min-width: 100%;  
-}
-
-.choices__item {
-  white-space: normal;  /* allow full text wrap */
-}
-
-.choices__input {
-  min-width: 100px;     /* prevent tiny input */
-}
-/* ==============================
-   Desktop Sidebar Width Fix
-============================== */
-@media (min-width: 769px) {
-  .sidebar,
-  .filters-wrapper {
-    width: 260px;          /* desktop sidebar width */
-    flex-shrink: 0;
-    box-sizing: border-box;
-  }
-
-  .filters {
-    width: 100%;
-    max-width: 100%;
-  }
-
-  .choices__list--dropdown {
-    min-width: 100%;      /* dropdown matches sidebar width */
-    max-width: 260px;
-    box-sizing: border-box;
-  }
-}
-/* ==============================
    Navbar Toggle (Hamburger)
 ============================== */
 
