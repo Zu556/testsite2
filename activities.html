@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -26,32 +25,52 @@
   <!-- Page Content -->
   <div class="page">
     <!-- Desktop Sidebar Filters -->
-   <!-- Filters Sidebar -->
-<aside class="filters-wrapper">
-  <!-- Toggle button (black) -->
-  <button class="filters-toggle">☰ Filters</button>
+    <aside class="filters-wrapper desktop-filters">
+      <button class="filters-toggle">☰ Filters</button>
+      <div class="filters" id="desktopFiltersPanel">
+        <div class="filter-group">
+          <label for="categoryFilter">Category</label>
+          <select id="categoryFilter"></select>
+        </div>
+        <div class="filter-group">
+          <label for="ageGroupFilter">Age Group</label>
+          <select id="ageGroupFilter"></select>
+        </div>
+        <div class="filter-group">
+          <label for="locationFilter">Location</label>
+          <select id="locationFilter"></select>
+        </div>
+        <div class="filter-group">
+          <label for="languageFilter">Language</label>
+          <select id="languageFilter"></select>
+        </div>
+        <button id="clearFilters">Clear Filters</button>
+      </div>
+    </aside>
 
-  <!-- Sidebar filters -->
-  <div class="filters" id="filtersPanel">
-    <div class="filter-group">
-      <label for="categoryFilter">Category</label>
-      <select id="categoryFilter"></select>
+    <!-- Mobile Hamburger Filter -->
+    <div class="filters-wrapper mobile-filters">
+      <button class="filters-toggle">☰ Filters</button>
+      <div class="filters" id="mobileFiltersPanel">
+        <div class="filter-group">
+          <label for="categoryFilterMobile">Category</label>
+          <select id="categoryFilterMobile"></select>
+        </div>
+        <div class="filter-group">
+          <label for="ageGroupFilterMobile">Age Group</label>
+          <select id="ageGroupFilterMobile"></select>
+        </div>
+        <div class="filter-group">
+          <label for="locationFilterMobile">Location</label>
+          <select id="locationFilterMobile"></select>
+        </div>
+        <div class="filter-group">
+          <label for="languageFilterMobile">Language</label>
+          <select id="languageFilterMobile"></select>
+        </div>
+        <button id="clearFiltersMobile">Clear Filters</button>
+      </div>
     </div>
-    <div class="filter-group">
-      <label for="ageGroupFilter">Age Group</label>
-      <select id="ageGroupFilter"></select>
-    </div>
-    <div class="filter-group">
-      <label for="locationFilter">Location</label>
-      <select id="locationFilter"></select>
-    </div>
-    <div class="filter-group">
-      <label for="languageFilter">Language</label>
-      <select id="languageFilter"></select>
-    </div>
-    <button id="clearFilters">Clear Filters</button>
-  </div>
-</aside>
 
     <!-- Main Activities -->
     <main class="content">
@@ -67,24 +86,20 @@
       <div id="activityGrid" class="activities"></div>
 
       <!-- Activity Modal -->
-      <!-- Activity Modal -->
-<div id="activityModal">
-  <div class="modal-content">
-    <span class="close-btn" onclick="document.getElementById('activityModal').style.display='none'">&times;</span>
-    <h2 id="modalTitle"></h2>
-    <p id="modalSubtitle"></p>
-    <p id="modalDesc"></p>
-    <div id="modalTags" class="tags"></div>
-    <p id="modalDeadline" class="deadline"></p>
-    <p id="modalLocation"></p>
-    <p id="modalLanguage"></p>
-    
-    <!-- new placeholders -->
-    <p id="modalHowToApply"></p>
-    <div id="modalLinks"></div>
-  </div>
-</div>
-
+      <div id="activityModal">
+        <div class="modal-content">
+          <span class="close-btn" onclick="document.getElementById('activityModal').style.display='none'">&times;</span>
+          <h2 id="modalTitle"></h2>
+          <p id="modalSubtitle"></p>
+          <p id="modalDesc"></p>
+          <div id="modalTags" class="tags"></div>
+          <p id="modalDeadline" class="deadline"></p>
+          <p id="modalLocation"></p>
+          <p id="modalLanguage"></p>
+          <p id="modalHowToApply"></p>
+          <div id="modalLinks"></div>
+        </div>
+      </div>
 
       <!-- Contact Us Icon and Modal -->
       <div class="contact-icon" onclick="document.getElementById('contactModal').style.display='flex'">✉️</div>
@@ -107,11 +122,12 @@
       </footer>
     </main>
   </div>
-  
+
   <!-- Choices.js JS -->
   <script src="https://cdn.jsdelivr.net/npm/choices.js/public/assets/scripts/choices.min.js"></script>
   <script src="activities.js"></script>
   <script src="global.js"></script> <!-- navbar/Filter -->
 </body>
 </html>
+
 
