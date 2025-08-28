@@ -38,11 +38,13 @@ function createOptions(select, options) {
   });
 }
 
+// ---- build filter dropdowns ------------------------------------------------
+
 function populateFilters(data) {
-  const categories = uniqueFromCommaSeparated(data.map(i => i.Category));
-  const ageGroups  = uniqueFromCommaSeparated(data.map(i => i.AgeGroup));
-  const locations  = uniqueSorted(data.map(i => i.Location));
-  const languages  = uniqueSorted(data.map(i => i.Language));
+  const categories = ["All", ...uniqueFromCommaSeparated(data.map(i => i.Category))];
+  const ageGroups  = ["All", ...uniqueFromCommaSeparated(data.map(i => i.AgeGroup))];
+  const locations  = ["All", ...uniqueSorted(data.map(i => i.Location))];
+  const languages  = ["All", ...uniqueSorted(data.map(i => i.Language))];
 
   createOptions(document.getElementById("categoryFilter"), categories);
   createOptions(document.getElementById("ageGroupFilter"),  ageGroups);
@@ -50,21 +52,24 @@ function populateFilters(data) {
   createOptions(document.getElementById("languageFilter"),  languages);
 }
 
-// Keep Choices instances so we don't initialize twice
-const choicesInstances = {};
+// ---- filtering helper ------------------------------------------------------
 
-function enhanceSelectsWithChoices() {
-  ["categoryFilter","ageGroupFilter","locationFilter","languageFilter"].forEach(id => {
-    const el = document.getElementById(id);
-    if (!el || choicesInstances[id]) return;
-    choicesInstances[id] = new Choices(el, {
-      removeItemButton: true,
-      searchEnabled: true,
-      shouldSort: false,
-      placeholder: true,
-      placeholderValue: `Select ${id.replace("Filter", "").toLowerCase()}`
-    });
-  });
+function itemMatchesMultiSelect(selectedValues, fieldVal) {
+  if (!selectedValues || selectedValues.length === 0) return true;
+
+  // normalize
+  if (!Array.isArray(selectedValues)) {
+    selectedValues = [selectedValues];
+  }
+
+  // ✅ If "All" is chosen, always match
+  if (selectedValues.includes("All")) return true;
+
+  const tokens = toList(fieldVal).map(t => t.toLowerCase());
+
+  return selectedValues.some(val =>
+    tokens.includes((val || "").toLowerCase())
+  );
 }
 
 // ---- render cards ----------------------------------------------------------
