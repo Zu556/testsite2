@@ -696,3 +696,44 @@ footer {
   }
 }
 
+/* Desktop sidebar */
+.filters-wrapper {
+  width: 250px;
+  flex-shrink: 0;
+  background: #fff;
+  padding: 2rem 1.5rem;
+  border-right: 1px solid #eee;
+  display: block; /* always visible on desktop */
+}
+
+/* Mobile adjustments */
+@media (max-width: 768px) {
+  .filters-wrapper {
+    width: 100%;       /* full width */
+    padding: 0;        /* remove extra padding */
+    border-right: none; /* no sidebar border */
+    display: block;    /* container still exists for toggle */
+  }
+
+  /* Filters panel hidden by default */
+  .filters {
+    display: none;     
+    flex-direction: column;
+    gap: 0.75rem;
+    background: #f9f9f9;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+  }
+
+  .filters.show {
+    display: flex;      /* show only when toggle clicked */
+  }
+
+  /* Toggle button visible only on mobile */
+  .filters-toggle {
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+}
