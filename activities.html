@@ -26,26 +26,29 @@
   <!-- Page Content -->
   <div class="page">
     <!-- Desktop Sidebar Filters -->
-    <aside class="sidebar">
-      <h3>Filter Activities</h3>
-      <div class="filter-group">
-        <label for="categoryFilter">Category</label>
-        <select id="categoryFilter"></select>
-      </div>
-      <div class="filter-group">
-        <label for="ageGroupFilter">Age Group</label>
-        <select id="ageGroupFilter"></select>
-      </div>
-      <div class="filter-group">
-        <label for="locationFilter">Location</label>
-        <select id="locationFilter"></select>
-      </div>
-      <div class="filter-group">
-        <label for="languageFilter">Language</label>
-        <select id="languageFilter"></select>
-      </div>
-      <button id="clearFilters">Clear Filters</button>
-    </aside>
+    <aside class="filters-wrapper">
+  <button class="filters-toggle">☰ Filters</button>
+
+  <div class="filters" id="filtersPanel">
+    <div class="filter-group">
+      <label for="categoryFilter">Category</label>
+      <select id="categoryFilter"></select>
+    </div>
+    <div class="filter-group">
+      <label for="ageGroupFilter">Age Group</label>
+      <select id="ageGroupFilter"></select>
+    </div>
+    <div class="filter-group">
+      <label for="locationFilter">Location</label>
+      <select id="locationFilter"></select>
+    </div>
+    <div class="filter-group">
+      <label for="languageFilter">Language</label>
+      <select id="languageFilter"></select>
+    </div>
+    <button id="clearFilters">Clear Filters</button>
+  </div>
+</aside>
 
      <!-- Mobile Toggle Filters -->
     <div class="filters-wrapper mobile-filters">
