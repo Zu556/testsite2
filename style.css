@@ -643,3 +643,16 @@ footer {
     display: flex;
   }
 }
+
+/* Make select inputs fit content nicely */
+.filters select,
+.filters input {
+  width: 100%;
+  max-width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.filters select option {
+  white-space: normal; /* allow options to wrap if needed */
+}
