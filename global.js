@@ -26,3 +26,4 @@ if (filtersToggle && filtersWrapper) {
       filtersWrapper.classList.toggle('show');
     }
   });
+}
