@@ -622,26 +622,28 @@ footer {
 }
 
 /* ==============================
-   Hamburger Toggle Buttons Styling
+   Hamburger Toggle Buttons Styling (Mobile Only)
 ============================== */
-.nav-toggle,
-.filters-toggle {
-  background: #222;               /* same as .btn */
-  color: #fff;
-  border: none;
-  padding: 0.8rem 1.4rem;         /* match .btn */
-  border-radius: 2rem;            /* pill shape like .btn */
-  font-size: 1rem;
-  font-weight: 500;
-  cursor: pointer;
-  transition: background 0.3s ease;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  gap: 0.3rem;
-}
+@media (max-width: 768px) {
+  .nav-toggle,
+  .filters-toggle {
+    display: inline-flex;          /* show only on mobile */
+    align-items: center;
+    justify-content: center;
+    gap: 0.3rem;
+    background: #222;              /* match your .btn */
+    color: #fff;
+    border: none;
+    padding: 0.8rem 1.4rem;        /* match .btn */
+    border-radius: 2rem;           /* pill shape */
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
 
-.nav-toggle:hover,
-.filters-toggle:hover {
-  background: #444;               /* hover like other buttons */
+  .nav-toggle:hover,
+  .filters-toggle:hover {
+    background: #444;              /* hover like .btn */
+  }
 }
