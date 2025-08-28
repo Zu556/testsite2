@@ -521,49 +521,25 @@ footer {
 }
 
 /* =========================================================
-   Mobile Hamburger Filter Menu
+   Moblie STYLES
 ========================================================= */
+/* ==============================
+   Filters Sidebar
+============================== */
 
 /* Container wrapper */
 .filters-wrapper {
   display: block;
-  position: relative;
-}
-
-/* Toggle button for mobile */
-.filters-toggle {
-  display: none; /* hidden by default, visible on mobile */
-  background: #000;  
-  color: #fff;
-  border: none;
-  padding: 0.6rem 1rem;
-  border-radius: 6px;
-  cursor: pointer;
-  font-size: 1rem;
-  margin-bottom: 0.5rem;
-  width: 100%;
-  text-align: left;
 }
 
 /* Filters panel */
 .filters {
-  display: none;                
-  flex-direction: column;
+  display: block;                
   background-color: #f9f9f9;     
   padding: 1rem;                 
   margin-bottom: 1rem;           
   border-radius: 8px;
   box-shadow: 0 2px 6px rgba(0,0,0,0.05);
-  position: absolute;
-  top: 3rem; /* below toggle button */
-  left: 0;
-  width: 100%;
-  z-index: 1000;
-}
-
-/* Show panel when active */
-.filters.show {
-  display: flex;
 }
 
 /* Divider between filter groups */
@@ -609,25 +585,38 @@ footer {
   width: 100%;
   margin-top: 0.5rem;
 }
-
 #clearFilters:hover {
   background: #444;
+}
+
+/* Toggle button for mobile */
+.filters-toggle {
+  display: none; /* hidden by default, visible on mobile */
+  background: #000;  
+  color: #fff;
+  border: none;
+  padding: 0.6rem 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
 }
 
 /* ==============================
    Mobile Styles
 ============================== */
 @media (max-width: 768px) {
-  .filters-toggle {
-    display: block; 
-  }
-
   .filters {
-    display: none; /* hidden by default */
+    display: none;  
+    flex-direction: column;
+    gap: 0.75rem;
   }
-
   .filters.show {
     display: flex;
+  }
+
+  .filters-toggle {
+    display: block; 
   }
 }
 
