@@ -8,18 +8,22 @@ if (navToggle && navLinks) {
   });
 }
 
-// Filters toggle (same button works for desktop and mobile)
-const filtersToggle = document.querySelector('.filters-toggle');
-const filters = document.querySelector('.filters');
+// Desktop filters toggle
+const desktopToggle = document.querySelector('.desktop-filters .filters-toggle');
+const desktopFilters = document.querySelector('.desktop-filters .filters');
 
-if (filtersToggle && filters) {
-  filtersToggle.addEventListener('click', () => {
-    if (window.innerWidth > 768) {
-      // Desktop: collapse sidebar
-      filters.classList.toggle('collapsed');
-    } else {
-      // Mobile: show hamburger-style panel
-      filters.classList.toggle('show');
-    }
+if (desktopToggle && desktopFilters) {
+  desktopToggle.addEventListener('click', () => {
+    desktopFilters.classList.toggle('collapsed'); // collapse sidebar
+  });
+}
+
+// Mobile filters toggle
+const mobileToggle = document.querySelector('.mobile-filters .filters-toggle');
+const mobileFilters = document.querySelector('.mobile-filters .filters');
+
+if (mobileToggle && mobileFilters) {
+  mobileToggle.addEventListener('click', () => {
+    mobileFilters.classList.toggle('show'); // show mobile panel
   });
 }
