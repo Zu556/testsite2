@@ -290,11 +290,14 @@ main.page {
 }
 
 /* --- Sidebar Filter --- */
-.sidebar {
+.filters-wrapper {
+  width: 250px;
+  flex-shrink: 0;
   background: #fff;
   padding: 2rem 1.5rem;
   border-right: 1px solid #eee;
 }
+
 .sidebar h3 {
   margin-bottom: 1rem;
   font-size: 1.2rem;
