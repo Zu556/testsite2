@@ -658,22 +658,6 @@ footer {
   }
 }
 
-/* Force custom dropdown options to display properly */
-.ts-dropdown .option {
-  white-space: nowrap;        /* don’t break letters */
-  line-height: 1.5;           /* breathing room */
-  padding: 0.5rem 0.8rem;     /* space around text */
-  font-size: 1rem;
-  overflow: hidden;           /* cut overflow */
-  text-overflow: ellipsis;    /* show ... if too long */
-}
-
-/* Keep dropdown panel inside sidebar */
-.ts-dropdown {
-  max-width: 100%;            /* match sidebar width (250px) */
-  box-sizing: border-box;
-}
-
 /* === Choices.js Fixes for Sidebar === */
 
 /* The visible select box */
