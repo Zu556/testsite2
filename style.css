@@ -657,32 +657,3 @@ footer {
     display: flex;
   }
 }
-
-/* === Choices.js Fixes for Sidebar === */
-
-/* The visible select box */
-.filter-group .choices__inner {
-  width: 100%;              /* always fill sidebar (250px) */
-  max-width: 100%;          /* never overflow */
-  min-height: 2.5rem;       /* avoid squashed height */
-  font-size: 1rem;
-  line-height: 1.5;
-  box-sizing: border-box;
-}
-
-/* The dropdown list panel */
-.filter-group .choices__list--dropdown {
-  width: 100%;              /* same width as sidebar */
-  max-width: 100%;
-  box-sizing: border-box;
-}
-
-/* Each dropdown option */
-.filter-group .choices__item--choice {
-  white-space: nowrap;      /* don’t wrap letters */
-  overflow: hidden;         /* hide overflow */
-  text-overflow: ellipsis;  /* show ... if too long */
-  line-height: 1.5;
-  padding: 0.5rem 0.8rem;
-  font-size: 1rem;
-}
