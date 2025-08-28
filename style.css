@@ -289,30 +289,15 @@ main.page {
   flex: 1;             /* take up remaining space */
 }
 
-/* Sidebar Filter - Desktop Only */
-@media (min-width: 769px) {
-/* Sidebar width & Choices.js dropdown fix */
-.sidebar,
-.filters-wrapper {
-  width: 260px;          /* wider for desktop */
-  flex-shrink: 0;
-  box-sizing: border-box; /* include padding in width */
+/* --- Sidebar Filter --- */
+.sidebar {
+  background: #fff;
+  padding: 2rem 1.5rem;
+  border-right: 1px solid #eee;
 }
-
-.filters {
-  width: 100%;
-  max-width: 100%;
-}
-
-.choices__list--dropdown {
-  min-width: 100%;    /* dropdown matches sidebar width */
-  max-width: 260px;   /* prevent being smaller than sidebar */
-  box-sizing: border-box;
-}
-}
-
-.choices__list--dropdown .choices__item {
-  white-space: normal; /* allow options to wrap if needed */
+.sidebar h3 {
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
 }
 .filter-group {
   margin-bottom: 2rem;
