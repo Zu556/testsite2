@@ -1,4 +1,4 @@
-// activities.js
+// activities.js 
 
 // ---- helpers ---------------------------------------------------------------
 
@@ -22,8 +22,14 @@ function uniqueFromCommaSeparated(values) {
 // ---- data ------------------------------------------------------------------
 
 async function loadData() {
-  const response = await fetch("activities.json", { cache: "no-store" });
-  return await response.json();
+  try {
+    const response = await fetch("activities.json", { cache: "no-store" });
+    if (!response.ok) throw new Error(`HTTP error ${response.status}`);
+    return await response.json();
+  } catch (err) {
+    console.error("Failed to load activities:", err);
+    return [];
+  }
 }
 
 // ---- UI build --------------------------------------------------------------
@@ -38,9 +44,8 @@ function createOptions(select, options) {
   });
 }
 
-// ---- build filter dropdowns ------------------------------------------------
-
 function populateFilters(data) {
+  // Prepend "All" to every filter
   const categories = ["All", ...uniqueFromCommaSeparated(data.map(i => i.Category))];
   const ageGroups  = ["All", ...uniqueFromCommaSeparated(data.map(i => i.AgeGroup))];
   const locations  = ["All", ...uniqueSorted(data.map(i => i.Location))];
@@ -52,24 +57,21 @@ function populateFilters(data) {
   createOptions(document.getElementById("languageFilter"),  languages);
 }
 
-// ---- filtering helper ------------------------------------------------------
+// Keep Choices instances so we don't initialize twice
+const choicesInstances = {};
 
-function itemMatchesMultiSelect(selectedValues, fieldVal) {
-  if (!selectedValues || selectedValues.length === 0) return true;
-
-  // normalize
-  if (!Array.isArray(selectedValues)) {
-    selectedValues = [selectedValues];
-  }
-
-  // ✅ If "All" is chosen, always match
-  if (selectedValues.includes("All")) return true;
-
-  const tokens = toList(fieldVal).map(t => t.toLowerCase());
-
-  return selectedValues.some(val =>
-    tokens.includes((val || "").toLowerCase())
-  );
+function enhanceSelectsWithChoices() {
+  ["categoryFilter","ageGroupFilter","locationFilter","languageFilter"].forEach(id => {
+    const el = document.getElementById(id);
+    if (!el || choicesInstances[id]) return;
+    choicesInstances[id] = new Choices(el, {
+      removeItemButton: true,
+      searchEnabled: true,
+      shouldSort: false,
+      placeholder: true,
+      placeholderValue: `Select ${id.replace("Filter", "").toLowerCase()}`
+    });
+  });
 }
 
 // ---- render cards ----------------------------------------------------------
@@ -104,7 +106,7 @@ function renderActivities(data) {
       ? `<p class="deadline"><strong>Deadline:</strong> ${item.Deadline}</p>`
       : "";
 
-    const linksHtml = ["Link1","Link2","Link3","Link4","Link5"]
+    const cardLinksHtml = ["Link1","Link2","Link3","Link4","Link5"]
       .map(k => item[k])
       .filter(Boolean)
       .map(link => `<a href="${link}" target="_blank">${link}</a>`)
@@ -114,7 +116,7 @@ function renderActivities(data) {
       <div class="extra-info" style="display:none; margin-top:1rem; font-size:0.9rem; line-height:1.4; color:#444;">
         <p><strong>Full Description:</strong> ${item.Description || "N/A"}</p>
         <p><strong>How to Apply:</strong> ${item.HowToApply || "N/A"}</p>
-        <p><strong>Links:</strong> ${linksHtml}</p>
+        <p><strong>Links:</strong> ${cardLinksHtml}</p>
       </div>
     `;
 
@@ -127,46 +129,31 @@ function renderActivities(data) {
       ${extraInfo}
     `;
 
-   const learnMoreLink = card.querySelector(".learn-more");
+    const learnMoreLink = card.querySelector(".learn-more");
+    learnMoreLink.addEventListener("click", (e) => {
+      e.preventDefault();
 
-learnMoreLink.addEventListener("click", (e) => {
-  e.preventDefault();
+      // Populate modal with this card’s data
+      document.getElementById("modalTitle").textContent = item.Title || "Untitled";
+      document.getElementById("modalSubtitle").textContent = item.Category || "";
+      document.getElementById("modalDesc").textContent = item.Description || "No description available.";
+      document.getElementById("modalTags").innerHTML = tagsHtml;
+      document.getElementById("modalLocation").textContent = item.Location ? `Location: ${item.Location}` : "";
+      document.getElementById("modalLanguage").textContent = item.Language ? `Language: ${item.Language}` : "";
 
-  // Populate modal with this card’s data
-  document.getElementById("modalTitle").textContent = item.Title || "Untitled";
-  document.getElementById("modalSubtitle").textContent = item.Category || "";
-  document.getElementById("modalDesc").textContent = item.Description || "No description available.";
+      const howToApply = item.HowToApply || item["How to Apply"];
+      document.getElementById("modalHowToApply").textContent =
+        howToApply ? `How to apply: ${howToApply}` : "N/A";
 
-  // Tags
-  const tagsContainer = document.getElementById("modalTags");
-  tagsContainer.innerHTML = tagsHtml;
+      const modalLinksHtml = ["Link1","Link2","Link3","Link4","Link5"]
+        .map(k => item[k])
+        .filter(Boolean)
+        .map(link => /^https?:\/\//i.test(link) ? `<a href="${link}" target="_blank">${link}</a>` : link)
+        .join(", ") || "N/A";
+      document.getElementById("modalLinks").innerHTML = modalLinksHtml;
 
-  // location, language
-  document.getElementById("modalLocation").textContent = item.Location ? `Location: ${item.Location}` : "";
-  document.getElementById("modalLanguage").textContent = item.Language ? `Language: ${item.Language}` : "";
-  
-  // ✅ New: How to Apply
-const howToApply = item.HowToApply || item["How to Apply"];
-document.getElementById("modalHowToApply").textContent =
-  howToApply ? `How to apply: ${howToApply}` : "N/A";
-
- // ✅ Links (only clickable if valid URL)
-  const linksHtml = ["Link1","Link2","Link3","Link4","Link5"]
-    .map(k => item[k])
-    .filter(Boolean)
-    .map(link => {
-      if (/^https?:\/\//i.test(link)) {
-        return `<a href="${link}" target="_blank">${link}</a>`;
-      } else {
-        return link; // plain text
-      }
-    })
-    .join(", ") || "N/A";
-  document.getElementById("modalLinks").innerHTML = linksHtml;
-
-  // Show modal
-  document.getElementById("activityModal").style.display = "flex";
-});
+      document.getElementById("activityModal").style.display = "flex";
+    });
 
     grid.appendChild(card);
   });
@@ -175,21 +162,17 @@ document.getElementById("modalHowToApply").textContent =
 // ---- filtering -------------------------------------------------------------
 
 function itemMatchesMultiSelect(selectedValues, fieldVal) {
-  if (!selectedValues || (Array.isArray(selectedValues) && selectedValues.length === 0)) {
-    return true; // no filter
-  }
+  if (!selectedValues || selectedValues.length === 0) return true;
 
-  // normalize to array
   if (!Array.isArray(selectedValues)) {
     selectedValues = [selectedValues];
   }
 
-  const tokens = toList(fieldVal);
-  if (typeof fieldVal === "string" && fieldVal.trim().toLowerCase() === "all") return true;
+  // ✅ If "All" is chosen, always match
+  if (selectedValues.includes("All")) return true;
 
-  return selectedValues.some(val =>
-    tokens.map(t => t.toLowerCase()).includes((val || "").toLowerCase())
-  );
+  const tokens = toList(fieldVal).map(t => t.toLowerCase());
+  return selectedValues.some(val => tokens.includes((val || "").toLowerCase()));
 }
 
 function applyFilters(data) {
