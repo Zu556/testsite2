@@ -595,3 +595,17 @@ footer {
     color: #fff;
   }
 }
+/* Hide mobile filter on desktop */
+.mobile-filters {
+  display: none;
+}
+
+/* Show mobile filter on small screens */
+@media (max-width: 768px) {
+  .desktop-filters {
+    display: none;
+  }
+  .mobile-filters {
+    display: block;
+  }
+}
