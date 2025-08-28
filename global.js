@@ -18,6 +18,11 @@ const filtersWrapper = document.querySelector('.filters');
 
 if (filtersToggle && filtersWrapper) {
   filtersToggle.addEventListener('click', () => {
-    filtersWrapper.classList.toggle('show');
+    if (window.innerWidth > 768) {
+      // Desktop: toggle collapsed class
+      filtersWrapper.classList.toggle('collapsed');
+    } else {
+      // Mobile: toggle show class
+      filtersWrapper.classList.toggle('show');
+    }
   });
-}
