@@ -658,18 +658,22 @@ footer {
   }
 }
 
-/* Make dropdown options readable */
-.filter-group select {
-  font-size: 1rem;         /* bigger font */
-  line-height: 1.5;        /* more breathing space */
-  padding: 0.6rem 0.8rem;  /* consistent padding */
-  min-height: 2.5rem;      /* ensure tall enough */
-  white-space: nowrap;     /* prevent breaking letters */
-}
+/* Desktop-specific fix for select dropdown */
+@media (min-width: 769px) {
+  .filter-group select {
+    font-size: 1rem;
+    line-height: 1.5;
+    padding: 0.6rem 0.8rem;
+    min-height: 2.5rem;
+    white-space: nowrap;    /* stop text from breaking */
+    overflow: hidden;       /* clean cut instead of wrapping */
+    text-overflow: ellipsis;/* show "..." if too long */
+  }
 
-/* For the options inside */
-.filter-group select option {
-  padding: 0.5rem 0.8rem;
-  font-size: 1rem;
-  line-height: 1.4;
+  .filter-group select option {
+    font-size: 1rem;
+    line-height: 1.4;
+    padding: 0.5rem 0.8rem;
+    white-space: nowrap;
+  }
 }
