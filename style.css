@@ -289,6 +289,8 @@ main.page {
   flex: 1;             /* take up remaining space */
 }
 
+/* Sidebar Filter - Desktop Only */
+@media (min-width: 769px) {
 /* Sidebar width & Choices.js dropdown fix */
 .sidebar,
 .filters-wrapper {
@@ -306,6 +308,7 @@ main.page {
   min-width: 100%;    /* dropdown matches sidebar width */
   max-width: 260px;   /* prevent being smaller than sidebar */
   box-sizing: border-box;
+}
 }
 
 .choices__list--dropdown .choices__item {
