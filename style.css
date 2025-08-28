@@ -658,3 +658,25 @@ footer {
 .choices__input {
   min-width: 100px;     /* prevent tiny input */
 }
+/* ==============================
+   Desktop Sidebar Width Fix
+============================== */
+@media (min-width: 769px) {
+  .sidebar,
+  .filters-wrapper {
+    width: 260px;          /* desktop sidebar width */
+    flex-shrink: 0;
+    box-sizing: border-box;
+  }
+
+  .filters {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .choices__list--dropdown {
+    min-width: 100%;      /* dropdown matches sidebar width */
+    max-width: 260px;
+    box-sizing: border-box;
+  }
+}
