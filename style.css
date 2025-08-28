@@ -457,6 +457,113 @@ main.page {
   }
 }
 
+/* =========================================================
+   CONTACT ICON & MODAL
+========================================================= */
+
+/* Contact Icon (fixed button) */
+.contact-icon {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #222;
+  color: #fff;
+  padding: 1rem;
+  border-radius: 50%;
+  font-size: 1.5rem;
+  cursor: pointer;
+  z-index: 3000; /* above filters and content */
+}
+
+/* Contact Modal */
+#contactModal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0,0,0,0.5);
+  justify-content: center;
+  align-items: center;
+  z-index: 4000; /* above everything */
+}
+
+#contactModal .modal-content {
+  background: #fff;
+  padding: 2rem;
+  max-width: 500px;
+  width: 90%;
+  border-radius: 10px;
+  position: relative;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.2);
+}
+
+#contactModal input,
+#contactModal textarea {
+  width: 100%;
+  padding: 0.8rem;
+  border: 1px solid #ccc;
+  margin-bottom: 1rem;
+  border-radius: 0.5rem;
+  box-sizing: border-box;
+}
+
+#contactModal button {
+  padding: 0.8rem 1.2rem;
+  border: 1px solid #222;
+  background: transparent;
+  cursor: pointer;
+  border-radius: 0.5rem;
+  transition: 0.3s;
+}
+
+#contactModal button:hover {
+  background: #222;
+  color: #fff;
+}
+
+/* =========================================================
+   ACTIVITY MODAL
+========================================================= */
+#activityModal {
+  display: none; /* hidden by default */
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0,0,0,0.5);
+  justify-content: center;
+  align-items: center;
+  z-index: 4000;
+}
+
+#activityModal .modal-content {
+  background: #fff;
+  padding: 2rem;
+  max-width: 600px;
+  width: 90%;
+  border-radius: 10px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.2);
+  position: relative;
+  animation: fadeIn 0.2s ease-in-out;
+}
+
+#activityModal .close-btn {
+  position: absolute;
+  top: 15px;
+  right: 20px;
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: #444;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
 /* ==============================
    Navbar Toggle (Hamburger)
 ============================== */
