@@ -657,3 +657,19 @@ footer {
     display: flex;
   }
 }
+
+/* Make dropdown options readable */
+.filter-group select {
+  font-size: 1rem;         /* bigger font */
+  line-height: 1.5;        /* more breathing space */
+  padding: 0.6rem 0.8rem;  /* consistent padding */
+  min-height: 2.5rem;      /* ensure tall enough */
+  white-space: nowrap;     /* prevent breaking letters */
+}
+
+/* For the options inside */
+.filter-group select option {
+  padding: 0.5rem 0.8rem;
+  font-size: 1rem;
+  line-height: 1.4;
+}
