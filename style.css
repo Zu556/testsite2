@@ -523,54 +523,42 @@ footer {
 /* =========================================================
    Moblie STYLES
 ========================================================= */
-
-/* =========================================================
-   Navbar toggle
-========================================================= */
-.nav-toggle {
-  display: none;
-  background: none;
-  border: none;
-  font-size: 1.5rem;
-  cursor: pointer;
-}
-
-@media (max-width: 768px) {
-  .nav-toggle {
-    display: block;
-  }
-  .nav-links {
-    display: none;
-    flex-direction: column;
-    gap: 1rem;
-    background: #fff;
-    padding: 1rem;
-    position: absolute;
-    top: 60px;
-    right: 5%;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-    border-radius: 8px;
-  }
-  .nav-links.show {
-    display: flex;
-  }
-}
-
-/* =========================================================
-   Filters toggle & sidebar
-========================================================= */
+/* ==============================
+   Filters Sidebar
+============================== */
 
 /* Default: Desktop */
 .filters-wrapper {
   display: block;
 }
+
 .filters {
-  display: block; /* sidebar visible by default on desktop */
+  display: block;                /* sidebar visible by default */
+  background-color: #f9f9f9;     /* light grey background like before */
+  padding: 1rem;                 /* spacing inside sidebar */
+  margin-bottom: 1rem;           /* spacing below sidebar */
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05); /* subtle shadow */
 }
+
+/* Divider between filter groups */
+.filter-group {
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 0.75rem;
+  margin-bottom: 0.75rem;
+}
+
+.filter-group:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+/* Desktop toggle button */
 .filters-toggle {
-  display: block;            /* toggle visible */
-  background: #000;          /* black button */
-  color: #fff;               /* white text */
+  display: block;
+  background: #000;  /* black button */
+  color: #fff;
   border: none;
   padding: 0.6rem 1rem;
   border-radius: 6px;
@@ -578,27 +566,32 @@ footer {
   font-size: 1rem;
   margin-bottom: 0.5rem;
 }
+
+/* Desktop collapsed state */
 .filters.collapsed {
-  display: none;             /* hide sidebar on desktop when collapsed */
+  display: none;
 }
 
-/* Mobile */
+/* ==============================
+   Mobile
+============================== */
 @media (max-width: 768px) {
   .filters {
-    display: none;           /* sidebar hidden by default on mobile */
+    display: none;  /* hidden by default */
   }
   .filters.show {
-    display: flex;           /* show sidebar when toggle clicked */
+    display: flex;   /* show when toggle clicked */
     flex-direction: column;
     gap: 0.75rem;
-    background: #fff;
+    background-color: #f9f9f9;  /* same look as desktop */
     padding: 1rem;
     border-radius: 8px;
-    box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+    box-shadow: 0 2px 6px rgba(0,0,0,0.05);
   }
+
   .filters-toggle {
-    display: block;          /* toggle visible on mobile */
-    background: #000;        /* black button */
+    display: block; /* toggle visible on mobile */
+    background: #000; 
     color: #fff;
   }
 }
