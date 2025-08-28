@@ -160,7 +160,7 @@ document.getElementById("modalHowToApply").textContent =
   document.getElementById("modalLinks").innerHTML = linksHtml;
 
   // Show modal
-  document.getElementById("activityModal").style.display = "show";
+  document.getElementById("activityModal").style.display = "flex";
 });
 
     grid.appendChild(card);
