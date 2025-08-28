@@ -554,7 +554,7 @@ footer {
   margin-bottom: 0;
 }
 
-/* Desktop toggle button */
+/* Toggle button */
 .filters-toggle {
   display: block;
   background: #000;  /* black button */
@@ -595,20 +595,20 @@ footer {
     color: #fff;
   }
 }
-/* Hide mobile filter on desktop */
-.mobile-filters {
-  display: none;
+
+/* Make select inputs fit content nicely */
+.filters select,
+.filters input {
+  width: 100%;
+  max-width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.filters select option {
+  white-space: normal; /* allow options to wrap if needed */
 }
 
-/* Show mobile filter on small screens */
-@media (max-width: 768px) {
-  .desktop-filters {
-    display: none;
-  }
-  .mobile-filters {
-    display: block;
-  }
-}
 /* ==============================
    Navbar Toggle (Hamburger)
 =================================
@@ -645,17 +645,4 @@ footer {
   .nav-links.show {
     display: flex;
   }
-}
-
-/* Make select inputs fit content nicely */
-.filters select,
-.filters input {
-  width: 100%;
-  max-width: 100%;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
-.filters select option {
-  white-space: normal; /* allow options to wrap if needed */
 }
