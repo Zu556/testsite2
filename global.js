@@ -8,12 +8,13 @@ if (navToggle && navLinks) {
   });
 }
 
-// Desktop filters toggle
 // Mobile Filters Hamburger Toggle
 const filtersToggle = document.querySelector('.filters-toggle');
 const filtersPanel = document.getElementById('filtersPanel');
 
-filtersToggle.addEventListener('click', () => {
-  filtersPanel.classList.toggle('show');
-});
+if (filtersToggle && filtersPanel) {
+  filtersToggle.addEventListener('click', () => {
+    filtersPanel.classList.toggle('show');
+  });
 }
+
