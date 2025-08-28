@@ -659,52 +659,6 @@ footer {
   .nav-links.show {
     display: flex;
   }
-}
-/* Desktop sidebar */
-.filters-wrapper {
-  width: 250px;
-  flex-shrink: 0;
-  background: #fff;
-  padding: 2rem 1.5rem;
-  border-right: 1px solid #eee;
-  display: block;
-}
-
-/* Mobile adjustments */
-@media (max-width: 768px) {
-  .filters-wrapper {
-    width: 100%;          /* full width for mobile */
-    padding: 0.5rem 1rem; /* smaller padding */
-    border-right: none;    /* remove desktop border */
-    display: block;        /* always block container */
-  }
-
-  /* Filters panel hidden by default */
-  .filters {
-    display: none;
-    flex-direction: column;
-    gap: 0.75rem;
-  }
-  .filters.show {
-    display: flex;         /* show when toggle is clicked */
-  }
-
-  /* Toggle button visible on mobile */
-  .filters-toggle {
-    display: block;
-    margin-bottom: 0.5rem;
-  }
-}
-
-/* Desktop sidebar */
-.filters-wrapper {
-  width: 250px;
-  flex-shrink: 0;
-  background: #fff;
-  padding: 2rem 1.5rem;
-  border-right: 1px solid #eee;
-  display: block; /* always visible on desktop */
-}
 
 /* Mobile adjustments */
 @media (max-width: 768px) {
