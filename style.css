@@ -292,7 +292,7 @@ main.page {
 /* Sidebar width & Choices.js dropdown fix */
 .sidebar,
 .filters-wrapper {
-  width: 320px;          /* wider for desktop */
+  width: 260px;          /* wider for desktop */
   flex-shrink: 0;
   box-sizing: border-box; /* include padding in width */
 }
@@ -304,7 +304,7 @@ main.page {
 
 .choices__list--dropdown {
   min-width: 100%;    /* dropdown matches sidebar width */
-  max-width: 320px;   /* prevent being smaller than sidebar */
+  max-width: 260px;   /* prevent being smaller than sidebar */
   box-sizing: border-box;
 }
 
