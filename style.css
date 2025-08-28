@@ -620,3 +620,28 @@ footer {
     display: flex;
   }
 }
+
+/* ==============================
+   Hamburger Toggle Buttons Styling
+============================== */
+.nav-toggle,
+.filters-toggle {
+  background: #222;               /* same as .btn */
+  color: #fff;
+  border: none;
+  padding: 0.8rem 1.4rem;         /* match .btn */
+  border-radius: 2rem;            /* pill shape like .btn */
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.3rem;
+}
+
+.nav-toggle:hover,
+.filters-toggle:hover {
+  background: #444;               /* hover like other buttons */
+}
