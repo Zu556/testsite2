@@ -658,22 +658,21 @@ footer {
   }
 }
 
-/* Desktop-specific fix for select dropdown */
 @media (min-width: 769px) {
   .filter-group select {
+    display: block;
+    width: 100%;            /* take full sidebar width */
+    min-width: 200px;       /* don’t collapse too narrow */
     font-size: 1rem;
     line-height: 1.5;
     padding: 0.6rem 0.8rem;
-    min-height: 2.5rem;
-    white-space: nowrap;    /* stop text from breaking */
-    overflow: hidden;       /* clean cut instead of wrapping */
-    text-overflow: ellipsis;/* show "..." if too long */
+    white-space: nowrap;    /* stop letters wrapping */
   }
 
   .filter-group select option {
+    white-space: nowrap;    /* force single-line options */
     font-size: 1rem;
     line-height: 1.4;
     padding: 0.5rem 0.8rem;
-    white-space: nowrap;
   }
 }
