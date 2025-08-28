@@ -9,17 +9,11 @@ if (navToggle && navLinks) {
 }
 
 // Desktop filters toggle
+// Mobile Filters Hamburger Toggle
 const filtersToggle = document.querySelector('.filters-toggle');
-const filters = document.querySelector('.filters');
+const filtersPanel = document.getElementById('filtersPanel');
 
-if (filtersToggle && filters) {
-  filtersToggle.addEventListener('click', () => {
-    if (window.innerWidth > 768) {
-      // Desktop: collapse sidebar
-      filters.classList.toggle('collapsed');
-    } else {
-      // Mobile: show popup
-      filters.classList.toggle('show');
-    }
-  });
+filtersToggle.addEventListener('click', () => {
+  filtersPanel.classList.toggle('show');
+});
 }
