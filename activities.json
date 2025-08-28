@@ -41,7 +41,7 @@
     {
         "Title": "Animal shelter volunteer",
         "Category": "Volunteering, biology, veterinary sciences",
-        "AgeGroup": "All",
+        "AgeGroup": ["CLS 6, CLS 7, CLS 8, IG1, IG2, IB1, IB2"],
         "Language": "Portuguese optional",
         "Location": "Portugal",
         "Description": "Some vet university courses require a certain number of work experience hours. Contact your local animal shelter to see if volunteering positions are available. You\u2019ll gain real life experience on what its like to take care of animals. There's a possibility of bringing lice/fleas or animal-transmitted diseases back to your home, please ensure you are fully sanitised after working.",
@@ -70,7 +70,7 @@
     {
         "Title": "Volunteering in Portugal",
         "Category": "Volunteering",
-        "AgeGroup": "All",
+        "AgeGroup": ["CLS 6, CLS 7, CLS 8, IG1, IG2, IB1, IB2"],
         "Language": "Portuguese recommended",
         "Location": "Portugal",
         "Description": "Apart from being a great person, universities like to see character from their applicants. Volunteering shows that you care about your community, or that you\u2019re passionate about a specific cause.",
@@ -92,7 +92,7 @@
     {
         "Title": "ChemRus",
         "Category": "Chemistry",
-        "AgeGroup": "All",
+        "AgeGroup": ["CLS 6, CLS 7, CLS 8, IG1, IG2, IB1, IB2"],
         "Language": "Portuguese recommended",
         "Location": "Portugal",
         "Description": "A chemistry competition that involves making a video about a chemical process of your choosing. You can watch winning videos from past years to get a sense of what they’re looking for. Details and regulations can be found on the official website. Students should participate in groups of 3-5, supervised by a professor. ",
@@ -102,7 +102,7 @@
     {
         "Title": "Local math competitions",
         "Category": "Mathematics",
-        "AgeGroup": "All",
+        "AgeGroup": ["CLS 6, CLS 7, CLS 8, IG1, IG2, IB1, IB2"],
         "Language": "Portuguese recommended",
         "Location": "Portugal",
         "Description": "Challenge your mathematical skills and make yourself stand out! Contact your math teacher to see if the school has plans to enrol students in these competitions; otherwise, you may need to sign up as an individual contestant. Some may be in Portuguese; non-PT speakers won't be able to participate. If you decide to participate, you may need to brush up on math terminology in Portuguese.",
@@ -126,7 +126,7 @@
     {
         "Title": "MUN (Model United Nations)",
         "Category": "Human sciences",
-        "AgeGroup": "All",
+        "AgeGroup": ["CLS 6, CLS 7, CLS 8, IG1, IG2, IB1, IB2"],
         "Language": "English proficiency",
         "Location": "Portugal, International",
         "Description": "Model United Nations is a club where you pretend to be a representative from a country and talk about important world problems. learn how countries work together through researching a particular issue, then discuss and debate your chosen country's ideas with representatives of other countries. The solutions you agree upon are compiled in a document called a resolution. MUN is a great way to improve your speaking, thinking, and teamwork skills while learning about different countries and global issues. Students who are interested in politics, history, and law-related professions should definitely try it out!" ,
@@ -148,7 +148,7 @@
     {
         "Title": "Free online courses",
         "Category": "All",
-        "AgeGroup": "All",
+        "AgeGroup": ["CLS 6, CLS 7, CLS 8, IG1, IG2, IB1, IB2"],
         "Language": "English proficiency recommended",
         "Location": "Online",
         "Description": "Not sure if you're interested in a particular area? Start a free online course to see if it's right for you! There is a wide range of completely free courses online, published by accredited universities, free for you to explore. "
@@ -156,7 +156,7 @@
     {
         "Title": "Bow seat ocean awareness contest",
         "Category": "Art",
-        "AgeGroup": "All",
+        "AgeGroup": ["CLS 6, CLS 7, CLS 8, IG1, IG2, IB1, IB2"],
         "Language": "English proficiency recommended",
         "Location": "Online",
         "Description": "Submit a creation of your own inspired by prompts provided by the contest, ranging from digital art, paintings, to poetry. Focusing on reflections about the climate issues our planet currently faces, this is an opportunity to alert the world on the urgency of these severe issues. Showcase your artistic skills while being an environmentally conscious global citizen!" ,
