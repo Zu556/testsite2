@@ -1,6 +1,4 @@
-// ==============================
-// Navbar Toggle
-// ==============================
+// Navbar toggle
 const navToggle = document.querySelector('.nav-toggle');
 const navLinks = document.querySelector('.nav-links');
 
@@ -10,23 +8,18 @@ if (navToggle && navLinks) {
   });
 }
 
-// ==============================
-// Filters Toggle (only exists on activities.html)
-// ==============================
-const desktopToggle = document.querySelector('.desktop-filters .filters-toggle');
-const desktopFilters = document.querySelector('.desktop-filters .filters');
+// Filters toggle (same button works for desktop and mobile)
+const filtersToggle = document.querySelector('.filters-toggle');
+const filters = document.querySelector('.filters');
 
-if (desktopToggle && desktopFilters) {
-  desktopToggle.addEventListener('click', () => {
-    desktopFilters.classList.toggle('collapsed'); // Desktop collapse
-  });
-}
-
-const mobileToggle = document.querySelector('.mobile-filters .filters-toggle');
-const mobileFilters = document.querySelector('.mobile-filters .filters');
-
-if (mobileToggle && mobileFilters) {
-  mobileToggle.addEventListener('click', () => {
-    mobileFilters.classList.toggle('show'); // Mobile panel toggle
+if (filtersToggle && filters) {
+  filtersToggle.addEventListener('click', () => {
+    if (window.innerWidth > 768) {
+      // Desktop: collapse sidebar
+      filters.classList.toggle('collapsed');
+    } else {
+      // Mobile: show hamburger-style panel
+      filters.classList.toggle('show');
+    }
   });
 }
