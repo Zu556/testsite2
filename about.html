@@ -11,6 +11,7 @@
   <!-- Navbar -->
   <nav class="navbar">
     <a class="logo" href="index.html">Extracurriculars</a>
+    <button class="nav-toggle">☰</button>
     <ul class="nav-links">
       <li><a href="index.html">Home</a></li>
       <li><a href="guide.html">Guide</a></li>
@@ -114,6 +115,8 @@
     <p>© <span id="year"></span> Extracurriculars</p>
   </footer>
 
+  <!-- Scripts -->
+<script src="global.js"></script>
   <script>
     document.getElementById('year').textContent = new Date().getFullYear();
     const elements = document.querySelectorAll('.fade-up');
