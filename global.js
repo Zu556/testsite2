@@ -25,3 +25,37 @@ if (filtersToggle && filtersPanel) {
     }
   });
 }
+
+// =============================
+// GUIDE PAGE INTERACTIONS
+// =============================
+
+// Audience toggle buttons
+const toggles = document.querySelectorAll('.toggle');
+const boxes = document.querySelectorAll('.audience-box');
+
+toggles.forEach(btn => {
+  btn.addEventListener('click', () => {
+    // Remove active class from all buttons
+    toggles.forEach(b => b.classList.remove('active'));
+    // Add active class to clicked button
+    btn.classList.add('active');
+
+    // Show corresponding box, hide others
+    const target = btn.dataset.target;
+    boxes.forEach(box => {
+      box.classList.toggle('active', box.id === target);
+    });
+  });
+});
+
+// Accordion expand/collapse
+const accordionHeaders = document.querySelectorAll('.accordion-header');
+
+accordionHeaders.forEach(header => {
+  header.addEventListener('click', () => {
+    const item = header.parentElement;
+    // Toggle the clicked item
+    item.classList.toggle('active');
+  });
+});
