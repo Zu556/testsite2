@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Carpe diem • About</title>
+  <title>Carpe diem • Guide</title>
   <link rel="stylesheet" href="style.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
@@ -24,4 +24,95 @@
   </nav>
 
   <main class="page">
-    <h1>Guide to planning your extracurricular activities </h1>
+
+    <!-- Hero Section -->
+    <section class="hero">
+      <h1>Guide to Planning Your Extracurricular Activities</h1>
+      <p>Plan wisely. Balance school, explore interests, and prepare for the future.</p>
+      <a href="#principles" class="btn">Start Reading</a>
+    </section>
+
+    <!-- Quick Takeaways -->
+    <section id="principles" class="principles">
+      <h2>3 Principles to Remember</h2>
+      <div class="cards">
+        <div class="card">
+          <i class="fa-solid fa-calendar"></i>
+          <h3>Plan Ahead</h3>
+          <p>Start 2–3 months early (6–12 months is ideal).</p>
+        </div>
+        <div class="card">
+          <i class="fa-solid fa-envelope"></i>
+          <h3>Don’t Be Shy</h3>
+          <p>Send emails, reach out, ask questions.</p>
+        </div>
+        <div class="card">
+          <i class="fa-solid fa-clock"></i>
+          <h3>Have Enough Time</h3>
+          <p>School comes first, balance is key.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Audience Distinction -->
+    <section class="audience">
+      <div class="toggle-buttons">
+        <button class="toggle active" data-target="ib">IB Students</button>
+        <button class="toggle" data-target="younger">Younger Students</button>
+      </div>
+      <div class="audience-content">
+        <div id="ib" class="audience-box active">
+          <p>The IB can be heavy on your workload. Be selective with activities so they complement your chosen area of interest, most likely tied to your future university course.</p>
+        </div>
+        <div id="younger" class="audience-box">
+          <p>If you’re in the years below IB, seize the time to explore widely. Try different activities, discover what excites you, and plan carefully.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Accordion Deep Dives -->
+    <section class="accordion">
+      <div class="accordion-item">
+        <button class="accordion-header">📅 Plan Ahead <i class="fa-solid fa-chevron-down"></i></button>
+        <div class="accordion-content">
+          <p>Start 2–3 months early (6 months to 1 year is ideal). Consider internships, competitions, and projects:</p>
+          <ul>
+            <li>Internships / Volunteering: Apply 3–4 months before your expected start date.</li>
+            <li>Competitions: Allow months of preparation and practice.</li>
+            <li>Projects: Expect trial and error. Plan generously with time.</li>
+          </ul>
+          <p>Example: A laboratory project may involve research, finding a mentor, ordering materials, lab permissions, experimenting, and writing a 15–20 hour report. Each step requires buffer time, so plan 4–5 months in advance for complex projects.</p>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <button class="accordion-header">✉️ Don’t Be Shy <i class="fa-solid fa-chevron-down"></i></button>
+        <div class="accordion-content">
+          <p>Send emails to people and institutes. Be clear about what you want to do and when. Attach your resume when applying for internships.</p>
+          <p>Rejections are normal, but you only need one “yes.” Sometimes it takes a dozen emails.</p>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <button class="accordion-header">⏳ Have Enough Time <i class="fa-solid fa-chevron-down"></i></button>
+        <div class="accordion-content">
+          <p>School is the top priority. Choose activities that don’t overwhelm your academic load.</p>
+          <ul>
+            <li>If struggling academically: Aim for short-term summer projects (2–3 weeks).</li>
+            <li>If balanced: Spread out project tasks across the year (3–5 hrs/week).</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Closing Motivation -->
+    <section class="closing">
+      <blockquote>“School is your #1 priority. Activities should enhance, not overwhelm.”</blockquote>
+      <p>Good luck!</p>
+    </section>
+
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
