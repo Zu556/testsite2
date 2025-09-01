@@ -610,121 +610,118 @@ main.page {
   display: block; /* removes any extra spacing */
 }
 
-/* ==============================
-    Guide Page Styles 
-============================== */
+/* =========================================================
+   GUIDE PAGE STYLES
+========================================================= */
 
-/* Guide Page Styles */
-
-/* Hero Section */
-.about-hero {
+/* Principles section */
+.principles {
+  padding: 3rem 1rem;
   text-align: center;
-  padding: 4rem 1rem;
-  background: linear-gradient(135deg, #5b5be3, #8e44ad);
-  color: #fff;
 }
-
-.about-hero h1 {
-  font-size: 2.5rem;
-  margin-bottom: 1rem;
-}
-
-.about-hero .subtext {
-  font-size: 1.2rem;
-  opacity: 0.9;
-}
-
-/* Main Page Layout */
-.page {
-  max-width: 1100px;
-  margin: 0 auto;
-  padding: 2rem 1rem;
-}
-
-/* Two Column Layout */
-.two-col {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 2rem;
-  margin: 3rem 0;
-}
-
-@media (max-width: 768px) {
-  .two-col {
-    grid-template-columns: 1fr;
-  }
-}
-
-/* Cards */
-.card {
-  background: #fff;
-  padding: 2rem;
-  border-radius: 1rem;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-  transition: transform 0.2s ease;
-}
-
-.card:hover {
-  transform: translateY(-4px);
-}
-
-.card h2 {
-  margin-bottom: 1rem;
-  color: #333;
-}
-
-.card p {
-  color: #555;
-  line-height: 1.6;
-}
-
-/* Feature Cards Grid */
-.values-grid {
-  margin: 4rem 0;
-}
-
-.values-grid h2 {
-  text-align: center;
+.principles h2 {
   margin-bottom: 2rem;
   font-size: 2rem;
   color: #222;
 }
-
-.feature-cards {
+.cards {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
-  gap: 1.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
 }
-
-.feature-card {
-  background: #f9f9fb;
+.card {
+  background: #fff;
+  padding: 2rem;
   border-radius: 1rem;
-  padding: 1.5rem;
-  box-shadow: 0 3px 8px rgba(0,0,0,0.05);
-  transition: background 0.3s ease;
-}
-
-.feature-card:hover {
-  background: #eef0ff;
-}
-
-.feature-card h3 {
-  margin-bottom: 0.75rem;
-  color: #444;
-}
-
-.feature-card p {
-  color: #666;
-  font-size: 0.95rem;
-  line-height: 1.5;
-}
-
-/* Footer */
-.footer {
+  box-shadow: 0 3px 10px rgba(0,0,0,0.05);
   text-align: center;
-  padding: 2rem 1rem;
+  transition: transform 0.3s ease;
+}
+.card:hover {
+  transform: translateY(-5px);
+}
+.card i {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #5b5be3;
+}
+
+/* Audience toggle */
+.audience {
+  margin: 4rem 0;
+  text-align: center;
+}
+.toggle-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+.toggle {
+  padding: 0.6rem 1.2rem;
+  border: 1px solid #ddd;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  background: #f9f9f9;
+  transition: 0.3s;
+}
+.toggle.active {
   background: #222;
   color: #fff;
-  font-size: 0.9rem;
-  margin-top: 3rem;
+  border-color: #222;
+}
+.audience-content {
+  max-width: 700px;
+  margin: 0 auto;
+}
+.audience-box {
+  display: none;
+}
+.audience-box.active {
+  display: block;
+}
+
+/* Accordion */
+.accordion {
+  margin: 3rem 0;
+}
+.accordion-item {
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 1rem;
+}
+.accordion-header {
+  width: 100%;
+  text-align: left;
+  background: #f9f9f9;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 500;
+}
+.accordion-content {
+  display: none;
+  padding: 1rem;
+  color: #444;
+}
+.accordion-item.active .accordion-content {
+  display: block;
+}
+
+/* Closing section */
+.closing {
+  text-align: center;
+  margin: 4rem 0;
+}
+.closing blockquote {
+  font-size: 1.3rem;
+  font-style: italic;
+  margin-bottom: 1rem;
+  color: #555;
+}
+.closing p {
+  font-weight: bold;
+  color: #333;
 }
