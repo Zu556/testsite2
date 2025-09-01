@@ -600,3 +600,13 @@ main.page {
   .nav-links.show {
     display: flex;
   }
+
+   /* ==============================
+   Website logo
+============================== */
+   .logo img {
+  height: 50px;   /* adjust size to fit navbar */
+  width: auto;    /* keeps aspect ratio */
+  display: block; /* removes any extra spacing */
+}
+
