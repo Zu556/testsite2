@@ -276,7 +276,7 @@ main.page {
 ========================================================= */
 
 /* Page layout - desktop */
-.page {
+.activities-page {
   display: flex;       /* sidebar + content side by side */
   min-height: 100vh;
 }
