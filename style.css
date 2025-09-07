@@ -726,17 +726,3 @@ main.page {
   color: #333;
 }
 
-/* Guide hero override */
-.hero {
-  display: block;      /* stack content vertically */
-  text-align: center;
-  padding: 4rem 1rem;
-}
-.hero h1 {
-  margin-bottom: 1rem;
-  font-size: 2.5rem;
-}
-.hero p {
-  margin-bottom: 2rem;
-  font-size: 1.2rem;
-}
