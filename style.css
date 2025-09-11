@@ -77,10 +77,10 @@ body {
 .hero {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  align-items: center;
-  padding: 5% 8%;
+  align-items: start;
+  padding: 3.5% 8%;
   gap: 2rem;
-  min-height: 85vh;
+  min-height: 60vh;
 }
 .hero-text h2 {
   font-size: 1.5rem;
