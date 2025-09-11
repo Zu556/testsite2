@@ -80,7 +80,7 @@ body {
   align-items: start;
   padding: 3.5% 8%;
   gap: 2rem;
-  min-height: 60vh;
+  min-height: auto;
 }
 .hero-text h2 {
   font-size: 1.5rem;
