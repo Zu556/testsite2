@@ -92,12 +92,13 @@ body {
   margin-bottom: 1rem;
 }
 .hero-text p {
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
   max-width: 500px;
 }
 .hero-cta {
   display: flex;
   gap: 1rem;
+  margin-bottom: 0;
 }
 .btn {
   padding: 0.8rem 1.4rem;
