@@ -81,6 +81,7 @@ body {
   padding: 3.5% 8%;
   gap: 2rem;
   min-height: 60vh;
+  padding-bottom: 0;
 }
 .hero-text h2 {
   font-size: 1.5rem;
