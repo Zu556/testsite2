@@ -2,7 +2,7 @@
 
     {
         "Title": "Ci\u00eancia viva no laborat\u00f3rio (STEM, with a few human science internships)",
-        "Category": "Biomed, Biology, Chemistry, Physics, Robotics, Human sciences, finance",
+        "Category": "Biomed, Biology, Chemistry, Physics, Robotics, Human sciences, Finance",
         "AgeGroup": ["IG1, IG2, IB1, IB2"],
         "Language": "Portuguese optional (but recommended)",
         "Location": "Portugal",
@@ -21,7 +21,7 @@
     },
     {
         "Title": "National competition for young scientists ( Concurso nacional jovens cientistas)",
-        "Category": "Biology, Earth sciences, environmental science, Health sciences, Social Economic sciences, Engineering, Technology, Physics, Math, Chemistry",
+        "Category": "Biology, Earth sciences, environmental science, Health sciences, Social Economic sciences, Engineering, Technology, Physics, Mathematics, Chemistry",
         "AgeGroup": ["IG1, IG2, IB1"],
         "Language": "Portuguese optional",
         "Location": "Portugal",
