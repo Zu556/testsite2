@@ -346,6 +346,31 @@ main.page {
 .learn-more:hover { text-decoration: underline; }
 
 /* =========================================================
+   GUIDE PAGE
+========================================================= */
+
+.page .hero {
+   display: flex;
+   flex-direction: column;   /* stack h1, p, button vertically */
+   justify-content: center;  /* vertical centering */
+   align-items: center;      /* horizontal centering */
+   text-align: center;       /* center the text itself */
+   min-height: 60vh;         /* give it enough height for centering */
+   padding: 2rem 1rem;
+   gap: 1rem;    
+
+.page .hero h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+.page .hero p {
+  margin: 0;
+  font-size: 1.2rem;
+  max-width: 650px;
+}
+   
+/* =========================================================
    FILTERS - DESKTOP SIDEBAR
 ========================================================= */
 .filters-wrapper {
