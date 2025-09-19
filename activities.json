@@ -2,7 +2,7 @@
 
     {
         "Title": "Ci\u00eancia viva no laborat\u00f3rio (STEM, with a few human science internships)",
-        "Category": "Biomed, biology, chemistry, Physics, Robotics, Human sciences, finance",
+        "Category": "Biomed, Biology, Chemistry, Physics, Robotics, Human sciences, finance",
         "AgeGroup": ["IG1, IG2, IB1, IB2"],
         "Language": "Portuguese optional but recommended",
         "Location": "Portugal",
@@ -12,7 +12,7 @@
     },
     {
         "Title": "internships: Champalimaud Foundation",
-        "Category": "Biomed, biology, biochem",
+        "Category": "Biomed, Biology, Biochem",
         "AgeGroup": ["IG2, IB"],
         "Language": "English proficiency recommended",
         "Location": "Portugal",
@@ -21,7 +21,7 @@
     },
     {
         "Title": "National competition for young scientists ( Concurso nacional jovens cientistas)",
-        "Category": "biology, earth sciences, environmental science, health sciences, social economic sciences, engineering, technology, physics, math, chemistry",
+        "Category": "Biology, Earth sciences, environmental science, Health sciences, Social Economic sciences, Engineering, Technology, Physics, Math, Chemistry",
         "AgeGroup": ["IG1, IG2, IB1"],
         "Language": "Portuguese optional",
         "Location": "Portugal",
@@ -40,7 +40,7 @@
     },
     {
         "Title": "Animal shelter volunteer",
-        "Category": "Volunteering, biology, veterinary sciences",
+        "Category": "Volunteering, Biology, Veterinary sciences",
         "AgeGroup": ["CLS 6, CLS 7, CLS 8, IG1, IG2, IB1, IB2"],
         "Language": "Portuguese optional",
         "Location": "Portugal",
@@ -165,7 +165,7 @@
     },
     {
         "Title": "John Locke essay contest",
-        "Category": "Philosophy, theology, history, politics, law, economics, ps",
+        "Category": "Philosophy, Theology, History, Politics, Law, Economics",
         "AgeGroup": ["IG1, IG2, IB1, IB2"],
         "Language": "English proficiency",
         "Location": "Online",
@@ -194,7 +194,7 @@
     },
     {
         "Title": "Treetree2.school",
-        "Category": "STEM, finance",
+        "Category": "STEM, Finance",
         "AgeGroup": ["CLS 6, CLS 7, CLS 8, IG1, IG2, IB1, IB2"],
         "Language": "Portuguese proficiency optional",
         "Location": "Portugal\/online",
@@ -213,7 +213,7 @@
     },
     {
         "Title": "Astro Ovo",
-        "Category": "Physics, computer science",
+        "Category": "Physics, Computer science",
         "AgeGroup": ["CLS", "IG1", "IG2", "IB1", "IB2"],
         "Language": "Portuguese optional",
         "Location": "Portugal",
@@ -223,7 +223,7 @@
     },
     {
         "Title": "Astro Pi",
-        "Category": "Physics, computer science",
+        "Category": "Physics, Computer science",
         "AgeGroup": ["CLS, IG1, IG2, IB1, IB2"],
         "Language": "Portuguese optional",
         "Location": "Portugal",
@@ -233,7 +233,7 @@
     },
     {
         "Title": "CANSAT Junior",
-        "Category": "Physics, computer science",
+        "Category": "Physics, Computer science",
         "AgeGroup": ["CLS, IG1"],
         "Language": "Portuguese optional",
         "Location": "Portugal",
@@ -243,7 +243,7 @@
     },
     {
         "Title": "CANSAT Portugal",
-        "Category": "Physics, computer science",
+        "Category": "Physics, Computer science",
         "AgeGroup": ["IG2, IB1, IB2"],
         "Language": "Portuguese optional",
         "Location": "Portugal",
@@ -253,7 +253,7 @@
     },
     {
         "Title": "Climate detectives",
-        "Category": "Physics, computer science",
+        "Category": "Physics, Computer science",
         "AgeGroup": ["CLS, IG1, IG2, IB1, IB2"],
         "Language": "Portuguese optional",
         "Location": "Portugal",
@@ -263,7 +263,7 @@
     },
     {
         "Title": "Mission X",
-        "Category": "Physics, computer science",
+        "Category": "Physics, Computer science",
         "AgeGroup": ["CLS, IG1, IG2, IB1, IB2"],
         "Language": "Portuguese optional",
         "Location": "Portugal",
@@ -273,7 +273,7 @@
     },
     {
         "Title": "Moon Camp challenge",
-        "Category": "Physics, computer science",
+        "Category": "Physics, Computer science",
         "AgeGroup": ["CLS, IG1, IG2, IB1, IB2"],
         "Language": "Portuguese optional",
         "Location": "Portugal",
@@ -283,7 +283,7 @@
     },
     {
         "Title": "Breakthrough Junior challenge",
-        "Category": "Physics, computer science, mathematics, biology, chemistry",
+        "Category": "Physics, Computer science, Mathematics, Biology, Chemistry",
         "AgeGroup": ["CLS, IG1, IG2, IB1, IB2"],
         "Language": "English proficiency recommended",
         "Location": "Online",
