@@ -563,7 +563,6 @@ main.page {
   bottom: 0;
   background: rgba(0,0,0,0.5);
   justify-content: center;
-  overflow-y: auto;
   align-items: center;
   z-index: 4000;
 }
@@ -573,6 +572,8 @@ main.page {
   padding: 2rem;
   max-width: 600px;
   width: 90%;
+  max-height: 80vh;
+  overflow-y: auto;
   border-radius: 10px;
   box-shadow: 0 6px 20px rgba(0,0,0,0.2);
   position: relative;
