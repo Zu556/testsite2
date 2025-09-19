@@ -214,7 +214,7 @@
     {
         "Title": "Astro Ovo",
         "Category": "Physics, computer science",
-        "AgeGroup": ["CLS, IG1, IG2, IB1, IB2"],
+        "AgeGroup": ["CLS", "IG1", "IG2", "IB1", "IB2"],
         "Language": "Portuguese optional",
         "Location": "Portugal",
         "Description": "- Organized in Portugal to promote astronomy and space to younger students (lower secondary). - Activities usually include astronomy workshops, competitions, sky observations, and hands-on projects. - Focus: spark curiosity about physics and space.",
