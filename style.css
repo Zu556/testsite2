@@ -355,7 +355,7 @@ main.page {
   justify-content: center;  /* vertical centering */
   align-items: center;      /* horizontal centering */
   text-align: center;       /* center the text itself */
-  min-height: 60vh;         /* give it enough height for centering */
+  min-height: 50vh;         /* give it enough height for centering */
   padding: 2rem 1rem;
   gap: 2rem;                /* spacing between elements */
 }
