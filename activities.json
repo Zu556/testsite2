@@ -201,5 +201,94 @@
         "Description": "See what's beyond school with treetree2's program ---- afterschool. They have an array of programs catered towards people in middle school and highschool, where you can explore an area of your interest by spending some of your free time going through the materials sent to you in the program, and a few hours of accompanied studying. Their wide range of programs allows you to dive into different areas, from genetics to artificial intelligence and calculus. If you're unsure about the area you want to pursue, this is the program for you. ",
         "HowToApply": "Submit your application by registering an account on their website, then enrol in the course that you're interested in. Applications are open every month. If you have any doubts, contact them via email afterschool@treetree2.org. ",
         "Link1":"https://treetree2.school/cursos/"
+    },
+    {
+        "Title": "General internships",
+        "Category": "Computer science, Biology, Biomed, Veterinary sciences, Art, Volunteering, Finance, Mathematics, Chemistry, Physics, Robotics, Humanities"
+        "AgeGroup": ["IG2, IB1, IB2"]
+        "Language": "Portuguese optional"
+        "Location": "Portugal, Online, International"
+        "Description": "You can get experience with any area of interest by contacting companies/institutions for an internship. Be specific about what you want to do there, and how long you plan to stay (ie. an observational internship for 2 weeks) For instance: banks, law firms, research institutions, humanitarian associations...  "
+        "HowToApply": "In portugal, there are many insitutions/companies of interest that you can contact. Those that have educational purposes are more likely admit you.  | International Iberian Nanotechnology Laboratory | Jose de Mello Saude | Rede de Quimica e Tecnologia | Instituto Portugues do Mar e da Atmosfera | Centro de Investigacao em Biodiversidade e Recursos Geneticos | Laboratory of Instrumentation and Experimental Particle Physics | National Laboratory for Civil Engineering | Portuguese Environment Agency (APA) | UN Portugal & affiliated institutes |" 
+    },
+    {
+        "Title": "Astro Ovo"
+        "Category": "Physics, computer science"
+        "AgeGroup": ["CLS, IG1, IG2, IB1, IB2"]
+        "Language": "Portuguese optional"
+        "Location": "Portugal"
+        "Description": "- Organized in Portugal to promote astronomy and space to younger students (lower secondary). - Activities usually include astronomy workshops, competitions, sky observations, and hands-on projects. - Focus: spark curiosity about physics and space."
+        "HowToApply": "Contact your science/physics teacher to check if your school is participating. Applications are made by schools via Portugal Space or local educational networks. Students cannot apply individually."
+        "Link1": "https://www.esero.pt"
+    },
+    {
+        "Title": "Astro Pi"
+        "Category": "Physics, computer science"
+        "AgeGroup": ["CLS, IG1, IG2, IB1, IB2"]
+        "Language": "Portuguese optional"
+        "Location": "Portugal"
+        "Description": "- Run by the European Space Agency (ESA) and the Raspberry Pi Foundation. - Students can code experiments that run on real Raspberry Pi computers aboard the ISS. - Two tracks: • Mission Zero (simple coding, no selection process). • Mission Space Lab (advanced coding + project)."
+        "HowToApply": "Talk to your ICT/computer science teacher or club leader. Teachers register student teams on the Astro Pi Challenge website. You cannot apply individually; you need a supervising teacher/mentor."
+        "Link1": "https://www.esero.pt"
+    },
+    {
+        "Title": "CANSAT Junior"
+        "Category": "Physics, computer science"
+        "AgeGroup": ["CLS, IG1"]
+        "Language": "Portuguese optional"
+        "Location": "Portugal"
+        "Description": "- Educational program in Portugal introducing students to space engineering concepts. - Students build a 'CanSat' using a soda can to simulate the functions of a real satellite (sensors, parachutes, data collection). - Designed to inspire interest in STEM early on."
+        "HowToApply": "Speak with your science/technology teacher. Schools register teams through the Portuguese Space Agency (Portugal Space). Teachers handle the application process."
+        "Link1": "https://www.esero.pt"
+    },
+    {
+        "Title": "CANSAT Portugal"
+        "Category": "Physics, computer science"
+        "AgeGroup": ["IG2, IB1, IB2"]
+        "Language": "Portuguese optional"
+        "Location": "Portugal"
+        "Description": "- National competition for secondary school students. - Teams design, build, and test a mini-satellite that must fit inside a soda can and perform a mission (e.g., measure temperature, pressure, GPS tracking). - Culminates in a rocket launch and mission presentation."
+        "HowToApply": "Ask your physics or engineering teacher if your school participates. Teams must apply through the Portugal Space CanSat portal. Applications are only accepted via a teacher supervisor."
+        "Link1": "https://www.esero.pt"
+    },
+    {
+        "Title": "Climate detectives"
+        "Category": "Physics, computer science"
+        "AgeGroup": ["CLS, IG1, IG2, IB1, IB2"]
+        "Language": "Portuguese optional"
+        "Location": "Portugal"
+        "Description": "- ESA initiative where students research a real environmental/climate issue using satellite data, weather data, or measurements they collect. - Goals: understand Earth’s climate, scientific inquiry, teamwork. - Students share results internationally on ESA’s platform."
+        "HowToApply": "Tell your science/geography teacher about the program. Teachers create and register teams on the ESA Climate Detectives platform. Students cannot register individually."
+        "Link1": "https://www.esero.pt"
+    },
+    {
+        "Title": "Mission X"
+        "Category": "Physics, computer science"
+        "AgeGroup": ["CLS, IG1, IG2, IB1, IB2"]
+        "Language": "Portuguese optional"
+        "Location": "Portugal"
+        "Description": "- ESA program: “Train Like an Astronaut”. - Combines physical activities (fitness, nutrition, teamwork) with STEM challenges. - Focus on healthy lifestyle, teamwork, and astronaut training methods. - Targeted at younger students (lower secondary)."
+        "HowToApply": "Talk to your PE or science teacher. Schools/teachers must sign up classes on the Mission X website. Students cannot sign up directly."
+        "Link1": "https://www.esero.pt"
+    },
+    {
+        "Title": "Moon Camp challenge"
+        "Category": "Physics, computer science"
+        "AgeGroup": ["CLS, IG1, IG2, IB1, IB2"]
+        "Language": "Portuguese optional"
+        "Location": "Portugal"
+        "Description": "- Organized by ESA & Airbus Foundation. - Students design a moon base considering life-support, shelter, energy, and sustainability. - Levels: • Discovery (7–9, entry-level). • Explorers (intermediate, design in 3D). • Pioneers (advanced)."
+        "HowToApply": "Ask your science/technology teacher to form a team. Teachers register teams on the Moon Camp Challenge website. You’ll need a teacher supervisor to submit your project and 3D models."
+        "Link": "https://www.esero.pt"
+    },
+    {
+        "Title": "Breakthrough Junior challenge"
+        "Category": "Physics, computer science, mathematics, biology, chemistry"
+        "AgeGroup": ["CLS, IG1, IG2, IB1, IB2"]
+        "Language": "English proficiency recommended"
+        "Location": "Online"
+        "Description": "The breakthrough junior challenge is an international competition based in the US, but submissions are made every year by students all over the world. The challenge involves the creation of a short video on a science/math topic of your choice, explaining the concept creatively. Winners are eligible for monetary prizes and scholarships."
+        "HowToApply": "Register an account on the website, registrations open around May. Submission of videos have a endline at the beginning of september."
+        "Link 1": "https://breakthroughjuniorchallenge.org"
     }
 ]
