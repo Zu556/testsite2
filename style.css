@@ -356,7 +356,7 @@ main.page {
   align-items: center;      /* horizontal centering */
   text-align: center;       /* center the text itself */
   min-height: 50vh;         /* give it enough height for centering */
-  padding: 4rem 1rem 2rem;
+  padding: 2rem 1rem 2rem;
   gap: 2rem;                /* spacing between elements */
 }
 
@@ -369,6 +369,119 @@ main.page {
   margin: 0 0 1.5rem;
   font-size: 1.2rem;
   max-width: 650px;
+}
+
+/* Principles section */
+.principles {
+  padding: 0.5rem 1rem 3rem;
+  text-align: center;
+}
+.principles h2 {
+  margin-top: 0;
+  margin-bottom: 1.5rem;
+  font-size: 2rem;
+  color: #222;
+}
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+}
+.card {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.05);
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+.card:hover {
+  transform: translateY(-5px);
+}
+.card i {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #5b5be3;
+}
+
+/* Audience toggle */
+.audience {
+  margin: 4rem 0;
+  text-align: center;
+}
+.toggle-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+.toggle {
+  padding: 0.6rem 1.2rem;
+  border: 1px solid #ddd;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  background: #f9f9f9;
+  transition: 0.3s;
+}
+.toggle.active {
+  background: #222;
+  color: #fff;
+  border-color: #222;
+}
+.audience-content {
+  max-width: 700px;
+  margin: 0 auto;
+}
+.audience-box {
+  display: none;
+}
+.audience-box.active {
+  display: block;
+}
+
+/* Accordion */
+.accordion {
+  margin: 3rem 0;
+}
+.accordion-item {
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 1rem;
+}
+.accordion-header {
+  width: 100%;
+  text-align: left;
+  background: #f9f9f9;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 500;
+}
+.accordion-content {
+  display: none;
+  padding: 1rem;
+  color: #444;
+}
+.accordion-item.active .accordion-content {
+  display: block;
+}
+
+/* Closing section */
+.closing {
+  text-align: center;
+  margin: 4rem 0;
+}
+.closing blockquote {
+  font-size: 1.3rem;
+  font-style: italic;
+  margin-bottom: 1rem;
+  color: #555;
+}
+.closing p {
+  font-weight: bold;
+  color: #333;
 }
    
 /* =========================================================
@@ -644,115 +757,4 @@ main.page {
    GUIDE PAGE STYLES
 ========================================================= */
 
-/* Principles section */
-.principles {
-  padding: 1.5rem 1rem 3rem;
-  text-align: center;
-}
-.principles h2 {
-  margin-bottom: 2rem;
-  font-size: 2rem;
-  color: #222;
-}
-.cards {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 2rem;
-}
-.card {
-  background: #fff;
-  padding: 2rem;
-  border-radius: 1rem;
-  box-shadow: 0 3px 10px rgba(0,0,0,0.05);
-  text-align: center;
-  transition: transform 0.3s ease;
-}
-.card:hover {
-  transform: translateY(-5px);
-}
-.card i {
-  font-size: 2rem;
-  margin-bottom: 1rem;
-  color: #5b5be3;
-}
-
-/* Audience toggle */
-.audience {
-  margin: 4rem 0;
-  text-align: center;
-}
-.toggle-buttons {
-  display: flex;
-  justify-content: center;
-  gap: 1rem;
-  margin-bottom: 1.5rem;
-}
-.toggle {
-  padding: 0.6rem 1.2rem;
-  border: 1px solid #ddd;
-  border-radius: 0.5rem;
-  cursor: pointer;
-  background: #f9f9f9;
-  transition: 0.3s;
-}
-.toggle.active {
-  background: #222;
-  color: #fff;
-  border-color: #222;
-}
-.audience-content {
-  max-width: 700px;
-  margin: 0 auto;
-}
-.audience-box {
-  display: none;
-}
-.audience-box.active {
-  display: block;
-}
-
-/* Accordion */
-.accordion {
-  margin: 3rem 0;
-}
-.accordion-item {
-  border-bottom: 1px solid #ddd;
-  margin-bottom: 1rem;
-}
-.accordion-header {
-  width: 100%;
-  text-align: left;
-  background: #f9f9f9;
-  padding: 1rem;
-  border-radius: 0.5rem;
-  cursor: pointer;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  font-weight: 500;
-}
-.accordion-content {
-  display: none;
-  padding: 1rem;
-  color: #444;
-}
-.accordion-item.active .accordion-content {
-  display: block;
-}
-
-/* Closing section */
-.closing {
-  text-align: center;
-  margin: 4rem 0;
-}
-.closing blockquote {
-  font-size: 1.3rem;
-  font-style: italic;
-  margin-bottom: 1rem;
-  color: #555;
-}
-.closing p {
-  font-weight: bold;
-  color: #333;
-}
 
