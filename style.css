@@ -646,7 +646,7 @@ main.page {
 
 /* Principles section */
 .principles {
-  padding: 3rem 1rem;
+  padding: 1.5rem 1rem 3rem;
   text-align: center;
 }
 .principles h2 {
