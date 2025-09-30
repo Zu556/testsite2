@@ -349,6 +349,10 @@ main.page {
    GUIDE PAGE
 ========================================================= */
 
+.page .hero .btn {
+  margin-bottom: 0; 
+}
+
 .page .hero {
   display: flex;
   flex-direction: column;   /* stack h1, p, button vertically */
