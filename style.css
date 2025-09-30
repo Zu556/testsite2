@@ -350,7 +350,7 @@ main.page {
 ========================================================= */
 
 .page .hero .btn {
-  margin-bottom: 0; 
+  margin-bottom: 0 0 0; 
 }
 
 .page .hero {
