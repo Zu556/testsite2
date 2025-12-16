@@ -290,5 +290,25 @@
         "Description": "The breakthrough junior challenge is an international competition based in the US, but submissions are made every year by students all over the world. The challenge involves the creation of a short video on a science/math topic of your choice, explaining the concept creatively. Winners are eligible for monetary prizes and scholarships.",
         "HowToApply": "Register an account on the website, registrations open around May. Submission of videos have a endline at the beginning of september.",
         "Link1": "https://breakthroughjuniorchallenge.org"
+    },
+    {
+        "Title": "Hubro Championship",
+        "Category": "Finance, art",
+        "AgeGroup": ["IG1, IG2, IB1, IB2"],
+        "Language": "English proficiency recommended",
+        "Location": "Online",
+        "Description": "Hubro simulations provide educational resources on finance and marketing. This company hosts a contest called the hubro championship, in which students across the globe run virtual simulations of businesses. Participants run their own virtual manufacturing companies, using in-game data to make business decisions, including tasks within market forecasting, R&D, production, contracting, financing and budgeting. Participants compete with companies run by their peers, in the same virtual market.",
+        "HowToApply": "The company which owns hubro championships is called hubro simulations. They work in partnerships with schools and educators. You'll need to ask your business/economics teacher to join as a member, in order for you and your peers to participate in these simulations. Ideally, these would be paid by the school. Alternatively, you could submit a proposal to your teachers, for the school to adopt these simulations. Otherwise, you could start your own business club at school with a supervisor, and the club would fund the simulations.",
+        "Link1": "https://hubro.education/championship"
+    },
+    {
+        "Title": "MILL",
+        "Category": "Art, Physics",
+        "AgeGroup": ["IG1, IG2, IB1, IB2"],
+        "Language": "Portuguese Optional",
+        "Location": "Portugal",
+        "Description": "MILL stands for Makers In Little Lisbon. MILL is home to an ever-changing, diverse collective of artists, designers and technologists, and hub for a wider community of collaborators, working together to bring all kinds of projects to life. They regularly host workshops on digital art, technology, animation, and so on. MILL has the technology and the expert artists to make digital art come to life. Whether you are looking for assistance on a project, or just want to help out and learn some new skills, MILL accommodates all sorts of collaborations.",
+        "HowToApply": "If you are an art student who's interested in MILL, you should send an email to the studio. Some possible ideas for engaging with MILL: attending workshops hosted by MILL--this would be a great way to connect with the artists/experts there; ask to be an assistant intern to ongoing projects at MILL; if you have an idea in mind that involves combining technology and art, such as that involving moving mechanical parts or lights that shine in a particular rythm, you can seek the help of experts at MILL. Just email them!",
+        "Link1": "https://mill.pt"
     }
 ]
