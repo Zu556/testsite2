@@ -5,7 +5,7 @@
         "Category": "Biomed, Biology, Chemistry, Physics, Robotics, Human sciences, Finance",
         "AgeGroup": ["IG1, IG2, IB1, IB2"],
         "Language": "Portuguese optional (but recommended)",
-        "Location": "Portugal",
+        "Location": ["Portugal"],
         "Description": "- short term summer internships in university labs, mainly bio related BUT ones that involve robotics, chemistry, compsci, physics are rarer and so the first ones to run out of spots\n- There are a few internships catered towards humanities students, however, they host more students at once (ie. 10-20)\n- internships occur during the summer, official application date will be on the website around early April, browse through early on and plan ahead for highest chances of getting desired internship.\n- For non-Portuguese speakers, most labs will be able to host you, but there are a few with their descriptions written in English, those would be the most suitable for you\n- Some will provide accommodation and/or lunch for free",
         "HowToApply": "Sign into the website, choose your top 4 internships, then fill out the application forms. You’ll be admitted to one of them. A short paragraph describing your motivation to participate in that specific internship is needed.",
         "Link1": "https://www.cienciaviva.pt/ciencia-viva-no-laboratorio/2025"
@@ -15,7 +15,7 @@
         "Category": "Biomed, Biology, Biochem",
         "AgeGroup": ["IG2, IB"],
         "Language": "English proficiency recommended",
-        "Location": "Portugal",
+        "Location": ["Portugal"],
         "Description": "You can apply to be a short-term summer intern at a fantastic research institution! The Champalimaud Foundation has research groups focused on the most cutting edge research on neuroscience and cancer, in Portugal. ",
         "HowToApply": "Applications are quite competitive, though they are open year-round. You will need to apply half a year in advance. Browse through the Lab’s webpage carefully and check their requirements (ie. Grade transcripts), some may only be applied to via a form through their office of research internships. Get to know the work of the lab you are applying to, and make sure you are genuinely interested! Email the Lab’s principal investigator, or, if specified on their webpage, you can email a postgraduate/graduate researcher. "
     },
@@ -24,7 +24,7 @@
         "Category": "Biology, Earth sciences, environmental science, Health sciences, Social Economic sciences, Engineering, Technology, Physics, Mathematics, Chemistry",
         "AgeGroup": ["IG1, IG2, IB1"],
         "Language": "Portuguese optional",
-        "Location": "Portugal",
+        "Location": ["Portugal"],
         "Description": "Challenge your overall skillset as a young scientist by creating your own project! Participate in a project in an area of your choice by writing up a scientific report for submission. You may wish to get sponsored from outside institutions(ie. University laboratories) for better access to resources. ",
         "HowToApply":" Since submissions end in late April, you should start planning in September to reduce stress and ensure everything runs smoothly. IB1s should participate with very careful planning as it will increase your workload.",
         "Link1": "https://www.cienciaviva.pt/concurso/jovenscientistas/2025"
@@ -34,7 +34,7 @@
         "Category": "Biomed",
         "AgeGroup": ["IG1, IG2, IB1"],
         "Language": "Portuguese recommended",
-        "Location": "Portugal",
+        "Location": ["Portugal"],
         "Description": "Get insight into what it’s like to work at a hospital, in order to see if you’re interested in this area. Shadowing a doctor can be a valuable way for you to experience the realities of the medical profession. Hospital de Luz is known for having accepted high school interns in the past. ",
         "HowToApply": "Contact your local Luz Hospital or any hospital through email/phone and ask to intern in administration, with shadowing doctors as part of your internship. (don’t call the emergency line for patients; look through their official website). "
     },
@@ -43,7 +43,7 @@
         "Category": "Volunteering, Biology, Veterinary sciences",
         "AgeGroup": ["CLS 6, CLS 7, CLS 8, IG1, IG2, IB1, IB2"],
         "Language": "Portuguese optional",
-        "Location": "Portugal",
+        "Location": ["Portugal"],
         "Description": "Some vet university courses require a certain number of work experience hours. Contact your local animal shelter to see if volunteering positions are available. You\u2019ll gain real life experience on what its like to take care of animals. There's a possibility of bringing lice/fleas or animal-transmitted diseases back to your home, please ensure you are fully sanitised after working.",
         "HowToApply": "Best to plan around 3 months in advance. See the animal shelter’s webpage, some you can contact directly through email, others may require you to go through a training phase. "
     },
@@ -52,7 +52,7 @@
         "Category": "Biology, Veterinary sciences",
         "AgeGroup": ["IG1, IG2, IB1"],
         "Language": "Portuguese recommended",
-        "Location": "Portugal",
+        "Location": ["Portugal"],
         "Description": "Some vet university courses require a certain number of work experience hours. Contact your local veterinary hospital to see if internship positions are available. This is a great way to find out if being a veterinarian would be a good career path for you.",
         "HowToApply": "Best to plan around 4 months in advance, email several veterinary hospitals near you."
     },
@@ -61,7 +61,7 @@
         "Category": "Volunteering",
         "AgeGroup": ["IB1"],
         "Language": "English proficiency recommended",
-        "Location": "International",
+        "Location": ["International"],
         "Description": "These are called workcamps, but are actually volunteering programs that last from 1-3 weeks. Pick a program from their official website, then apply according to the specifics on another website that is local to the Portuguese branch.",
         "HowToApply": "Apply following open positions and start date. Plan 6 months in advance as you might need to apply for a visa, then fly to another country.",
         "Link1": "https://www.workcamps.sci.ngo",
@@ -72,7 +72,7 @@
         "Category": "Volunteering",
         "AgeGroup": ["CLS 6, CLS 7, CLS 8, IG1, IG2, IB1, IB2"],
         "Language": "Portuguese recommended",
-        "Location": "Portugal",
+        "Location": ["Portugal"],
         "Description": "Apart from being a great person, universities like to see character from their applicants. Volunteering shows that you care about your community, or that you\u2019re passionate about a specific cause.",
         "HowToApply": "Check for programs near you or international programs. Application varies, but it’s recommended that you plan this in advance. ",
         "Link1": "https://www.portugalvoluntario.pt/cs2i/homepage?dswid=4405", 
@@ -84,7 +84,7 @@
         "Category": "Volunteering",
         "AgeGroup": ["IG2, IB1"],
         "Language": "English proficiency",
-        "Location": "International",
+        "Location": ["International"],
         "Description": "Paid volunteering ranges from animal shelters, teaching English, to child care and construction projects. There are many possibilities; plan ahead and choose what you think is within your capabilities. Paid volunteering ensures a safer, more structured experience, especially for high schoolers under 18 or those who are travelling solo for the first time. Most paid volunteering also ensures that food and accommodation, pickups from airports are taken care of. These can be expensive, and you need to be careful in finding a trustworthy volunteering project. Some may feel like a travel/tour agency, but it’s advisable for first-time volunteers not to pick the most labour/planning-intensive projects that could potentially overwhelm you. ",
         "HowToApply": "You may need to plan half a year or at least 4 months in advance if deciding to volunteer in countries where visas and vaccinations are required.",
         "Link1": "Recommended companies(there are many out there): VidaEdu, Volunteer HQ"
@@ -94,7 +94,7 @@
         "Category": "Chemistry",
         "AgeGroup": ["CLS 6, CLS 7, CLS 8, IG1, IG2, IB1, IB2"],
         "Language": "Portuguese recommended",
-        "Location": "Portugal",
+        "Location": ["Portugal"],
         "Description": "A chemistry competition that involves making a video about a chemical process of your choosing. You can watch winning videos from past years to get a sense of what they’re looking for. Details and regulations can be found on the official website. Students should participate in groups of 3-5, supervised by a professor. ",
         "HowToApply": "Submit your video around January – beginning of April",
         "Link1": "https://jovens.spq.pt/chemrus2025"
@@ -104,7 +104,7 @@
         "Category": "Mathematics",
         "AgeGroup": ["CLS 6, CLS 7, CLS 8, IG1, IG2, IB1, IB2"],
         "Language": "Portuguese recommended",
-        "Location": "Portugal",
+        "Location": ["Portugal"],
         "Description": "Challenge your mathematical skills and make yourself stand out! Contact your math teacher to see if the school has plans to enrol students in these competitions; otherwise, you may need to sign up as an individual contestant. Some may be in Portuguese; non-PT speakers won't be able to participate. If you decide to participate, you may need to brush up on math terminology in Portuguese.",
         "HowToApply": "See application details on official websites.",
         "Link1": "https://olimpiadas.spm.pt",
@@ -141,7 +141,7 @@
         "Category": "Computer science",
         "AgeGroup": ["IG1, IG2, IB1"],
         "Language": "Portuguese optional",
-        "Location": "Portugal, Online",
+        "Location": ]"Portugal, Online"],
         "Description": "If you're interested in pursuing a career in engineering, software development, or even cybersecurity, hackathons are a fantastic for challenge your coding skills! You can meet like-minded people at hackathons, in addition to significantly developing your knowledge in computer science. ",
         "HowToApply": "Applications may vary for each event; be sure to check if they're individual or team events. Plan around 3-4 months to reduce stress and ensure proper preparation. "
     },
@@ -150,7 +150,7 @@
         "Category": "All",
         "AgeGroup": ["CLS 6, CLS 7, CLS 8, IG1, IG2, IB1, IB2"],
         "Language": "English proficiency recommended",
-        "Location": "Online",
+        "Location": ["Online"],
         "Description": "Not sure if you're interested in a particular area? Start a free online course to see if it's right for you! There is a wide range of completely free courses online, published by accredited universities, free for you to explore. "
     },
     {
@@ -158,7 +158,7 @@
         "Category": "Art",
         "AgeGroup": ["CLS 6, CLS 7, CLS 8, IG1, IG2, IB1, IB2"],
         "Language": "English proficiency recommended",
-        "Location": "Online",
+        "Location": ["Online"],
         "Description": "Submit a creation of your own inspired by prompts provided by the contest, ranging from digital art, paintings, to poetry. Focusing on reflections about the climate issues our planet currently faces, this is an opportunity to alert the world on the urgency of these severe issues. Showcase your artistic skills while being an environmentally conscious global citizen!" ,
         "HowToApply": "Register an account on the website, ensuring that you have an adult supervisor (parent, guardian, art teacher, etc.) You are allowed to submit one piece in one category of your choosing, and make sure to take pictures of your creative process to evidence the authenticity of your piece. Submissions end in early June, you should plan at least 2 months in advance.",
         "Link1": "https:\/\/bowseat.org\/programs\/ocean-awareness-contest\/contest-overview\/"
@@ -168,7 +168,7 @@
         "Category": "Philosophy, Theology, History, Politics, Law, Economics",
         "AgeGroup": ["IG1, IG2, IB1, IB2"],
         "Language": "English proficiency recommended",
-        "Location": "Online",
+        "Location": ["Online"],
         "Description": "The John Locke Institute Essay Competition encourages students to develop independent thinking, critical analysis, and persuasive writing by tackling thought-provoking questions beyond the school curriculum. Essays are judged by senior academics from top universities like Oxford and Princeton, with prizes awarded across seven subject categories and a Grand Prize for the overall best entry. A separate prize is also given for the best essay in the under-15 junior category.",
         "HowToApply": "Choose a prompt from the 7 areas provided by their website, then write a 2000-word essay complete with citations and authorship declarations. Registrations can be made on the website via creating your own account; these open early april and end in late may. The actual submission deadline is in late June; however, you should submit as early as possible to avoid last-minute panicking and to maximise exposure to your work. You may wish to ask a teacher to mentor you, as they look for pieces that are very comprehensive and polished. Competition is fierce! Plan 3 months in advance.  Be sure to also check their formatting requirements! ",
         "Link1":"https://www.johnlockeinstitute.com/essay-competition"
@@ -178,7 +178,7 @@
         "Category": "Volunteering",
         "AgeGroup": ["IG2, IB1, IB2"],
         "Language": "Portuguese proficiency recommended",
-        "Location": "Portugal",
+        "Location": ["Portugal"],
         "Description": "ABLA, also known as the Associação de Beneficência Luso-Alemã, was founded in the 1980s by a group of Germans moved by the plight of refugees from former Portuguese colonies. As a non-profit and development NGO, ABLA supports people of all ages locally and internationally, aiming to foster individual potential and build a fairer society. Its work focuses on combating social exclusion, domestic violence, school dropout, and elderly isolation, supported by donations, partnerships, and community initiatives. You can contribute to their mission by being a volunteer in the free daycare centre, where small children from economically underprivileged families are being looked after, or you could provide a helping hand in supporting senior citizens (aged 65+). ",
         "HowToApply": "Contact the association via email to ask if they have any volunteer positions open. You should do so around 3 months in advance, to ensure that you'd have a spot there. ",
         "Link1": "https://www.abla.org/o-que-fazemos.html"
@@ -188,7 +188,7 @@
         "Category": "Volunteering",
         "AgeGroup": ["IG2, IB1, IB2"],
         "Language": "Portuguese proficiency recommended",
-        "Location": "Portugal",
+        "Location": ["Portugal"],
         "Description": "You can support Cercica's mission in helping people with special needs by becoming a volunteer, who will contribute by: Accompanying young people and adults with special needs in activities during the week and in their free time;\nSupport and companionship for elderly people in their homes;\nSupport in educational gardens, greenhouses, and plant nurseries;\nFundraising and other one-off events (food collection, Pirilampo M\u00e1gico, etc.);\nProvision of specialized services (marketing and communication, IT, multimedia, accounting, logistics, etc.).",
         "HowToApply":"Contact the association via email to ask if they have any volunteer positions open. You should do so around 3 months in advance, to ensure that you'd have a spot there."
     },
@@ -216,7 +216,7 @@
         "Category": "Physics, Computer science",
         "AgeGroup": ["CLS", "IG1", "IG2", "IB1", "IB2"],
         "Language": "Portuguese optional",
-        "Location": "Portugal",
+        "Location": ["Portugal"],
         "Description": "- Organized in Portugal to promote astronomy and space to younger students (lower secondary). - Activities usually include astronomy workshops, competitions, sky observations, and hands-on projects. - Focus: spark curiosity about physics and space.",
         "HowToApply": "Contact your science/physics teacher to check if your school is participating. Applications are made by schools via Portugal Space or local educational networks. Students cannot apply individually.",
         "Link1": "https://www.esero.pt"
@@ -226,7 +226,7 @@
         "Category": "Physics, Computer science",
         "AgeGroup": ["CLS, IG1, IG2, IB1, IB2"],
         "Language": "Portuguese optional",
-        "Location": "Portugal",
+        "Location": ["Portugal"],
         "Description": "- Run by the European Space Agency (ESA) and the Raspberry Pi Foundation. - Students can code experiments that run on real Raspberry Pi computers aboard the ISS. - Two tracks: • Mission Zero (simple coding, no selection process). • Mission Space Lab (advanced coding + project).",
         "HowToApply": "Talk to your ICT/computer science teacher or club leader. Teachers register student teams on the Astro Pi Challenge website. You cannot apply individually; you need a supervising teacher/mentor.",
         "Link1": "https://www.esero.pt"
@@ -236,7 +236,7 @@
         "Category": "Physics, Computer science",
         "AgeGroup": ["CLS, IG1"],
         "Language": "Portuguese optional",
-        "Location": "Portugal",
+        "Location": ["Portugal"],
         "Description": "- Educational program in Portugal introducing students to space engineering concepts. - Students build a 'CanSat' using a soda can to simulate the functions of a real satellite (sensors, parachutes, data collection). - Designed to inspire interest in STEM early on.",
         "HowToApply": "Speak with your science/technology teacher. Schools register teams through the Portuguese Space Agency (Portugal Space). Teachers handle the application process.",
         "Link1": "https://www.esero.pt"
@@ -246,7 +246,7 @@
         "Category": "Physics, Computer science",
         "AgeGroup": ["IG2, IB1, IB2"],
         "Language": "Portuguese optional",
-        "Location": "Portugal",
+        "Location": ["Portugal"],
         "Description": "- National competition for secondary school students. - Teams design, build, and test a mini-satellite that must fit inside a soda can and perform a mission (e.g., measure temperature, pressure, GPS tracking). - Culminates in a rocket launch and mission presentation.",
         "HowToApply": "Ask your physics or engineering teacher if your school participates. Teams must apply through the Portugal Space CanSat portal. Applications are only accepted via a teacher supervisor.",
         "Link1": "https://www.esero.pt"
@@ -256,7 +256,7 @@
         "Category": "Physics, Computer science",
         "AgeGroup": ["CLS, IG1, IG2, IB1, IB2"],
         "Language": "Portuguese optional",
-        "Location": "Portugal",
+        "Location": ["Portugal"],
         "Description": "- ESA initiative where students research a real environmental/climate issue using satellite data, weather data, or measurements they collect. - Goals: understand Earth’s climate, scientific inquiry, teamwork. - Students share results internationally on ESA’s platform.",
         "HowToApply": "Tell your science/geography teacher about the program. Teachers create and register teams on the ESA Climate Detectives platform. Students cannot register individually.",
         "Link1": "https://www.esero.pt"
@@ -266,7 +266,7 @@
         "Category": "Physics, Computer science",
         "AgeGroup": ["CLS, IG1, IG2, IB1, IB2"],
         "Language": "Portuguese optional",
-        "Location": "Portugal",
+        "Location": ["Portugal"],
         "Description": "- ESA program: “Train Like an Astronaut”. - Combines physical activities (fitness, nutrition, teamwork) with STEM challenges. - Focus on healthy lifestyle, teamwork, and astronaut training methods. - Targeted at younger students (lower secondary).",
         "HowToApply": "Talk to your PE or science teacher. Schools/teachers must sign up classes on the Mission X website. Students cannot sign up directly.",
         "Link1": "https://www.esero.pt"
@@ -276,7 +276,7 @@
         "Category": "Physics, Computer science",
         "AgeGroup": ["CLS, IG1, IG2, IB1, IB2"],
         "Language": "Portuguese optional",
-        "Location": "Portugal",
+        "Location": ["Portugal"],
         "Description": "- Organized by ESA & Airbus Foundation. - Students design a moon base considering life-support, shelter, energy, and sustainability. - Levels: • Discovery (7–9, entry-level). • Explorers (intermediate, design in 3D). • Pioneers (advanced).",
         "HowToApply": "Ask your science/technology teacher to form a team. Teachers register teams on the Moon Camp Challenge website. You’ll need a teacher supervisor to submit your project and 3D models.",
         "Link1": "https://www.esero.pt"
@@ -286,7 +286,7 @@
         "Category": "Physics, Computer science, Mathematics, Biology, Chemistry",
         "AgeGroup": ["CLS, IG1, IG2, IB1, IB2"],
         "Language": "English proficiency recommended",
-        "Location": "Online",
+        "Location": ["Online"],
         "Description": "The breakthrough junior challenge is an international competition based in the US, but submissions are made every year by students all over the world. The challenge involves the creation of a short video on a science/math topic of your choice, explaining the concept creatively. Winners are eligible for monetary prizes and scholarships.",
         "HowToApply": "Register an account on the website, registrations open around May. Submission of videos have a endline at the beginning of september.",
         "Link1": "https://breakthroughjuniorchallenge.org"
@@ -296,7 +296,7 @@
         "Category": "Finance, art",
         "AgeGroup": ["IG1, IG2, IB1, IB2"],
         "Language": "English proficiency recommended",
-        "Location": "Online",
+        "Location": ["Online"],
         "Description": "Hubro simulations provide educational resources on finance and marketing. This company hosts a contest called the hubro championship, in which students across the globe run virtual simulations of businesses. Participants run their own virtual manufacturing companies, using in-game data to make business decisions, including tasks within market forecasting, R&D, production, contracting, financing and budgeting. Participants compete with companies run by their peers, in the same virtual market.",
         "HowToApply": "The company which owns hubro championships is called hubro simulations. They work in partnerships with schools and educators. You'll need to ask your business/economics teacher to join as a member, in order for you and your peers to participate in these simulations. Ideally, these would be paid by the school. Alternatively, you could submit a proposal to your teachers, for the school to adopt these simulations. Otherwise, you could start your own business club at school with a supervisor, and the club would fund the simulations.",
         "Link1": "https://hubro.education/championship"
@@ -306,7 +306,7 @@
         "Category": "Art, Physics",
         "AgeGroup": ["IG1, IG2, IB1, IB2"],
         "Language": "Portuguese Optional",
-        "Location": "Portugal",
+        "Location": ["Portugal"],
         "Description": "MILL stands for Makers In Little Lisbon. MILL is home to an ever-changing, diverse collective of artists, designers and technologists, and hub for a wider community of collaborators, working together to bring all kinds of projects to life. They regularly host workshops on digital art, technology, animation, and so on. MILL has the technology and the expert artists to make digital art come to life. Whether you are looking for assistance on a project, or just want to help out and learn some new skills, MILL accommodates all sorts of collaborations.",
         "HowToApply": "If you are an art student who's interested in MILL, you should send an email to the studio. Some possible ideas for engaging with MILL: attending workshops hosted by MILL--this would be a great way to connect with the artists/experts there; ask to be an assistant intern to ongoing projects at MILL; if you have an idea in mind that involves combining technology and art, such as that involving moving mechanical parts or lights that shine in a particular rythm, you can seek the help of experts at MILL. Just email them!",
         "Link1": "https://mill.pt"
