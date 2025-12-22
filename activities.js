@@ -48,8 +48,8 @@ function populateFilters(data) {
   // Prepend "All" to every filter
   const categories = ["All", ...uniqueFromCommaSeparated(data.map(i => i.Category))];
   const ageGroups  = ["All", ...uniqueFromCommaSeparated(data.map(i => i.AgeGroup))];
-  const locations  = ["All", ...uniqueSorted(data.map(i => i.Location))];
-  const languages  = ["All", ...uniqueSorted(data.map(i => i.Language))];
+  const locations  = ["All", ...uniqueFromCommaSeparated(data.map(i => i.Location))];
+  const languages  = ["All", ...uniqueFromCommaSeparated(data.map(i => i.Language))];
 
   createOptions(document.getElementById("categoryFilter"), categories);
   createOptions(document.getElementById("ageGroupFilter"),  ageGroups);
