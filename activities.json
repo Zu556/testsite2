@@ -5,7 +5,7 @@
         "Category": "Biomed, Biology, Chemistry, Physics, Robotics, Human sciences, Finance",
         "AgeGroup": ["IG1, IG2, IB1, IB2"],
         "Language": "Portuguese optional (but recommended)",
-        "Location": ["Portugal"],
+        "Location": "Portugal",
         "Description": "- short term summer internships in university labs, mainly bio related BUT ones that involve robotics, chemistry, compsci, physics are rarer and so the first ones to run out of spots\n- There are a few internships catered towards humanities students, however, they host more students at once (ie. 10-20)\n- internships occur during the summer, official application date will be on the website around early April, browse through early on and plan ahead for highest chances of getting desired internship.\n- For non-Portuguese speakers, most labs will be able to host you, but there are a few with their descriptions written in English, those would be the most suitable for you\n- Some will provide accommodation and/or lunch for free",
         "HowToApply": "Sign into the website, choose your top 4 internships, then fill out the application forms. You’ll be admitted to one of them. A short paragraph describing your motivation to participate in that specific internship is needed.",
         "Link1": "https://www.cienciaviva.pt/ciencia-viva-no-laboratorio/2025"
@@ -15,7 +15,7 @@
         "Category": "Biomed, Biology, Biochem",
         "AgeGroup": ["IG2, IB"],
         "Language": "English proficiency recommended",
-        "Location": ["Portugal"],
+        "Location": "Portugal",
         "Description": "You can apply to be a short-term summer intern at a fantastic research institution! The Champalimaud Foundation has research groups focused on the most cutting edge research on neuroscience and cancer, in Portugal. ",
         "HowToApply": "Applications are quite competitive, though they are open year-round. You will need to apply half a year in advance. Browse through the Lab’s webpage carefully and check their requirements (ie. Grade transcripts), some may only be applied to via a form through their office of research internships. Get to know the work of the lab you are applying to, and make sure you are genuinely interested! Email the Lab’s principal investigator, or, if specified on their webpage, you can email a postgraduate/graduate researcher. "
     },
@@ -24,7 +24,7 @@
         "Category": "Biology, Earth sciences, environmental science, Health sciences, Social Economic sciences, Engineering, Technology, Physics, Mathematics, Chemistry",
         "AgeGroup": ["IG1, IG2, IB1"],
         "Language": "Portuguese optional",
-        "Location": ["Portugal"],
+        "Location": "Portugal",
         "Description": "Challenge your overall skillset as a young scientist by creating your own project! Participate in a project in an area of your choice by writing up a scientific report for submission. You may wish to get sponsored from outside institutions(ie. University laboratories) for better access to resources. ",
         "HowToApply":" Since submissions end in late April, you should start planning in September to reduce stress and ensure everything runs smoothly. IB1s should participate with very careful planning as it will increase your workload.",
         "Link1": "https://www.cienciaviva.pt/concurso/jovenscientistas/2025"
@@ -34,7 +34,7 @@
         "Category": "Biomed",
         "AgeGroup": ["IG1, IG2, IB1"],
         "Language": "Portuguese recommended",
-        "Location": ["Portugal"],
+        "Location": "Portugal",
         "Description": "Get insight into what it’s like to work at a hospital, in order to see if you’re interested in this area. Shadowing a doctor can be a valuable way for you to experience the realities of the medical profession. Hospital de Luz is known for having accepted high school interns in the past. ",
         "HowToApply": "Contact your local Luz Hospital or any hospital through email/phone and ask to intern in administration, with shadowing doctors as part of your internship. (don’t call the emergency line for patients; look through their official website). "
     },
@@ -43,7 +43,7 @@
         "Category": "Volunteering, Biology, Veterinary sciences",
         "AgeGroup": ["CLS 6, CLS 7, CLS 8, IG1, IG2, IB1, IB2"],
         "Language": "Portuguese optional",
-        "Location": ["Portugal"],
+        "Location": "Portugal",
         "Description": "Some vet university courses require a certain number of work experience hours. Contact your local animal shelter to see if volunteering positions are available. You\u2019ll gain real life experience on what its like to take care of animals. There's a possibility of bringing lice/fleas or animal-transmitted diseases back to your home, please ensure you are fully sanitised after working.",
         "HowToApply": "Best to plan around 3 months in advance. See the animal shelter’s webpage, some you can contact directly through email, others may require you to go through a training phase. "
     },
@@ -52,7 +52,7 @@
         "Category": "Biology, Veterinary sciences",
         "AgeGroup": ["IG1, IG2, IB1"],
         "Language": "Portuguese recommended",
-        "Location": ["Portugal"],
+        "Location": "Portugal",
         "Description": "Some vet university courses require a certain number of work experience hours. Contact your local veterinary hospital to see if internship positions are available. This is a great way to find out if being a veterinarian would be a good career path for you.",
         "HowToApply": "Best to plan around 4 months in advance, email several veterinary hospitals near you."
     },
@@ -61,7 +61,7 @@
         "Category": "Volunteering",
         "AgeGroup": ["IB1"],
         "Language": "English proficiency recommended",
-        "Location": ["International"],
+        "Location": "International",
         "Description": "These are called workcamps, but are actually volunteering programs that last from 1-3 weeks. Pick a program from their official website, then apply according to the specifics on another website that is local to the Portuguese branch.",
         "HowToApply": "Apply following open positions and start date. Plan 6 months in advance as you might need to apply for a visa, then fly to another country.",
         "Link1": "https://www.workcamps.sci.ngo",
@@ -72,7 +72,7 @@
         "Category": "Volunteering",
         "AgeGroup": ["CLS 6, CLS 7, CLS 8, IG1, IG2, IB1, IB2"],
         "Language": "Portuguese recommended",
-        "Location": ["Portugal"],
+        "Location": "Portugal",
         "Description": "Apart from being a great person, universities like to see character from their applicants. Volunteering shows that you care about your community, or that you\u2019re passionate about a specific cause.",
         "HowToApply": "Check for programs near you or international programs. Application varies, but it’s recommended that you plan this in advance. ",
         "Link1": "https://www.portugalvoluntario.pt/cs2i/homepage?dswid=4405", 
@@ -84,7 +84,7 @@
         "Category": "Volunteering",
         "AgeGroup": ["IG2, IB1"],
         "Language": "English proficiency",
-        "Location": ["International"],
+        "Location": "International",
         "Description": "Paid volunteering ranges from animal shelters, teaching English, to child care and construction projects. There are many possibilities; plan ahead and choose what you think is within your capabilities. Paid volunteering ensures a safer, more structured experience, especially for high schoolers under 18 or those who are travelling solo for the first time. Most paid volunteering also ensures that food and accommodation, pickups from airports are taken care of. These can be expensive, and you need to be careful in finding a trustworthy volunteering project. Some may feel like a travel/tour agency, but it’s advisable for first-time volunteers not to pick the most labour/planning-intensive projects that could potentially overwhelm you. ",
         "HowToApply": "You may need to plan half a year or at least 4 months in advance if deciding to volunteer in countries where visas and vaccinations are required.",
         "Link1": "Recommended companies(there are many out there): VidaEdu, Volunteer HQ"
@@ -94,7 +94,7 @@
         "Category": "Chemistry",
         "AgeGroup": ["CLS 6, CLS 7, CLS 8, IG1, IG2, IB1, IB2"],
         "Language": "Portuguese recommended",
-        "Location": ["Portugal"],
+        "Location": "Portugal",
         "Description": "A chemistry competition that involves making a video about a chemical process of your choosing. You can watch winning videos from past years to get a sense of what they’re looking for. Details and regulations can be found on the official website. Students should participate in groups of 3-5, supervised by a professor. ",
         "HowToApply": "Submit your video around January – beginning of April",
         "Link1": "https://jovens.spq.pt/chemrus2025"
@@ -104,7 +104,7 @@
         "Category": "Mathematics",
         "AgeGroup": ["CLS 6, CLS 7, CLS 8, IG1, IG2, IB1, IB2"],
         "Language": "Portuguese recommended",
-        "Location": ["Portugal"],
+        "Location": "Portugal",
         "Description": "Challenge your mathematical skills and make yourself stand out! Contact your math teacher to see if the school has plans to enrol students in these competitions; otherwise, you may need to sign up as an individual contestant. Some may be in Portuguese; non-PT speakers won't be able to participate. If you decide to participate, you may need to brush up on math terminology in Portuguese.",
         "HowToApply": "See application details on official websites.",
         "Link1": "https://olimpiadas.spm.pt",
@@ -141,7 +141,7 @@
         "Category": "Computer science",
         "AgeGroup": ["IG1, IG2, IB1"],
         "Language": "Portuguese optional",
-        "Location": ]"Portugal, Online"],
+        "Location": ["Portugal, Online"],
         "Description": "If you're interested in pursuing a career in engineering, software development, or even cybersecurity, hackathons are a fantastic for challenge your coding skills! You can meet like-minded people at hackathons, in addition to significantly developing your knowledge in computer science. ",
         "HowToApply": "Applications may vary for each event; be sure to check if they're individual or team events. Plan around 3-4 months to reduce stress and ensure proper preparation. "
     },
