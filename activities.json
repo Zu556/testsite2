@@ -147,7 +147,7 @@
     },
     {
         "Title": "Free online courses",
-        "Category": "All",
+        "Category": "Biomed, Biology, Chemistry, Physics, Robotics, Human sciences, Finance, Computer science,  Veterinary sciences, Human sciences, Mathematics, arth sciences, environmental science, Health sciences, Social Economic sciences, Engineering, Technology, Mathematics, Chemistry",
         "AgeGroup": ["CLS 6, CLS 7, CLS 8, IG1, IG2, IB1, IB2"],
         "Language": "English proficiency recommended",
         "Location": ["Online"],
@@ -293,7 +293,7 @@
     },
     {
         "Title": "Hubro Championship",
-        "Category": "Finance, art",
+        "Category": "Finance, Art",
         "AgeGroup": ["IG1, IG2, IB1, IB2"],
         "Language": "English proficiency recommended",
         "Location": ["Online"],
