@@ -538,29 +538,31 @@ main.page {
 }
 
 /* ==============================
-   Choices.js – prevent option wrapping
+   Choices.js – dropdown fixes
 ============================== */
 
-.choices {
+/* Ensure Choices fills the sidebar */
+.filters-wrapper .choices {
   width: 100%;
 }
 
-.choices__list--dropdown {
-  width: 100%;
-  max-width: 100%;
+/* Dropdown matches filter width */
+.filters-wrapper .choices__list--dropdown {
+  width: 100% !important;
+  max-width: 100% !important;
+  box-sizing: border-box;
 }
 
-.choices__list--dropdown .choices__item {
+/* Option text uses full row */
+.filters-wrapper .choices__list--dropdown .choices__item {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+  padding-right: 8px !important;
 }
 
-/* ==============================
-   Choices.js – remove "Press to select"
-============================== */
-
-.choices__list--dropdown .choices__item::after {
+/* Remove "Press to select" helper */
+.filters-wrapper .choices__list--dropdown .choices__item::after {
   display: none !important;
 }
 
