@@ -556,6 +556,14 @@ main.page {
   text-overflow: ellipsis;
 }
 
+/* ==============================
+   Choices.js – remove "Press to select"
+============================== */
+
+.choices__list--dropdown .choices__item::after {
+  display: none !important;
+}
+
 /* Clear button */
 #clearFilters {
   padding: 0.7rem 1.2rem;
