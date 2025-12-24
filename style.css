@@ -537,6 +537,25 @@ main.page {
   box-sizing: border-box;
 }
 
+/* ==============================
+   Choices.js – prevent option wrapping
+============================== */
+
+.choices {
+  width: 100%;
+}
+
+.choices__list--dropdown {
+  width: 100%;
+  max-width: 100%;
+}
+
+.choices__list--dropdown .choices__item {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
 /* Clear button */
 #clearFilters {
   padding: 0.7rem 1.2rem;
