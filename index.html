@@ -6,6 +6,16 @@
   <title>Carpe diem • Home</title>
   <link rel="stylesheet" href="style.css" />
 </head>
+  <div id="contact-placeholder"></div>
+
+<script>
+fetch("contact.html")
+  .then(res => res.text())
+  .then(html => {
+    document.getElementById("contact-placeholder").innerHTML = html;
+  });
+</script>
+
 <body>
   <!-- Navbar -->
   <nav class="navbar">
@@ -78,6 +88,7 @@
   </script>
 </body>
 </html>
+
 
 
 
