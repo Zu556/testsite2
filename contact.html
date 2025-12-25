@@ -1,0 +1,16 @@
+<!-- Contact Us Icon and Modal -->
+<div class="contact-icon" onclick="openContact()">✉️</div>
+
+<div id="contactModal">
+  <div class="modal-content">
+    <h2>Contact Us</h2>
+    <form action="mailto:youremail@example.com" method="post" enctype="text/plain">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+
+      <button type="submit">Send Message</button>
+      <button type="button" onclick="closeContact()">Close</button>
+    </form>
+  </div>
+</div>
