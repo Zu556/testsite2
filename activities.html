@@ -8,6 +8,16 @@
   <!-- Choices.js CSS -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/choices.js/public/assets/styles/choices.min.css" />
 </head>
+  <div id="contact-placeholder"></div>
+
+<script>
+fetch("contact.html")
+  .then(res => res.text())
+  .then(html => {
+    document.getElementById("contact-placeholder").innerHTML = html;
+  });
+</script>
+
 <body>
   <!-- Navbar -->
   <nav class="navbar">
@@ -76,21 +86,6 @@
           <p id="modalLanguage"></p>
           <p id="modalHowToApply"></p>
           <div id="modalLinks"></div>
-        </div>
-      </div>
-
-      <!-- Contact Us Icon and Modal -->
-      <div class="contact-icon" onclick="document.getElementById('contactModal').style.display='flex'">✉️</div>
-      <div id="contactModal">
-        <div class="modal-content">
-          <h2>Contact Us</h2>
-          <form action="mailto:youremail@example.com" method="post" enctype="text/plain">
-            <input type="text" name="name" placeholder="Your Name" required>
-            <input type="email" name="email" placeholder="Your Email" required>
-            <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
-            <button type="submit">Send Message</button>
-            <button type="button" onclick="document.getElementById('contactModal').style.display='none'">Close</button>
-          </form>
         </div>
       </div>
 
