@@ -348,7 +348,8 @@
         "AgeGroup": ["CLS, IG1, IG2, IB1, IB2"],
         "Language": "Portuguese proficiency recommended",
         "Location": ["Portugal"],
-        "Description": "",
+        "Description": [ "1st week -- [Grade 11 & 12] ; 2nd week--Grade 8, 9, 10. Summer at ULisboa provides young people with the opportunity to experience academic life.",
+"For a week, each School of the University of Lisbon (ULisboa) offers a complete plan of activities (experiments, games, visits and workshops) to show the basic knowledge, practical tasks and working methods of the courses taught at ULisboa. Various faculties are involved in the program, see detailed information on their website for the faculty you're interested in. Eg. Art, Sciences, Social Sciences, Law, etc."],
         "HowToApply": "Applications open on the Verão na ULisboa website, around the beginning of May. You'll need a motivation letter, a CV, and other materials such as transcripts as per the requirements of each faculty. There is a participation fee of 250 euros. See the third link for all the faculties in ULisboa.",
         "Link1": "https://www.ulisboa.pt/verao-na-ulisboa",
         "Link2": "https://ciencias.ulisboa.pt/pt/verao-na-ulisboa"
@@ -367,20 +368,18 @@
     },
     {
         "Title": "Marine biology -- Educational programs",
-        "Category": "",
+        "Category": "Biology, Volunteering, Humanities, Finance",
         "AgeGroup": ["CLS, IG1, IG2, IB1, IB2"],
         "Language": "Portuguese proficiency optional",
         "Location": ["portugal"],
-        "Description": [
-        "MARE promotes the interaction of its researchers with the non-academic community through dedicated science communication and environmental education programs.",
+        "Description": [ "MARE promotes the interaction of its researchers with the non-academic community through dedicated science communication and environmental education programs.",
         "MARE goes to school: Scientists of Portuguese universities educate students on marine biology (hands-on activities, interactive games, lab activities, mystery boxes, field trips).",
         "Kids Dive: Dynamic program including guided aquarium tours, workshops, field trips with researchers, biodiversity workshops, and summit Kids Dive.",
         "Semanas Polares (Polar Weeks): Workshops on the studies of polar regions hosted by scientists and professors.",
         "SERMARE: Team of researchers from the University of Coimbra dedicated to promoting ocean literacy through collaborations with schools and teachers.",
         "bLueTIDE: Initiative focused on biodiversity conservation in rocky intertidal areas.",
         "MARE STARTUP: Collaboration between Universidade de Lisboa and Católica focused on innovative entrepreneurship and start-up incubators based on marine science and technology.",
-        "MarSemLixo: Volunteer project collecting waste from fishing activities and providing infrastructure to process it, involving fishermen and public and private entities."
-  ],
+        "MarSemLixo: Volunteer project collecting waste from fishing activities and providing infrastructure to process it, involving fishermen and public and private entities." ],
         "HowToApply": "Explore MARE's diverse educational programs. You could monitor them regularly to see when annual events are occuring. Better yet, you can contact the organisation/intiative directly (see each website for emails/phone numbers), to host a program at your school. Eg. Contact your biology teacher to coordinate a biodiversity-themed field trip to rocky tidal areas, guided by MARE researchers. Find the links for selected active programs in the linked page from MARE.",
         "Link1": "https://www.mare-centre.pt/en/society/educational-programs"
     },
@@ -391,15 +390,13 @@
         "Language": "Portuguese proficiency optional",
         "Location": ["Portugal"],
         "Description": "Centre for ecology, evolution and environmental changes. CE3C is composed of 39 Research Groups, nested into four Research Areas. Ecology and Conservation Across Scales; Evolutionary Perspectives in a Changing World; Environment and Health Interactions; and Towards Sustainable and Resilient Ecosystems. Different techniques are used in their research, affiliated with computer science (see computational ecology) and chemistry. Ecosystems are intrinsically linked to human societies, CE3C has research groups dedicated to interdisciplinary research where science intersects with humanities/social science. Explore their webpage for more information on current events being hosted (check out the upcoming SER2027 Lisboa). They seem very welcoming towards initiatives on public outreach and education. ",
-        "HowToApply": [
-            "There are many possible ways in which you can get involved with CE3C, but all of them start with sending that first email. Read through webpages that introduce the research groups and affiliated facilities, get to know them well first, and have a clear idea of what you would like to collaborate on.",
+        "HowToApply": [ "There are many possible ways in which you can get involved with CE3C, but all of them start with sending that first email. Read through webpages that introduce the research groups and affiliated facilities, get to know them well first, and have a clear idea of what you would like to collaborate on.",
             "Ask if you could intern for a short period at their research laboratory.",
             "Invite a researcher whose work intrigues you to speak at your school.",
             "Devise a science fair themed on the focus of CE3C’s research (ecology, environmental science, biodiversity, conservation, evolution, etc.).",
             "Ask if there are opportunities to volunteer at upcoming events (e.g., conferences or data collection projects with public participation).",
             "Ask if there are educational programs the organisation hosted in the past that could be recreated on a smaller scale (e.g., locally at your school or in your class).",
-            "Organise a bake sale to raise funds for an initiative such as restoring native plant species to the school garden, hosting a biodiversity infographic contest, or any creative project that raises awareness within your community."
-  ],
+            "Organise a bake sale to raise funds for an initiative such as restoring native plant species to the school garden, hosting a biodiversity infographic contest, or any creative project that raises awareness within your community."],
         "Link1": "https://www.ce3c.pt/ce3c"
     },
     {
