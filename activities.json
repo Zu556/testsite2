@@ -371,7 +371,7 @@
         "AgeGroup": ["CLS, IG1, IG2, IB1, IB2"],
         "Language": "Portuguese proficiency optional",
         "Location": ["portugal"],
-        "Description": "[
+        "Description": [
         "MARE promotes the interaction of its researchers with the non-academic community through dedicated science communication and environmental education programs.",
         "MARE goes to school: Scientists of Portuguese universities educate students on marine biology (hands-on activities, interactive games, lab activities, mystery boxes, field trips).",
         "Kids Dive: Dynamic program including guided aquarium tours, workshops, field trips with researchers, biodiversity workshops, and summit Kids Dive.",
@@ -380,7 +380,7 @@
         "bLueTIDE: Initiative focused on biodiversity conservation in rocky intertidal areas.",
         "MARE STARTUP: Collaboration between Universidade de Lisboa and Católica focused on innovative entrepreneurship and start-up incubators based on marine science and technology.",
         "MarSemLixo: Volunteer project collecting waste from fishing activities and providing infrastructure to process it, involving fishermen and public and private entities."
-  ]",
+  ],
         "HowToApply": "Explore MARE's diverse educational programs. You could monitor them regularly to see when annual events are occuring. Better yet, you can contact the organisation/intiative directly (see each website for emails/phone numbers), to host a program at your school. Eg. Contact your biology teacher to coordinate a biodiversity-themed field trip to rocky tidal areas, guided by MARE researchers. Find the links for selected active programs in the linked page from MARE.",
         "Link1": "https://www.mare-centre.pt/en/society/educational-programs"
     },
@@ -391,7 +391,7 @@
         "Language": "Portuguese proficiency optional",
         "Location": ["Portugal"],
         "Description": "Centre for ecology, evolution and environmental changes. CE3C is composed of 39 Research Groups, nested into four Research Areas. Ecology and Conservation Across Scales; Evolutionary Perspectives in a Changing World; Environment and Health Interactions; and Towards Sustainable and Resilient Ecosystems. Different techniques are used in their research, affiliated with computer science (see computational ecology) and chemistry. Ecosystems are intrinsically linked to human societies, CE3C has research groups dedicated to interdisciplinary research where science intersects with humanities/social science. Explore their webpage for more information on current events being hosted (check out the upcoming SER2027 Lisboa). They seem very welcoming towards initiatives on public outreach and education. ",
-        "HowToApply": "[
+        "HowToApply": [
             "There are many possible ways in which you can get involved with CE3C, but all of them start with sending that first email. Read through webpages that introduce the research groups and affiliated facilities, get to know them well first, and have a clear idea of what you would like to collaborate on.",
             "Ask if you could intern for a short period at their research laboratory.",
             "Invite a researcher whose work intrigues you to speak at your school.",
@@ -399,7 +399,7 @@
             "Ask if there are opportunities to volunteer at upcoming events (e.g., conferences or data collection projects with public participation).",
             "Ask if there are educational programs the organisation hosted in the past that could be recreated on a smaller scale (e.g., locally at your school or in your class).",
             "Organise a bake sale to raise funds for an initiative such as restoring native plant species to the school garden, hosting a biodiversity infographic contest, or any creative project that raises awareness within your community."
-  ]",
+  ],
         "Link1": "https://www.ce3c.pt/ce3c"
     },
     {
@@ -442,9 +442,7 @@
         "Location": ["Portugal"],
         "Description": [
     "Summer School of Chemistry and Biochemistry: You'll have the opportunity to join a research team and take part in a relevant and current project. You will collaborate with some of the most outstanding researchers in the field and familiarise yourself with the latest discoveries and innovations in Chemistry and Biochemistry. Aimed at students from 10th to 12th grade.",
-
     "Summer School of Physics: Experience what it’s like to be a physicist or physics engineer. Includes advanced courses in Relativity, Astrophysics, Quantum Mechanics and Nanotechnologies that stimulate reflection on your perception of reality; team projects on concrete problems whose solution will be presented at the end of the program. Targeted to high school students, with priority given to 11th grade.",
-    
     "Summer School of Mathematics: Participants will have a first opportunity to learn mathematics topics not included in current high school programs. Includes problem-solving and computational experimentation. The topics are taught in mini-courses. Useful for those wishing to pursue exact sciences (maths, physics), engineering, economics, natural sciences (biology), etc. Aimed at students from 10th to 12th grade."
   ]
         "HowToApply": "Complete registration on their website, then sign up using the link specific to each program. You'll need a letter of motivation.",
