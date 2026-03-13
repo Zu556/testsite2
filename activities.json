@@ -310,5 +310,154 @@
         "Description": "MILL stands for Makers In Little Lisbon. MILL is home to an ever-changing, diverse collective of artists, designers and technologists, and hub for a wider community of collaborators, working together to bring all kinds of projects to life. They regularly host workshops on digital art, technology, animation, and so on. MILL has the technology and the expert artists to make digital art come to life. Whether you are looking for assistance on a project, or just want to help out and learn some new skills, MILL accommodates all sorts of collaborations.",
         "HowToApply": "If you are an art student who's interested in MILL, you should send an email to the studio. Some possible ideas for engaging with MILL: attending workshops hosted by MILL--this would be a great way to connect with the artists/experts there; ask to be an assistant intern to ongoing projects at MILL; if you have an idea in mind that involves combining technology and art, such as that involving moving mechanical parts or lights that shine in a particular rythm, you can seek the help of experts at MILL. Just email them!",
         "Link1": "https://mill.pt"
+    },
+    {
+        "Title": "Boy/Girl Scouts",
+        "Category": "Volunteering",
+        "AgeGroup": ["CLS, IG1, IG2, IB1, IB2"],
+        "Language": "Portuguese proficiency recommended",
+        "Location": ["Portugal"],
+        "Description": "Learn by getting hands on with group based project work! Scouting involves activities such as constructions, games, exploration, raids or community service, depending on which age group you're in. Scouting is meant to reflect the challenges that young people encounter throughout their life. This could be a great way to make friends outside of school.",
+        "HowToApply": "There's a map on their website displaying local groups and their contact information. Send an email to request more information, or to indicate your wish to join them. Each scout will need to pay for insurance and administrative fees, with the amount depending on the local group's budget.",
+        "Link1": "https://escutismo.pt"
+    },
+     {
+        "Title": "WSDC",
+        "Category": "Humanities",
+        "AgeGroup": ["IG1, IG2, IB1, IB2"],
+        "Language": "English proficiency recommended",
+        "Location": ["International, Online"],
+        "Description": "The World Schools Debating Championships (WSDC) is a global competition for high school debaters. It is held annually and involves more than 70 national teams. Teams from all over the world discuss a variety of different topics from international relations to economics and sport. It's an in-person event, with each country sending a team of max. 5 people to represent them.",
+        "HowToApply": "Contact the local Portuguese branch to find out how you could be selected to represent portugal. | National Organisation: International Portuguese Debate Association. | Contact Name: Gabriel Guia | Contact Email Address:associacaoidportugal@gmail.com",
+        "Link1": "https://www.wsdcdebating.org"
+    },
+     {
+        "Title": "European youth debate events",
+        "Category": "Humanities",
+        "AgeGroup": ["IG2, IB1, IB2"],
+        "Language": "English proficiency recommended",
+        "Location": ["International, Online"],
+        "Description": "Your Europe, Your Say! (YEYS) is the annual youth event of the EESC, aiming to connect young people from all EU Member States and from the candidate countries with the European Union. Selected participants go to Brussels to take part in the event. They discuss and work together to come up with resolutions which reflect their ideas as future European citizens; the EESC then shares these resolutions with the EU institutions and highlights them at other key events.",
+        "HowToApply": "Every year, the YEYS hosts an open call for participating schools with debate teams of students aged 16-18. Applications end by November, and conferences take place around march. You'll need a supervising teacher to submit an application that represents the whole school. ",
+        "Link1": "https://eydc.eu",
+        "Link2": "https://www.eesc.europa.eu/en/initiatives/your-europe-your-say"
+    },
+    {
+        "Title": "University of Lisbon summer school",
+        "Category": "Computer science, Biology, Biomed, Veterinary sciences, Art, Volunteering, Finance, Mathematics, Chemistry, Physics, Robotics, Humanities",
+        "AgeGroup": ["CLS, IG1, IG2, IB1, IB2"],
+        "Language": "Portuguese proficiency recommended",
+        "Location": ["Portugal"],
+        "Description": "",
+        "HowToApply": "Applications open on the Verão na ULisboa website, around the beginning of May. You'll need a motivation letter, a CV, and other materials such as transcripts as per the requirements of each faculty. There is a participation fee of 250 euros. See the third link for all the faculties in ULisboa.",
+        "Link1": "https://www.ulisboa.pt/verao-na-ulisboa",
+        "Link2": "https://ciencias.ulisboa.pt/pt/verao-na-ulisboa"
+        "Link3":"https://www.ulisboa.pt/escolas"
+        "Link4": "https://www.igot.ulisboa.pt/eventos/verao-na-ulisboa-2025-candidaturas-e-programa-igot"
+    },
+    {
+        "Title": "Nova Lisbon University summer school",
+        "Category": "Humanities",
+        "AgeGroup": ["IG2, IB1, IB2"],
+        "Language": "English proficiency recommended",
+        "Location": ["Portugal"],
+        "Description": "Some insane summer school that costs 3000-3500 euros. Covers accommodation and 3 meals a day.",
+        "HowToApply": "Application form is on their website.",
+        "Link1": "https://supernova.unl.pt"
+    },
+    {
+        "Title": "Marine biology -- Educational programs",
+        "Category": "",
+        "AgeGroup": ["CLS, IG1, IG2, IB1, IB2"],
+        "Language": "Portuguese proficiency optional",
+        "Location": ["portugal"],
+        "Description": "[
+        "MARE promotes the interaction of its researchers with the non-academic community through dedicated science communication and environmental education programs.",
+        "MARE goes to school: Scientists of Portuguese universities educate students on marine biology (hands-on activities, interactive games, lab activities, mystery boxes, field trips).",
+        "Kids Dive: Dynamic program including guided aquarium tours, workshops, field trips with researchers, biodiversity workshops, and summit Kids Dive.",
+        "Semanas Polares (Polar Weeks): Workshops on the studies of polar regions hosted by scientists and professors.",
+        "SERMARE: Team of researchers from the University of Coimbra dedicated to promoting ocean literacy through collaborations with schools and teachers.",
+        "bLueTIDE: Initiative focused on biodiversity conservation in rocky intertidal areas.",
+        "MARE STARTUP: Collaboration between Universidade de Lisboa and Católica focused on innovative entrepreneurship and start-up incubators based on marine science and technology.",
+        "MarSemLixo: Volunteer project collecting waste from fishing activities and providing infrastructure to process it, involving fishermen and public and private entities."
+  ]",
+        "HowToApply": "Explore MARE's diverse educational programs. You could monitor them regularly to see when annual events are occuring. Better yet, you can contact the organisation/intiative directly (see each website for emails/phone numbers), to host a program at your school. Eg. Contact your biology teacher to coordinate a biodiversity-themed field trip to rocky tidal areas, guided by MARE researchers. Find the links for selected active programs in the linked page from MARE.",
+        "Link1": "https://www.mare-centre.pt/en/society/educational-programs"
+    },
+    {
+        "Title": "CE3C",
+        "Category": "Biology, Chemistry, Computer Science, Humanities",
+        "AgeGroup": ["IG2, IB1, IB2"],
+        "Language": "Portuguese proficiency optional",
+        "Location": ["Portugal"],
+        "Description": "Centre for ecology, evolution and environmental changes. CE3C is composed of 39 Research Groups, nested into four Research Areas. Ecology and Conservation Across Scales; Evolutionary Perspectives in a Changing World; Environment and Health Interactions; and Towards Sustainable and Resilient Ecosystems. Different techniques are used in their research, affiliated with computer science (see computational ecology) and chemistry. Ecosystems are intrinsically linked to human societies, CE3C has research groups dedicated to interdisciplinary research where science intersects with humanities/social science. Explore their webpage for more information on current events being hosted (check out the upcoming SER2027 Lisboa). They seem very welcoming towards initiatives on public outreach and education. ",
+        "HowToApply": "[
+            "There are many possible ways in which you can get involved with CE3C, but all of them start with sending that first email. Read through webpages that introduce the research groups and affiliated facilities, get to know them well first, and have a clear idea of what you would like to collaborate on.",
+            "Ask if you could intern for a short period at their research laboratory.",
+            "Invite a researcher whose work intrigues you to speak at your school.",
+            "Devise a science fair themed on the focus of CE3C’s research (ecology, environmental science, biodiversity, conservation, evolution, etc.).",
+            "Ask if there are opportunities to volunteer at upcoming events (e.g., conferences or data collection projects with public participation).",
+            "Ask if there are educational programs the organisation hosted in the past that could be recreated on a smaller scale (e.g., locally at your school or in your class).",
+            "Organise a bake sale to raise funds for an initiative such as restoring native plant species to the school garden, hosting a biodiversity infographic contest, or any creative project that raises awareness within your community."
+  ]",
+        "Link1": "https://www.ce3c.pt/ce3c"
+    },
+    {
+        "Title": "University of Porto Physics Academy",
+        "Category": "Physics, computer science, chemistry",
+        "AgeGroup": ["IB1, IB2"],
+        "Language": "Portuguese proficiency recommended",
+        "Location": ["Portugal"],
+        "Description": [
+  "The Physics Academy is an activity aimed at Physics students of the 11th and 12th grade and provides a unique and challenging experience in the academic world of the University of Porto.",
+  "The main objective is to introduce students to what it means to do science in Physics, Physical Engineering and Astronomy. The program has a strong computational and laboratory component, complementing current secondary education programs. It is intended that the training acquired is useful in students' academic careers. The program is free of charge and takes place at the Faculty of Sciences in the Physics and Astronomy Department every Friday from late February to early April."
+],
+        "HowToApply": "You'll need to ask your teacher for a letter of recommendation according to a specific model on their website. Then, fill out the application form on their website.",
+        "Link1": "https://academiafisica.fc.up.pt"
+    },
+    {
+        "Title": "University of Porto Junior University",
+        "Category": "Computer science, Biology, Biomed, Veterinary sciences, Art, Volunteering, Finance, Mathematics, Chemistry, Physics, Robotics, Humanities, Languages",
+        "AgeGroup": ["CLS, IG1, IG2, IB1, IB2"],
+        "Language": "Portuguese proficiency recommended",
+        "Location": ["Portugal"],
+        "Description": [ 
+            "Summer programs at the University of Porto, lasting anywhere from 1 day to 2 weeks.",
+            "- Experiment in the summer: 5th and 6th grade. Four programmes spanning a wide range of areas: Art, biology, dentistry, chemistry, history, mathematics, sports, philosophy, landscape architecture.",
+            "- Summer Workshops: 7th and 8th grades. Five programs including areas: Art, biology, sports, philosophy, mathematics, economics, art history, chemistry, astronomy, geology, history, psychology, archeology",
+            "- Thematic Workshops: 7th and 8th grades. Themes include: Architecture, civil engineering / urban planning, life and heath, art, sports — athletics.",
+            "- Summer projects: 9th, 10th, 11th. There’s one for every department imaginable. You will definitely find a project that interests you.",
+            "- Language School: 5th to 11th. Learn through games, debates, and other fun activities. German, Spanish, Japanese, Mandarin, English, Latin and Greek, French.",
+            "- Introduction to Research. 3 programs: Chemistry and biochemistry, 10th to 12th; Life sciences and health sciences, 10th and 11th; Physics, 10th to 12th.",
+            "- Seasonal program: Engineer league, special junior university. Joint collab between Northern Engineers’ association and U of Porto. 3D print a radio-controlled car prototype, enter a competition. Aimed at high school students."
+        ],
+        "HowToApply": "Complete registration on their website, then sign up using the link on the page of your selected program. You'll need a letter of motivation, and a digitalised copy of your most recent grades.",
+        "Link1": "https://universidadejunior.up.pt/home"
+    },
+    {
+        "Title": "University of Porto Sciences department summer school",
+        "Category": "Biology, Chemistry, Physics, Mathematics, Finance",
+        "AgeGroup": ["IG2, IB1, IB2"],
+        "Language": "Portuguese proficiency recommended",
+        "Location": ["Portugal"],
+        "Description": [
+    "Summer School of Chemistry and Biochemistry: You'll have the opportunity to join a research team and take part in a relevant and current project. You will collaborate with some of the most outstanding researchers in the field and familiarise yourself with the latest discoveries and innovations in Chemistry and Biochemistry. Aimed at students from 10th to 12th grade.",
+
+    "Summer School of Physics: Experience what it’s like to be a physicist or physics engineer. Includes advanced courses in Relativity, Astrophysics, Quantum Mechanics and Nanotechnologies that stimulate reflection on your perception of reality; team projects on concrete problems whose solution will be presented at the end of the program. Targeted to high school students, with priority given to 11th grade.",
+    
+    "Summer School of Mathematics: Participants will have a first opportunity to learn mathematics topics not included in current high school programs. Includes problem-solving and computational experimentation. The topics are taught in mini-courses. Useful for those wishing to pursue exact sciences (maths, physics), engineering, economics, natural sciences (biology), etc. Aimed at students from 10th to 12th grade."
+  ]
+        "HowToApply": "Complete registration on their website, then sign up using the link specific to each program. You'll need a letter of motivation.",
+        "Link1": "https://www.up.pt/fcup/en/study/pre-university/summer-school/"
+    },
+    {
+        "Title": "Porto Institute of Philosophy Summer School",
+        "Category": "Humanities",
+        "AgeGroup": ["IB1, IB2"],
+        "Language": "Portuguese proficiency recommended",
+        "Location": ["Portugal"],
+        "Description": "The school’s program will feature lectures by invited speakers, student presentations, group discussions, one-on-one tutorials, and social program. Invitations for submissions of proposals for 30-minute presentations followed by 15-minute discussion. Along with the title, the abstract (up to 600 words), references and 5 keywords, the proposal should include a short biographical note. ",
+        "HowToApply": "The event is aimed for graduate students. However, you could try to ask if it would be possible for you to just be there and observe the event, without submitting an actual application. Email address in on the linked site.",
+        "Link1": "https://ifilosofia.up.pt/activities/3rd-porto-mempss"
     }
 ]
