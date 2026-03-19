@@ -454,5 +454,1517 @@
         "Description": "The school’s program will feature lectures by invited speakers, student presentations, group discussions, one-on-one tutorials, and social program. Invitations for submissions of proposals for 30-minute presentations followed by 15-minute discussion. Along with the title, the abstract (up to 600 words), references and 5 keywords, the proposal should include a short biographical note. ",
         "HowToApply": "The event is aimed for graduate students. However, you could try to ask if it would be possible for you to just be there and observe the event, without submitting an actual application. Email address in on the linked site.",
         "Link1": "https://ifilosofia.up.pt/activities/3rd-porto-mempss"
+    },
+    {
+        "Title": "AMC contest Europe",
+        "Category": [
+            "Mathematics"
+        ],
+        "AgeGroup": [
+            "CLS",
+            "IG1",
+            "IG2",
+            "IB1",
+            "IB2"
+        ],
+        "Language": "English proficiency recommended",
+        "Location": [
+            "Portugal",
+            "International"
+        ],
+        "Description": "AMC stands for American Mathematics Contest. The contest consists of 25 multiple choice questions completed under timed conditions, using mathematical problem solving skills that go beyond the standard school syllabus. College admissions offices love to see problem-solving skills on applications. Students with top scores on the AMC 10 or 12 may be invited to take the American Invitational Mathematics Exam (AIME).",
+        "HowToApply": "The AMC has 3 categories: AMC8, students in 8th grade or below, max. age 15.5 years; AMC 10, students in 10th grade or below, max. age 17.5; AMC12, students in 12th grade or below, max. age 19.5. AMC contests are hosted by schools, contact your mathematics teacher and class director to register the school for AMC Europe. Details for registration can be found in linked site.",
+        "Link1": "https://sites.google.com/view/amc-contest-europe/information-for-schools?authuser=0"
+    },
+    {
+        "Title": "Royal Society of Biology Photography Competition",
+        "Category": [
+            "Art",
+            "Biology"
+        ],
+        "AgeGroup": [
+            "CLS",
+            "IG1",
+            "IG2",
+            "IB1",
+            "IB2"
+        ],
+        "Language": "English proficiency recommended",
+        "Location": [
+            "Online",
+            "International"
+        ],
+        "Description": "The Young Photographer of the Year category is open to RSB members and non-members aged 18 years or under.\\nEntrants for both categories can live in the UK or globally.\\nThe competition entries will be shortlisted by RSB staff, and then opened to a public vote.\\nShortlisted entrants will be notified in early summer. Every year, the Royal Society of Biology sets a different competition theme for contestants to showcase their work. the Young Photographer of the Year winner's prize will be £500.\\nThe winners will also be invited to attend the Biology Week Awards Ceremony in London in October.",
+        "HowToApply": "Sign up to the contest through the official website linked below, and enter up to 6 photosgraphs. ",
+        "Link1": "https://www.rsb.org.uk/photo-competition.html"
+    },
+    {
+        "Title": "The Young Coders competition",
+        "Category": [
+            "Computer science"
+        ],
+        "AgeGroup": [
+            "CLS"
+        ],
+        "Language": "English proficiency recommended",
+        "Location": [
+            "Online",
+            "International"
+        ],
+        "Description": "The Young Coders Competition is open for children aged 8 to 13 years old - who can work individually or in teams of 2 - 6 children to create their project.The contest is based in the UK, but international entries are allowed. The competition is to create a project using Scratch.",
+        "HowToApply": "Competing teams need an adult supervisor to register them on the linked site and receive the necessary materials. Contact your computer science teacher for further support and guidance.",
+        "Link1": "https://codingcompetition.org"
+    },
+    {
+        "Title": "BioArtAttack 2D (Nancy Rothwell Prize)",
+        "Category": [
+            "Art",
+            "Biology"
+        ],
+        "AgeGroup": [
+            "CLS",
+            "IG1",
+            "IG2",
+            "IB1",
+            "IB2"
+        ],
+        "Language": "English proficiency recommended",
+        "Location": [
+            "Online",
+            "International"
+        ],
+        "Description": "Nancy Rothwell Prize\\nThis prize is open to all young people aged 7-18 years old from anywhere in the world. The Nancy Rothwell Prize is a sub-category specifically for specimen drawings entered into this competition — these can be of any animal, plant, or fungi. Competition entries into this category need to include labels and descriptions on the artwork itself. ",
+        "HowToApply": "See terms and conditions on linked site. Entrants under 13 will need parent/guardian consent. Submit your work through the linked site when the submission date opens.",
+        "Link1": "https://www.rsb.org.uk/2dbioartattack.html"
+    },
+    {
+        "Title": "BioCraft Competition",
+        "Category": [
+            "Art",
+            "Biology"
+        ],
+        "AgeGroup": [
+            "CLS",
+            "IG1",
+            "IG2",
+            "IB1",
+            "IB2"
+        ],
+        "Language": "English proficiency recommended",
+        "Location": [
+            "Online",
+            "International"
+        ],
+        "Description": "In this competition, participants create a biology-inspired 3D artwork from recycled, or other, materials. The competition is open to anyone in the UK and internationally. Entries are free of charge and the competition is open to all ages. ",
+        "HowToApply": "See terms and conditions on linked site. Entrants under 13 will need parent/guardian consent. Submit your work through the linked site when the submission date opens.",
+        "Link1": "https://www.rsb.org.uk/biocraft-competition.html"
+    },
+    {
+        "Title": "Cambridge Upper Secondary Science Competition",
+        "Category": [
+            "Biology",
+            "Chemistry",
+            "Physics",
+            "Mathematics",
+            "Finance"
+        ],
+        "AgeGroup": [
+            "IG1",
+            "IG2"
+        ],
+        "Language": "English proficiency recommended",
+        "Location": [
+            "International"
+        ],
+        "Description": "The Science Competition is for teams of three to six students studying Cambridge IGCSE and Cambridge O Level science. Teams choose a topic and work on a scientific investigation over 20-25 hours. At the end of the project, students will present their findings, giving them the opportunity to communicate their work to a wider audience. This could be in the form of a science fair at school, team presentations or posters. Teams will also reflect on the way they have worked together.",
+        "HowToApply": "The school would have to register for competition entry. Contact your IG teachers in the science department. The competition is currently paused for 2026, but future editions may occur.",
+        "Link1": "https://www.cambridgeinternational.org/programmes-and-qualifications/cambridge-upper-secondary/science-competition/"
+    },
+    {
+        "Title": "Teen Tech Awards",
+        "Category": [
+            "Biology",
+            "Chemistry",
+            "Physics",
+            "Mathematics",
+            "Finance"
+        ],
+        "AgeGroup": [
+            "CLS",
+            "IG1",
+            "IG2",
+            "IB1",
+            "IB2"
+        ],
+        "Language": "English proficiency recommended",
+        "Location": [
+            "International"
+        ],
+        "Description": "The TeenTech Awards are for UK students from 11-16 (Years 7 to 11) and 17-19 (Year 12-13) working in teams of up to three to look at problems large and small to see if they can find a better way of doing things. Entries may be made by international teams by prior arrangement with TeenTech Charity. Please email kay.sawbridge@teentech.com. And you don’t have to work on your own! You can contact companies, universities, colleges and even join up with a group of students on the other side of the world to work with you on your idea. TeenTech will also connect you with an industry mentor to help support you with your project. ",
+        "HowToApply": "Ask your school to communicate with the Teentech charity in advance, to see if there are any possibilities of making an entry or collaborating with a uk team. Further details can be found in linked site.",
+        "Link1": "https://teentech.com/awards/"
+    },
+    {
+        "Title": "Imperial college Science and Innovation Competition",
+        "Category": [
+            "Biology",
+            "Chemistry",
+            "Physics",
+            "Mathematics",
+            "Finance"
+        ],
+        "AgeGroup": [
+            "CLS",
+            "IG1",
+            "IG2",
+            "IB1",
+            "IB2"
+        ],
+        "Language": "English proficiency recommended",
+        "Location": [
+            "International"
+        ],
+        "Description": "The International Science & Innovation Competition, which is run by the Faculty of Natural Sciences at Imperial College, is open to teams of young people of secondary school age based internationally outside of the UK. Teams will be asked to develop a new and innovative scientific solution to help achieve one of the United Nation’s Global Goals for Sustainable Development. To enter, teams will be asked to create a 5-minute film that:\\n- Briefly outlines the goal they have selected\\n- Describes their innovative solution\\n- Explains the science behind their idea\\n- Illustrates how their idea would address the goal.",
+        "HowToApply": "Teams must consist of 2 - 4 individuals, with a teacher, group leader or other responsible adult acting as a mentor and point of contact. The competition opens in September and teams are pre-registered by January and would then submit their formal entry to the competition by February. ",
+        "Link1": "https://www.imperial.ac.uk/natural-sciences/about-us/outreach/international-schools-science-competition/"
+    },
+    {
+        "Title": "NSDA debate contest",
+        "Category": [
+            "Humanities",
+            "finance"
+        ],
+        "AgeGroup": [
+            "CLS",
+            "IG1",
+            "IG2",
+            "IB1",
+            "IB2"
+        ],
+        "Language": "English proficiency recommended",
+        "Location": [
+            "International",
+            "Online"
+        ],
+        "Description": "Speech and debate is a co-curricular activity that empowers young people to research, discuss, and deliberate over important and timely issues. At every tournament, students present their ideas before judges—ranging from parents and community leaders to alumni and educators—and strive to persuade through logic, evidence, and style. ",
+        "HowToApply": "Your school needs to be a member of this organisation's International Program. Talk to your humanities subject teachers about making a proposal to the head of your middle/high school. See further details on linked site.",
+        "Link1": "https://www.speechanddebate.org/international-programs/"
+    },
+    {
+        "Title": "Online research program",
+        "Category": [
+            "Computer science",
+            "Biology",
+            "Biomed",
+            "Veterinary sciences",
+            "Art",
+            "Volunteering",
+            "Finance",
+            "Mathematics",
+            "Chemistry",
+            "Physics",
+            "Robotics",
+            "Humanities"
+        ],
+        "AgeGroup": [
+            "IG1",
+            "IG2",
+            "IB1",
+            "IB2"
+        ],
+        "Language": "English proficiency recommended",
+        "Location": [
+            "International",
+            "Online"
+        ],
+        "Description": "Non-Trivial is a global, online program where high school students (age 14-20) learn research skills, explore impactful topics (e.g. climate, AI, policy), and build independent projects through guided coursework, mentorship, and peer collaboration. The program is free, selective, and can include grants or scholarships for outstanding work.",
+        "HowToApply": "Register yourself on their website and fill out your application form. Keep an eye out for application deadlines.",
+        "Link1": "https://www.non-trivial.org/programs/overview"
+    },
+    {
+        "Title": "RSI (Research Science Institute) summer program at MIT",
+        "Category": [
+            "Biology",
+            "Chemistry",
+            "Physics",
+            "Mathematics",
+            "Finance"
+        ],
+        "AgeGroup": [
+            "IG2",
+            "IB1"
+        ],
+        "Language": "English proficiency recommended",
+        "Location": [
+            "International"
+        ],
+        "Description": "Each summer, 100 of the world's most accomplished high school students gather at the Massachusetts Institute of Technology (MIT) for the Research Science Institute (RSI). RSI is the first cost-free to students, summer science & engineering program to combine on-campus course work in scientific theory with off-campus work in science and technology research. RSI scholars first participate in a week of intensive STEM classes with accomplished professors. The heart of RSI is the five week research internship where students conduct individual projects under the tutelage of mentors who are experienced scientists and researchers. ",
+        "HowToApply": "Typically, students apply in the beginning of their IB1 academic year. See linked site for application details.",
+        "Link1": "https://www.cee.org/programs/research-science-institute"
+    },
+    {
+        "Title": "MIT Reality Hack 2026 · Barcelona Node",
+        "Category": [
+            "Computer science"
+        ],
+        "AgeGroup": [
+            "IG2",
+            "IB1",
+            "IB2"
+        ],
+        "Language": "English proficiency recommended",
+        "Location": [
+            "International"
+        ],
+        "Description": "MIT Reality Hack is conceived as an open and inclusive hackathon that challenges conventional formats. Rather than focusing solely on technical outcomes, it emphasizes learning, collaboration, and experimentation across disciplines and levels of experience. The event is designed for first-time participants, seasoned hackers, and those who wish to engage in alternative or exploratory ways.\\n\\nProjects developed during the hackathon may rethink the hackathon format itself, address social and cultural challenges, or result in interactive, performative, or experiential works. Traditionally, the hackathon unfolds across three main thematic directions:\\n\\nHack the Hack – designing new, more inclusive and accessible hackathon models \\nHack the Community – creating technologies that strengthen communities or foster positive social impact \\nHack the Party – developing playful, interactive installations and shared experiences \\nAlongside these, participants are also free to pursue any idea without thematic constraints.",
+        "HowToApply": "Submit an application through their registration site.",
+        "Link1": "https://www.espronceda.net/mit-reality-hack-2026-·-barcelona-node/"
+    },
+    {
+        "Title": "Atlantic Junior (Science fair style competition)",
+        "Category": [
+            "Biology",
+            "Chemistry",
+            "Physics",
+            "Mathematics",
+            "Finance",
+            "Computer science"
+        ],
+        "AgeGroup": [
+            "CLS",
+            "IG1",
+            "IG2",
+            "IB1",
+            "IB2"
+        ],
+        "Language": "Portuguese optional",
+        "Location": [
+            "Portugal"
+        ],
+        "Description": "The ATLÂNTICO JÚNIOR competition promotes scientific and technological culture by highlighting the Atlantic Ocean’s role in planetary sustainability and society. Inspired by the FLAD Science Award Atlantic, it encourages younger students to engage in hands-on, team-based learning focused on technology and ocean-related challenges.\\nFor the 2025/2026 edition, projects are invited in areas such as:\\nMarine renewable energy (e.g., wave/tidal devices, sensor-equipped marine robots)\\nInnovative vessels (e.g., solar-powered remote-controlled boats)\\nTechnologies to reduce marine pollution\\nSolutions for marine biodiversity conservation and ecosystem regeneration\\nFinalist teams will present their work on June 6, 2026, including a public presentation, prototype demonstration, and poster.",
+        "HowToApply": "Projects are submitted by each group (max. 5 people), supervised by a teacher. Teams should seek partnerships with universities, polytechnic institutes, and/or companies for technical and scientific support. Registration and submission in linked site. Be sure to read the pdf of regulations.",
+        "Link1": "https://www.cienciaviva.pt/concurso/flad-premio-atlantico"
+    },
+    {
+        "Title": "Solar Sailors Challenge",
+        "Category": [
+            "Robotics",
+            "physics",
+            "biology",
+            "chemistry",
+            "computer science"
+        ],
+        "AgeGroup": [
+            "CLS",
+            "IG1",
+            "IG2",
+            "IB1",
+            "IB2"
+        ],
+        "Language": "Portuguese optional",
+        "Location": [
+            "Portugal"
+        ],
+        "Description": "This is a solar-powered boat competition designed to raise awareness among high school students about the importance of green energy transition. During the competition, students will be invited to test a small prototype boat they have built using recycled materials, powered exclusively by electricity generated by solar cells.",
+        "HowToApply": "Sign up to the contest through the official website linked below.",
+        "Link1": "https://www.cienciasulisboa.pt/solar-sailors-challenge-2025/"
+    },
+    {
+        "Title": "Portuguese competence centre in semiconductors (POEMS) — Semiconductors at school",
+        "Category": [
+            "Robotics",
+            "physics",
+            "chemistry",
+            "computer science"
+        ],
+        "AgeGroup": [
+            "CLS",
+            "IG1",
+            "IG2",
+            "IB1",
+            "IB2"
+        ],
+        "Language": "Portuguese optional",
+        "Location": [
+            "Portugal"
+        ],
+        "Description": "POEMS is the Portuguese Competence Centre in Semiconductors, a cutting-edge action under the Chips for Europe Initiative. The Semiconductors at School programme brings microelectronics and semiconductor science into basic and secondary classrooms through hands-on activities, interactive demonstrations, and teacher training. Its goal is to spark curiosity among young people and bridge the future talent gap in this fast-growing sector. POEMS is developing educational kits that allow students to explore the principles of microelectronics and semiconductors through practical experiments, creative challenges and discussion opportunities. ",
+        "HowToApply": "There are many possible ways in which you can get involved with POEMS, but all of them start with sending that first email! Read through webpages that introduce the research groups and affiliated facilities, get to know them well first, and have a clear idea of what you would like to collaborate on. Get creative with anything that raises awareness within your community, reach out to the researchers/institutions/experts whose work interests you.\\n\\n- Ask if you could intern shortly at one of their facilities\\n- Invite an expert whose work intrigues you to speak at your school\\n- Devise a science fair themed on the focus of POEMS's work (semiconductors, technology & entrepreneurship, chip design & development, etc.)\\n- Ask if there are opportunities to volunteer at upcoming events (ie. conferences, educational initiatives)\\n- Ask if there are educational programs that the organisation has hosted in the past that could be brought back in a smaller scale (ie. local to your school or your class)\\n- Bake sale or any other fundraiser for the event you have planned in mind.",
+        "Link1": "https://www.poemscentre.eu/en/",
+        "Link2": "https://www.poemscentre.eu/en/semiconductors-and-society"
+    },
+    {
+        "Title": "Food 2030",
+        "Category": [
+            "Biology",
+            "Chemistry",
+            "Humanities",
+            "Biomed",
+            "Biochem"
+        ],
+        "AgeGroup": [
+            "CLS",
+            "IG1",
+            "IG2",
+            "IB1",
+            "IB2"
+        ],
+        "Language": "English proficiency recommended",
+        "Location": [
+            "Portugal",
+            "Online"
+        ],
+        "Description": "Funded by the European Union, the CLEVERFOOD project engages all sectors of society in transforming Europe’s food system. Its goal is to build a fair, healthy, and sustainable food system by supporting projects, partnerships, and networks through a collaborative approach. You can make your own contribution to these ongoing initiatives by raising awareness on the importance of sustainable food systems.",
+        "HowToApply": "Food2030 has made a variety of toolkits available, aimed at increasing outreach and public engagement. You can use them to help develop your own event or initiative, then host them at school [see link 2]. Since one of the primary goals of Food2030 is to educate the public, don't shy away from emailing them for help with anything you need. ",
+        "Link1": "https://food2030.eu/projects/cleverfood/",
+        "Link2": "https://food2030.eu/toolkit-for-education/toolkit/"
+    },
+    {
+        "Title": "Blue lights schools",
+        "Category": [
+            "Biology",
+            "Chemistry",
+            "Humanities",
+            "Biomed",
+            "Biochem",
+            "Veterinary sciences",
+            "Physics"
+        ],
+        "AgeGroup": [
+            "CLS",
+            "IG1",
+            "IG2",
+            "IB1",
+            "IB2"
+        ],
+        "Language": "English proficiency recommended",
+        "Location": [
+            "Portugal",
+            "International"
+        ],
+        "Description": "BlueLightS is a Horizon Europe project strengthening the knowledge and skills of European children and youth to deliver ‘blue’ (river and seas) resilience and sustainability. The project collaborates closely with projects such as ProBleu, SHORE, PREP4BLUE and the UN Ocean Decade. The BlueLightS website features a wide range of resources in their knowledge hub, from educational resources to articles targeted at concerned citizens. You can use those resources to educate yourself and your community.",
+        "HowToApply": "You can refer to the cienciaviva website for inspiration on past BlueLightS events, and come up with a creative proposal for your school. Introduce this idea to your science teachers to see if the school can accommodate your idea, or even join the official initiative as another BlueLightS school. The initiative encourages bottom-up approaches, so don't be afraid to email them or other relevant organisations for help!",
+        "Link1": "https://blue-lights.eu/about-bluelights/",
+        "Link2": "https://www.cienciaviva.pt/projectos-educativos/bluelights"
+    },
+    {
+        "Title": "Junior Achievement Portugal",
+        "Category": [
+            "Finance",
+            "humanities",
+            "volunteering"
+        ],
+        "AgeGroup": [
+            "CLS",
+            "IG1",
+            "IG2",
+            "IB1",
+            "IB2"
+        ],
+        "Language": "Portuguese proficiency recommended",
+        "Location": [
+            "Portugal"
+        ],
+        "Description": "Founded in 2005, Junior Achievement Portugal (JAP) is a non-profit organization and the Portuguese counterpart of JA Worldwide, an organization nominated for the Nobel Peace Prize and which ranks 5thº among the Social Good Organizations with the greatest impact in the world. They lead initiatives to educate students of all ages on entrepreneurship, volunteerism, and innovative businesses. ",
+        "HowToApply": "For secondary school students, JAP has 3 different initiatives. ''The Company'' is the flagship program of Junior Achievement through which high school students create a mini-enterprise with the help of a volunteer and a teacher. Students brainstorm in search of an innovative idea to respond to an identified problem or need, develop the product or service and present a business plan for their mini-enterprise. ''The Innovation Challenge'' consists of solving a challenge launched and that is worked on in just 8 hours. This challenge focuses on innovative and creative processes based on real business challenges that companies have to deal with in their day-to-day life. ''The Right Arm'' is a day in which High School students accompany volunteers in their work environment and participate in their daily activities. Through this practical experience, students acquire knowledge about culture, work ethics and the various existing career options. Ask a teacher for supervision and sign up using the registration portal on the linked site.",
+        "Link1": "https://www.japortugal.org/ensino-secundario"
+    },
+    {
+        "Title": "Portugal Students Prize",
+        "Category": [
+            "Art"
+        ],
+        "AgeGroup": [
+            "IG1",
+            "IG2",
+            "IB1",
+            "IB2"
+        ],
+        "Language": "Portuguese optional",
+        "Location": [
+            "Portugal"
+        ],
+        "Description": "The sovereign art foundation hosts an annual art competition for students in secondary schooling. Check out other initiatives and programs from the foundation using the linked site.",
+        "HowToApply": "The Portugal Students Prize is open to all students enrolled in secondary school in Portugal, aged 11-18 years old (at the time of entry). Participating students must be nominated by their teacher. Teachers can nominate up to 10 students to enter. Upon entry, students will be asked to enter the name of their nominating teacher. Nominated students can submit one artwork each online before the submission deadline. The Judges Prize of €500 is awarded to the student artist with the highest score from the judges. €1,500 is awarded to the school of the Judges Prize winner.\\nThe Public Vote Prize of €300 is awarded to the student artist with the most votes from the public. €800 is awarded to the school of the Public Vote Prize Winner.",
+        "Link1": "https://www.sovereignartfoundation.com/portugugal-students-prize-2026/"
+    },
+    {
+        "Title": "Lisbon Project",
+        "Category": [
+            "Volunteering"
+        ],
+        "AgeGroup": [
+            "IG1",
+            "IG2",
+            "IB1",
+            "IB2"
+        ],
+        "Language": "Portuguese optional",
+        "Location": [
+            "Portugal"
+        ],
+        "Description": "The Lisbon Project is a non-profit organisation dedicated to integrate and empower immigrants and refugees. ",
+        "HowToApply": "Volunteer vacancies are listed on the linked website. Check your eligibility and submit and application. You will most likely need to volunteer in person at least once a week.",
+        "Link1": "https://www.lisbonproject.org/volunteer"
+    },
+    {
+        "Title": "SEED: creating young entrepreneurs",
+        "Category": [
+            "Finance"
+        ],
+        "AgeGroup": [
+            "IG1",
+            "IG2",
+            "IB1",
+            "IB2"
+        ],
+        "Language": "Portuguese optional",
+        "Location": [
+            "Portugal"
+        ],
+        "Description": "Lisbon City Council prioritises entrepreneurship and innovation. This led to the SEED project, which challenges students, teachers, and entrepreneurial ecosystem partners to promote the development of entrepreneurial skills among young people (9th to 12th grade), to create opportunities for them to engage with Lisbon's innovation and creativity. ",
+        "HowToApply": "Propose the idea of involving your school in this project to your teachers. SEED brings the following to schools:                                 Creating an entrepreneurship lab.\\nOrganising study visits to entrepreneurial spaces and promoting workshops.\\nConducting financial literacy sessions.\\nSupporting the development of a project created by the students.\\nEncouraging the development of skills and career path choices.\\nFacilitating training experiences within the entrepreneurial ecosystem. \\n",
+        "Link1": "https://urbact.eu/good-practices/seed-creating-young-entrepreneurs"
+    },
+    {
+        "Title": "Fontenova theatre studio",
+        "Category": [
+            "Art"
+        ],
+        "AgeGroup": [
+            "CLS",
+            "IG1",
+            "IG2",
+            "IB1",
+            "IB2"
+        ],
+        "Language": "Portuguese proficiency recommended",
+        "Location": [
+            "Portugal"
+        ],
+        "Description": "Teatro Estúdio Fontenova is based in setubal. They offer theater workshops.",
+        "HowToApply": "See linked site for contact information, email or call to ask if there are vacancies available in the workshops.",
+        "Link1": "https://www.teatroestudiofontenova.com/oficinas/"
+    },
+    {
+        "Title": "Aequalitas",
+        "Category": [
+            "Volunteering",
+            "humanities",
+            ""
+        ],
+        "AgeGroup": [
+            "CLS",
+            "IG1",
+            "IG2",
+            "IB1",
+            "IB2"
+        ],
+        "Language": "Portuguese proficiency recommended",
+        "Location": [
+            "Portugal"
+        ],
+        "Description": "The Association for Equality AEQUALITAS is an NGO committed to creating a more just and sustainable world. Their main goal is to achieve social equity, promoting the specific rights and interests of minorities and the most disadvantaged groups through the creation and implementation of projects and initiatives that contribute to the empowerment of target audiences.",
+        "HowToApply": "You can support this organisation by organising an event, volunteer work, or raise funds. See linked site for details.",
+        "Link1": "http://aequalitas.pt"
+    },
+    {
+        "Title": "Youth volunteers for nature and forests",
+        "Category": [
+            "Volunteering",
+            "biology"
+        ],
+        "AgeGroup": [
+            "IG1",
+            "IG2",
+            "IB1",
+            "IB2"
+        ],
+        "Language": "Portuguese optional",
+        "Location": [
+            "Portugal"
+        ],
+        "Description": "Promote youth volunteering practices in the field of nature preservation, forests and their ecosystems, through awareness of populations in general, as well as prevention against forest fires and other disasters with environmental impact, monitoring and recovery of affected territories.",
+        "HowToApply": "Sign up and register yourself on linked site to volunteer. There may be a selection process.",
+        "Link1": "https://programasjuventude.ipdj.gov.pt/vjnf"
+    },
+    {
+        "Title": "Now us",
+        "Category": [
+            "Volunteering"
+        ],
+        "AgeGroup": [
+            "IG1",
+            "IG2",
+            "IB1",
+            "IB2"
+        ],
+        "Language": "Portuguese proficiency recommended",
+        "Location": [
+            "Portugal"
+        ],
+        "Description": "Personalised volunteering activities. It is a Volunteer Program aimed at young people who wish, through the practice of volunteering, to actively intervene in their community while acquiring skills.",
+        "HowToApply": "Sign up and register yourself on linked site. There may be a selection process.",
+        "Link1": "https://programasjuventude.ipdj.gov.pt/agora-nos"
+    },
+    {
+        "Title": "Dating with fair play",
+        "Category": [
+            "Volunteering",
+            "humanities"
+        ],
+        "AgeGroup": [
+            "IG1",
+            "IG2",
+            "IB1",
+            "IB2"
+        ],
+        "Language": "Portuguese proficiency recommended",
+        "Location": [
+            "Portugal"
+        ],
+        "Description": "Volunteer projects where young people work for/with other young people, sensitizing them to the following themes:\\n\\n· Dating Violence;\\n\\n· Gender Equality and Human Rights;\\n\\n· Gender Stereotypes;\\n\\n· Discrimination of sexual orientation and gender.",
+        "HowToApply": "Sign up and register yourself on linked site. There may be a selection process.",
+        "Link1": "https://programasjuventude.ipdj.gov.pt/namorar-com-fair-play"
+    },
+    {
+        "Title": "Holidays with movement",
+        "Category": [
+            "Biology",
+            "Chemistry",
+            "Biochem",
+            "Physics",
+            "Computer science",
+            "Robotics",
+            "Finance",
+            "humanities"
+        ],
+        "AgeGroup": [
+            "CLS",
+            "IG1",
+            "IG2",
+            "IB1",
+            "IB2"
+        ],
+        "Language": "Portuguese proficiency recommended",
+        "Location": [
+            "Portugal"
+        ],
+        "Description": "The Moving Vacation Program was created so that you can carry out activities and have fun with other young people your age, during the Easter or summer holidays. The activities take place in Summer Camps and are very varied.\\n\\nThere are two modes of operation: one, which has the same name as the program,\\n\\nwhich has thematic areas such as, for example, among others, the Environment, Culture or Sport;\\n\\nthe other modality, called Vacation 5.0, integrates Robotics and Programming,\\n\\nArtificial Intelligence and Digital Communication.\\n\\nThere are residential and non-residential holiday camps. Participation is totally free.",
+        "HowToApply": "Sign up and register yourself on linked site. There may be a selection process.",
+        "Link1": "https://programasjuventude.ipdj.gov.pt/ferias"
+    },
+    {
+        "Title": "Floobynooby",
+        "Category": [
+            "Art"
+        ],
+        "AgeGroup": [
+            "CLS",
+            "IG1",
+            "IG2",
+            "IB1",
+            "IB2"
+        ],
+        "Language": "English proficiency recommended",
+        "Location": [
+            "Online"
+        ],
+        "Description": "Free courses on character design, animation, storyboard",
+        "HowToApply": "Open sourced, see linked site.",
+        "Link1": "https://docs.google.com/document/d/1IgswlDEFUe2owv2XZbeFUJt8_pYLsAxfM2HX3T0-g8Q/edit?tab=t.0#heading=h.a68ilwh5b7si",
+        "Link2": "http://www.floobynooby.com/comp1.html#anchor"
+    },
+    {
+        "Title": "Temple of the seven golden camels",
+        "Category": [
+            "Art"
+        ],
+        "AgeGroup": [
+            "CLS",
+            "IG1",
+            "IG2",
+            "IB1",
+            "IB2"
+        ],
+        "Language": "English proficiency recommended",
+        "Location": [
+            "Online"
+        ],
+        "Description": "Learning resources for storyboarding.",
+        "HowToApply": "Open sourced, see linked site.",
+        "Link1": "https://sevencamels.blogspot.com/?view=flipcard"
+    },
+    {
+        "Title": "Energymag Virtual Internships",
+        "Category": [
+            "Physics",
+            "Chemistry",
+            "Computer science"
+        ],
+        "AgeGroup": [
+            "IG2",
+            "IB1",
+            "IB2"
+        ],
+        "Language": "English proficiency recommended",
+        "Location": [
+            "Online"
+        ],
+        "Description": "EnergyMag offers a limited number of virtual internships to both college and high school students who want to make the world a better place by increasing the share of renewable energy in the world, learn about the energy storage industry, and get work experience in an exciting and fast-moving environment. ",
+        "HowToApply": "See details, eligibility requirements, and application form on linked site. Don't worry too much about the subject/grade requirements, you can explain that your school doesn't follow the US education system,.",
+        "Link1": "https://energymag.net/internships/"
+    },
+    {
+        "Title": "Mathquantum fellowships",
+        "Category": [
+            "Mathematics"
+        ],
+        "AgeGroup": [
+            "IG1",
+            "IG2",
+            "IB1",
+            "IB2"
+        ],
+        "Language": "English proficiency recommended",
+        "Location": [
+            "Online"
+        ],
+        "Description": "Mentored research and interdisciplinary training in applying mathematical methods to QIS problems.\\n Coursework and seminars in theoretical and applied mathematics for QIS.\\n Internship opportunities at quantum companies and government labs.\\n Professional development and networking opportunities (including on Broader Impacts and proposal writing).\\n One-on-one career mentoring and guidance.\\n Community-building and outreach activities.",
+        "HowToApply": "High school fellowships are offered during summer to about 10 students, who will participate together as a cohort. Fellowships consist of a ~2-week online program of math and quantum information science lectures, seminars, professional development workshops, hands-on activities, discussions, and a mini-project. There are spring, summer, and fall sessions. See linked site for application components (transcripts, reference letters, etc).",
+        "Link1": "https://mathquantum.umd.edu/fellowship/"
+    },
+    {
+        "Title": "Foreign policy research institute (FRPI) Research/Administrations internships",
+        "Category": [
+            "Humanities"
+        ],
+        "AgeGroup": [
+            "IG1",
+            "IG2",
+            "IB1",
+            "IB2"
+        ],
+        "Language": "English proficiency recommended",
+        "Location": [
+            "Online",
+            "International"
+        ],
+        "Description": "Research Interns work under the direct supervision of an FPRI staffer and alongside scholars in one of the following research areas: Eurasia, Asia, and National Security. Duties and availability vary between programs, so applicants should specify which research program they are interested in and will be matched with a scholar in that program upon acceptance. This position currently allows for remote interns who can communicate with their supervisor via Zoom, email, and/or phone. Research internships often require advanced foreign language skills, data analysis skills, and study abroad or field research experience. Administration & Operations Interns will assist FPRI’s management staff with a variety of projects related to our internship program, and other operations-related tasks. ",
+        "HowToApply": "See linked site for application details. You'll increase your chances of being selected if you apply for an unpaid, part-time internship.",
+        "Link1": "https://www.fpri.org/about/internships/"
+    },
+    {
+        "Title": "Lumiere Foundation’s Humanities and Social Sciences Program",
+        "Category": [
+            "Humanities",
+            "finance"
+        ],
+        "AgeGroup": [
+            "CLS",
+            "IG1",
+            "IG2",
+            "IB1",
+            "IB2"
+        ],
+        "Language": "English proficiency recommended",
+        "Location": [
+            "Online"
+        ],
+        "Description": "In the Lumiere Humanities and Social Sciences Program, students can do research in fields like sociology, history, languages, philosophy, education or public policy. 12 week research program, 9 individual sessions with world-class researcher, 2 individual sessions with writing coach, 5 workshops on research process, 15-page research paper.",
+        "HowToApply": "Fill out an application form from linked site.",
+        "Link1": "https://lumiere.foundation/hss-program"
+    },
+    {
+        "Title": "Lumiere Breakthrough Scholar Program",
+        "Category": [
+            "Computer science",
+            "Biology",
+            "Biomed",
+            "Veterinary sciences",
+            "Art",
+            "Volunteering",
+            "Finance",
+            "Mathematics",
+            "Chemistry",
+            "Physics",
+            "Robotics",
+            "Humanities",
+            "Languages",
+            "Biochem"
+        ],
+        "AgeGroup": [
+            "CLS",
+            "IG1",
+            "IG2",
+            "IB1",
+            "IB2"
+        ],
+        "Language": "English proficiency recommended",
+        "Location": [
+            "Online"
+        ],
+        "Description": "The Lumiere Breakthrough Scholar Program pairs talented high-school students with world-class PhD mentors to work 1-on-1 on an independent research project. At the end of the 12-week program, you’ll learn about the cutting edge of your field and develop an independent research paper. 12 week research program, 9 individual sessions with world-class researcher, 2 individual sessions with writing coach, 5 workshops on research process, 15-page research paper.",
+        "HowToApply": "Fill out an application form from linked site.",
+        "Link1": "https://lumiere.foundation/breakthrough-program"
+    },
+    {
+        "Title": "Rockerfeller university -- Summer Science Research Program",
+        "Category": [
+            "Computer science",
+            "Biology",
+            "Biomed",
+            "Veterinary sciences",
+            "Chemistry",
+            "Physics",
+            "Biochem"
+        ],
+        "AgeGroup": [
+            "IG2",
+            "IB1",
+            "IB2"
+        ],
+        "Language": "English proficiency recommended",
+        "Location": [
+            "International"
+        ],
+        "Description": "SSRP Scholars will participate on a research team designed and guided by scientific trainees from the Tri-Institutions (Rockefeller, MSK, and WCMC). SSRP teams mirror the structure of a research laboratory, where there are 1-3 lead team leads who are supported by additional scientists. Each team will have their own space and resources in one of the dedicated RockEDU teaching laboratories. The SSRP experience is enhanced by relevant elective courses, guest lectures, workshops, networking opportunities, and social events.",
+        "HowToApply": "See application directions on linked site.",
+        "Link1": "https://www.rockefeller.edu/outreach/ssrp/"
+    },
+    {
+        "Title": "Cambridge Re:think Essay Competition",
+        "Category": [
+            "Humanities"
+        ],
+        "AgeGroup": [
+            "CLS",
+            "IG1",
+            "IG2",
+            "IB1",
+            "IB2"
+        ],
+        "Language": "English proficiency recommended",
+        "Location": [
+            "Online"
+        ],
+        "Description": "The spirit of the Cambridge Re:think essay competition is to encourage critical thinking and exploration of a wide range of thought-provoking and often controversial topics. The competition covers a diverse array of subjects, from historical and present issues to speculative future scenarios. Participants are invited to engage deeply with these topics, critically analysing their various facets and implications. 2000 words excluding citations & footnotes. ",
+        "HowToApply": "Each year, different topics are assigned. See linked site for eligibility, guidelines, and submission portal. The competition opens in January and submission deadline is in May,",
+        "Link1": "https://cambridge-research.org/essay-competition/"
+    },
+    {
+        "Title": "Bennington College Young Writers Awards",
+        "Category": [
+            "Humanities"
+        ],
+        "AgeGroup": [
+            "IG1",
+            "IG2",
+            "IB1",
+            "IB2"
+        ],
+        "Language": "English proficiency recommended",
+        "Location": [
+            "Online"
+        ],
+        "Description": " High school students worldwide are invited to submit poetry, fiction, or nonfiction entries for a chance to win cash, a scholarship, and prestige.",
+        "HowToApply": "See linked site for the most up to date regulations, and the submission portal. ",
+        "Link1": "https://www.bennington.edu/events/young-writers-awards"
+    },
+    {
+        "Title": "Horizon Academic Essay Prize",
+        "Category": [
+            "Humanities"
+        ],
+        "AgeGroup": [
+            "IG1",
+            "IG2",
+            "IB1",
+            "IB2"
+        ],
+        "Language": "English proficiency recommended",
+        "Location": [
+            "Online"
+        ],
+        "Description": "The objective of the Horizon Academic Essay Prize is to push young students to critically engage with the world around them. Participants are expected to dive deep into their chosen questions - showcase independent thought, clear argumentation, and rigorous analysis. 1000 word essay. ",
+        "HowToApply": "Topics are renewed for each year's contest. You'll need a teacher to be your referee. See linked site for application and submission form. Deadline for submission: beginning of February.",
+        "Link1": "https://horizoninspires.com/essay-prize/"
+    },
+    {
+        "Title": "Jane Austen Society of North America -- Essay Contest",
+        "Category": [
+            "Humanities",
+            "Languages"
+        ],
+        "AgeGroup": [
+            "IG1",
+            "IG2",
+            "IB1",
+            "IB2"
+        ],
+        "Language": "English proficiency recommended",
+        "Location": [
+            "Online"
+        ],
+        "Description": "JASNA conducts an annual student Essay Contest to encourage the study and appreciation of Jane Austen's works in new generations of readers. 6-8 pages long, focused on personal interpretation and literary analysis. Suggested topics vary by year.",
+        "HowToApply": "See linked site for detailed guidelines, registration and regulations. Submissions open in February and end in June.",
+        "Link1": "https://jasna.org/programs/essay-contest/"
+    },
+    {
+        "Title": "Jane Austen Society of North America -- Young Filmmakers Contest",
+        "Category": [
+            "Art"
+        ],
+        "AgeGroup": [
+            "CLS",
+            "IG1",
+            "IG2",
+            "IB1",
+            "IB2"
+        ],
+        "Language": "English proficiency recommended",
+        "Location": [
+            "Online"
+        ],
+        "Description": "Enter an original short film of 5 minutes or less in JASNA's annual Young Filmmakers Contest—a creative competition designed to encourage the study, interpretation, and appreciation of Jane Austen among new generations. Prescribed themes vary by year.",
+        "HowToApply": "See linked site for detailed guidelines, registration and regulations. Submissions end in June.",
+        "Link1": "https://jasna.org/programs/young-filmmakers-contest/"
+    },
+    {
+        "Title": "Northeastern University London -- AI Futures Challenge",
+        "Category": [
+            "Finance"
+        ],
+        "AgeGroup": [
+            "IG2",
+            "IB1"
+        ],
+        "Language": "English proficiency recommended",
+        "Location": [
+            "Online"
+        ],
+        "Description": "A five-day online innovation challenge for Year 12 students, enabling students to gain experience of working on a real-life business challenge set by one of their start-up hub businesses. Participants work individually or in teams of 2-3 to address a business-sponsored challenge using AI, receiving academic support and feedback. Solve an industry-led business challenge with AI, supported by specialists. Develop practical skills, networks and digital credentials to gain a competitive edge in university applications. Learn how different disciplines work together to create better solutions.",
+        "HowToApply": "Students in IB1 can enter the challenge as a team or individually. Registration and guidelines in linked site.",
+        "Link1": "https://www.nulondon.ac.uk/study/ai-futures/#ai-futures-registration"
+    },
+    {
+        "Title": "High School Academic Research Competition",
+        "Category": [
+            "Computer science",
+            "Biology",
+            "Biomed",
+            "Veterinary sciences",
+            "Art",
+            "Finance",
+            "Mathematics",
+            "Chemistry",
+            "Physics",
+            "Robotics",
+            "Humanities",
+            "Languages",
+            "Biochem"
+        ],
+        "AgeGroup": [
+            "IG1",
+            "IG2",
+            "IB1",
+            "IB2"
+        ],
+        "Language": "English proficiency recommended",
+        "Location": [
+            "Online"
+        ],
+        "Description": "Running through April and May, SARC is more than just a contest—it’s a guided immersion into the research process, designed for experts and newcomers alike! You’ll enroll in immersive workshops that guide you through the research process from beginning to end and prepare you for your own research proposal. SARC is unique in that participants can research any topic they want! Researchers can choose a topic they’re passionate about, something they wish to dive deeper into, or something they want to study in university.",
+        "HowToApply": "SARC is open to all high school students aged 13-18. See linked site for registration and details. To participate, all you need to do is fill in a quick registration form and follow the required guidelines.",
+        "Link1": "https://www.researchcomp.org"
+    },
+    {
+        "Title": "Tumo Portugal",
+        "Category": [
+            "Robotics",
+            "Computer science",
+            "Art"
+        ],
+        "AgeGroup": [
+            "CLS",
+            "IG1",
+            "IG2",
+            "IB1",
+            "IB2"
+        ],
+        "Language": "Portuguese proficiency recommended",
+        "Location": [
+            "Portugal"
+        ],
+        "Description": "The TUMO learning program is completely free and consists of self-learning activities, workshops and advanced laboratories in eight learning areas: programming, animation, graphic design, video game development, cinema, robotics, music, photography. ",
+        "HowToApply": "Have your parent/guardian fill out a simple registration form from the linked site, then attend a scheduled tour of the tumo center. ",
+        "Link1": "https://tumo.pt/o-programa/"
+    },
+    {
+        "Title": "Náboj international physics competition",
+        "Category": [
+            "Physics"
+        ],
+        "AgeGroup": [
+            "IG1",
+            "IG2",
+            "IB1",
+            "IB2"
+        ],
+        "Language": "English proficiency recommended",
+        "Location": [
+            "Portugal",
+            "International"
+        ],
+        "Description": "Náboj Physics is a team competition for high-school students and students of corresponding grades of 8-year grammar schools. Teams consist of four or five members. All members of any single team come from the same school. The contestants can solve any of the eight problems available. The result is usually a single numeric value or a mathematical expression. The competition lasts two hours. Junior category is open to those below the IB level. Senior category is open to all.",
+        "HowToApply": "Teams sign up for the competition via the web site during the registration period. Any single school can register at most two teams into each category. Any other team from the same school is placed on the waiting list, and it will be involved in the competition only if the venue’s full capacity is not reached at the end of the registration period. Ask your physics teacher to coordinate with the school for registration.",
+        "Link1": "https://physics.naboj.org/sk/en/current-info/"
+    },
+    {
+        "Title": "BSMS Virtual Work Experience",
+        "Category": [
+            "Biomed"
+        ],
+        "AgeGroup": [
+            "CLS",
+            "IG1",
+            "IG2",
+            "IB1",
+            "IB2"
+        ],
+        "Language": "English proficiency recommended",
+        "Location": [
+            "Online"
+        ],
+        "Description": "This course provides an online work experience for those considering to apply to medical school. You will be taken through six areas of medicine, exploring the roles, skills required, and challenges faced by today's doctors.",
+        "HowToApply": "Create an account on the linked site.",
+        "Link1": "https://bsmsoutreach.thinkific.com/courses/VWE"
+    },
+    {
+        "Title": "MIT Portugal",
+        "Category": [
+            "Biology",
+            "Chemistry",
+            "Biochem",
+            "Physics",
+            "Computer science",
+            "Robotics",
+            "Finance"
+        ],
+        "AgeGroup": [
+            "IG1",
+            "IG2",
+            "IB1",
+            "IB2"
+        ],
+        "Language": "English proficiency recommended",
+        "Location": [
+            "Portugal"
+        ],
+        "Description": "The MIT Portugal Program (MPP) is a strategic international partnership between Portuguese universities and research institutions, the Massachusetts Institute of Technology (MIT), the Portuguese government, as well as partners from industry and other non-academic institutions.",
+        "HowToApply": "Keep an eye on events, workshops, and conferences. It could be possible for you to email them and ask to observe/volunteer at the venue. Also, see resources page for a wide variety of free and low cost online courses.  ",
+        "Link1": "https://mitportugal.org"
+    },
+    {
+        "Title": "Building U",
+        "Category": [
+            "Computer science",
+            "Biology",
+            "Biomed",
+            "Veterinary sciences",
+            "Art",
+            "Volunteering",
+            "Finance",
+            "Mathematics",
+            "Chemistry",
+            "Physics",
+            "Robotics",
+            "Humanities",
+            "Languages",
+            "Biochem"
+        ],
+        "AgeGroup": [
+            "CLS",
+            "IG1",
+            "IG2",
+            "IB1",
+            "IB2"
+        ],
+        "Language": "English proficiency recommended",
+        "Location": [
+            "Online",
+            "International"
+        ],
+        "Description": "A resource hub much like this one, with tons of events and opportunities in every field imaginable.",
+        "HowToApply": "Click on linked site and discover a new world.",
+        "Link1": "https://building-u.com"
+    },
+    {
+        "Title": "Rob9-16",
+        "Category": [
+            "Robotics",
+            "Physics",
+            "Computer science"
+        ],
+        "AgeGroup": [
+            "CLS",
+            "IG1",
+            "IG2"
+        ],
+        "Language": "Portuguese proficiency recommended",
+        "Location": [
+            "Portugal"
+        ],
+        "Description": "Rob9-16 is a Robotics club created for children and young people between 9 and 16 years old who show interest in the areas of engineering, programming, electronics and telecommunications. The goal of this club is to provide a practical and engaging educational experience, where participants can explore and develop their skills in innovative and current technologies.",
+        "HowToApply": "You can check for upcoming events in the linked site. Click into the event's page and you'll be directed to an application form. Some programs do require fees to participate.",
+        "Link1": "https://tecnico.ulisboa.pt/pt/tag/rob9-16/"
+    },
+    {
+        "Title": "Kaggle",
+        "Category": [
+            "Mathematics",
+            "Computer science"
+        ],
+        "AgeGroup": [
+            "CLS",
+            "IG1",
+            "IG2",
+            "IB1",
+            "IB2"
+        ],
+        "Language": "English proficiency recommended",
+        "Location": [
+            "Online"
+        ],
+        "Description": "Grow your data science skills by competing in exciting competitions! Kaggle is a website with inumerous competitions free for anyone to enter. Themes include: AI, LLMs, Hackathons, Models, datasets, code, benchmarks, research.",
+        "HowToApply": "Register an account on linked site. Happy explorations!",
+        "Link1": "https://www.kaggle.com/competitions"
+    },
+    {
+        "Title": "The Concord Review",
+        "Category": [
+            "Humanities"
+        ],
+        "AgeGroup": [
+            "IG1",
+            "IG2",
+            "IB1",
+            "IB2"
+        ],
+        "Language": "English proficiency recommended",
+        "Location": [
+            "Online"
+        ],
+        "Description": "The Concord Review, Inc., was founded in March 1987 to recognize and to publish exemplary history essays by high school students in the English-speaking world. With the Fall Issue (#137), more than 1,500 research papers (average 8,500 words, with endnotes and bibliography) have been published from authors in 46 states and 46 other countries. The Concord Review remains the only quarterly journal in the world to publish the academic history papers of secondary students. ",
+        "HowToApply": "Your essay should be 5000-10000 words long, average is over 8000. Even if your work does not get immediately published, students who are applying to college in the near future can include on their college application that they submitted a paper to The Concord Review (include the title and the length of the paper) and that it is still being considered for publication. TCR has been around since 1987, so many college admissions officers are familiar with them, and realize that any student submitting a paper to TCR is serious about their academic work and would do well in college. Submission requires a one-time membership fee. See linked site for details.\\n",
+        "Link1": "https://tcr.org/submit"
+    },
+    {
+        "Title": "idebate",
+        "Category": [
+            "Humanities"
+        ],
+        "AgeGroup": [
+            "CLS",
+            "IG1",
+            "IG2",
+            "IB1",
+            "IB2"
+        ],
+        "Language": "English proficiency recommended",
+        "Location": [
+            "Online",
+            "Portugal"
+        ],
+        "Description": "The International Debate Education Association (IDEA/iDebate) promotes critical thinking, civic engagement, and democratic values by training students, coaches, and teachers in debate. It operates globally to foster education through debate clubs, workshops, and tournaments, focusing on empowering marginalized youth and advocating for open, tolerant societies. \\n",
+        "HowToApply": "Become a partner: corporate and institutional partnerships aimed at helping young people across the world access debate-based activities.  Become a member: network of organisations in 20 countries and counting. Make debate accessible globally.\\nVolunteer: Check out the news on volunteering opportunities with IDEA. ",
+        "Link1": "https://idebate.net/get-involved"
+    },
+    {
+        "Title": "zooniverse",
+        "Category": [
+            "Mathematics",
+            "Computer science",
+            "Biology",
+            "Biochem",
+            "Biomed",
+            "Humanities",
+            "Volunteering"
+        ],
+        "AgeGroup": [
+            "CLS",
+            "IG1",
+            "IG2",
+            "IB1",
+            "IB2"
+        ],
+        "Language": "English proficiency recommended",
+        "Location": [
+            "Online"
+        ],
+        "Description": "The Zooniverse is the world's largest and most popular platform for people-powered research. This research is made possible by volunteers—millions of people around the world who come together to assist professional researchers. You don't need any specialized background, training, or expertise to participate in Zooniverse projects. You'll be able to study authentic data gathered by researchers, like images of faraway galaxies, historical records and diaries, or videos of animals in their natural habitats. By participating in projects, you'll help contribute to our understanding of the world, the universe, and more.",
+        "HowToApply": "Interested in becoming a volunteer? It’s easy: just start classifying! Everyone who contributes to a Zooniverse project is a volunteer.  For those under 16 years old, a parent/guardian needs to sign off on their registration. Generate an official certificate verifying your efforts on the Zooniverse platform. Simply specify a time period or project. OR: Zooniverse Project Builder\\nAnyone can build a Zooniverse project. Just upload your data and choose the tasks you want the volunteers to do. ",
+        "Link1": "https://www.zooniverse.org/get-involved/volunteer",
+        "Link2": "https://www.zooniverse.org/lab"
+    },
+    {
+        "Title": "All American High School Film Festival",
+        "Category": [
+            "Art"
+        ],
+        "AgeGroup": [
+            "CLS",
+            "IG1",
+            "IG2",
+            "IB1",
+            "IB2"
+        ],
+        "Language": "English proficiency recommended",
+        "Location": [
+            "Online"
+        ],
+        "Description": "The All American High School Film Festival is the premier destination for talented high school filmmakers and media arts enthusiasts from around the world. Their website features a range of resources and online events: webinars, music library, casting resources, competitions, podcasts, and more.",
+        "HowToApply": "They have three competitions to which you can submit your work to be critiqued, with the possibility of winning awards and prizes. (Spring Film Invitational, NYC Film Invitational, Winter Film Invitational) Each team can have a maximum of 10 people. See regulations and directions in linked site.",
+        "Link1": "https://www.hsfilmfest.com/rulesandcategories"
+    },
+    {
+        "Title": "WFUNA (World Federation of United Nations Associations)",
+        "Category": [
+            "Humanities"
+        ],
+        "AgeGroup": [
+            "IG1",
+            "IG2",
+            "IB1",
+            "IB2"
+        ],
+        "Language": "English proficiency recommended",
+        "Location": [
+            "International"
+        ],
+        "Description": "The World Federation of United Nations Associations (WFUNA) is a global nonprofit organization representing and coordinating a membership of over 100 national United Nations Associations (UNAs) and their thousands of constituents. They have several Global programs for high school students: MOdel World Health Organisation (WHO), Model Food and Agriculture Organisation (FAO), UN spotlight training program, Model UN, youth networks, and more.",
+        "HowToApply": "Conferences take place in different countries each year. Speak to your school's head of MUN to see if the school can sponsor the delegate fees and other costs. See linked site for registration and further details.",
+        "Link1": "https://wfuna.org/program/global-model-fao-2026/?_gl=1*jcrtc0*_up*MQ..*_ga*NjM5NzYzMDQzLjE3NzM4NzY1MTE.*_ga_XMN51LQWY3*czE3NzM4NzY1MDgkbzEkZzAkdDE3NzM4NzY1MDgkajYwJGwwJGgw",
+        "Link2": "https://wfuna.org/program/globalmodel-singapore-2026/?_gl=1*vimvw9*_up*MQ..*_ga*NzUyOTgxMTM3LjE3NzM4NzY1MTM.*_ga_XMN51LQWY3*czE3NzM4NzY1MTEkbzEkZzEkdDE3NzM4NzY2MDckajQyJGwwJGgw"
+    },
+    {
+        "Title": "WWF Youth",
+        "Category": [
+            "Veterinary sciences",
+            "Biology"
+        ],
+        "AgeGroup": [
+            "CLS",
+            "IG1",
+            "IG2",
+            "IB1",
+            "IB2"
+        ],
+        "Language": "English proficiency recommended",
+        "Location": [
+            "Online",
+            "International"
+        ],
+        "Description": "World Wildlife Fund (WWF) leads international efforts to protect endangered species and their habitats and address threats such as climate change. They have initiatives such as the youth ambassadors. You can also come up with your own and collaborate with the WWF on a project that involves your school or your local community.",
+        "HowToApply": "WWF's youth engagement team works with brilliant young people aged between 6-25 who care about our natural world and want to take action to protect it. If you want to get involved, or if you have any questions about WWF's work, email youth@wwf.org.uk.",
+        "Link1": "https://www.wwf.org.uk/get-involved/youth-engagement"
+    },
+    {
+        "Title": "Quercus",
+        "Category": [
+            "Veterinary sciences",
+            "Biology"
+        ],
+        "AgeGroup": [
+            "CLS",
+            "IG1",
+            "IG2",
+            "IB1",
+            "IB2"
+        ],
+        "Language": "Portuguese optional",
+        "Location": [
+            "Portugal"
+        ],
+        "Description": "Quercus is an independent, non-partisan, national, non-profit association made up of citizens who have come together around the same interest in the sustainable Conservation of Nature and Natural Resources. ",
+        "HowToApply": "You can sign up for volunteer work using the second link. Alternatively, you could contact Quercus to see if they could support a project you have in mind, or if they're open to having you intern in one of their ongoing projects.",
+        "Link1": "https://quercus.pt",
+        "Link2": "https://quercus.pt/participar/"
+    },
+    {
+        "Title": "Ocean Alive",
+        "Category": [
+            "Biology"
+        ],
+        "AgeGroup": [
+            "CLS",
+            "IG1",
+            "IG2",
+            "IB1",
+            "IB2"
+        ],
+        "Language": "Portuguese proficiency recommended",
+        "Location": [
+            "Portugal"
+        ],
+        "Description": "Ocean Alive is a Portuguese NGO dedicated to the protection of marine forests WITH the community. The Ocean Alive project is focused on the Sado estuary, where marine prairies are the nursery habitat of the prey of a resident population of dolphins and the fish and seafood of the fishing community. It aims to protect marine prairies involving women from the Guardiãs do Mar fishing community.",
+        "HowToApply": "You could contact Quercus to see if they could support a project you have in mind, or if they're open to having you intern/volunteer in one of their ongoing projects.",
+        "Link1": "https://www.ocean-alive.org/sobre-nos"
+    },
+    {
+        "Title": "IPDJ (Instituto Português do Desporto e Juventude)",
+        "Category": [
+            "Computer science",
+            "Biology",
+            "Biomed",
+            "Veterinary sciences",
+            "Art",
+            "Volunteering",
+            "Finance",
+            "Mathematics",
+            "Chemistry",
+            "Physics",
+            "Robotics",
+            "Humanities",
+            "Languages",
+            "Biochem"
+        ],
+        "AgeGroup": [
+            "CLS",
+            "IG1",
+            "IG2",
+            "IB1",
+            "IB2"
+        ],
+        "Language": "Portuguese proficiency recommended",
+        "Location": [
+            "Portugal"
+        ],
+        "Description": "The Portuguese Institute of Sports and Youth, I.P. (IPDJ) makes a variety of youth programs available to middle school and high school students. ",
+        "HowToApply": "From mental health advocacy to sports campaigns, there's something for everyone. See linked site for programs. You can register yourself on their website.",
+        "Link1": "https://ipdj.gov.pt/programas"
+    },
+    {
+        "Title": "ICNF (Instituto da Conservação\nda Naturera e das Floresta)",
+        "Category": [
+            "Biology",
+            "Veterinary sciences"
+        ],
+        "AgeGroup": [
+            "CLS",
+            "IG1",
+            "IG2",
+            "IB1",
+            "IB2"
+        ],
+        "Language": "Portuguese proficiency recommended",
+        "Location": [
+            "Portugal"
+        ],
+        "Description": "The ICNF (Instituto da Conservação da Natureza e das Florestas) is the public institute in Portugal responsible for nature conservation, forest management, and the protection of biodiversity. It manages national protected areas and state forests, working under the Ministry of Environment and Agriculture to promote sustainability, biodiversity conservation, and forest defense.",
+        "HowToApply": "You could contact Quercus to see if they could support a project you have in mind, or if they're open to having you intern/volunteer in one of their ongoing projects. One of the key goals for these types of organisations is to educate the public, so don't shy away from emailing them!",
+        "Link1": "https://www.icnf.pt"
+    },
+    {
+        "Title": "World maths day",
+        "Category": [
+            "Mathematics"
+        ],
+        "AgeGroup": [
+            "CLS",
+            "IG1",
+            "IG2",
+            "IB1",
+            "IB2"
+        ],
+        "Language": "English proficiency recommended",
+        "Location": [
+            "Online"
+        ],
+        "Description": "World maths day is a 48h online math events for students aged 5 to 18, free for everyone. ",
+        "HowToApply": "See linked site for details and sign up portal.",
+        "Link1": "https://www.3plearning.com/world-maths-day/"
+    },
+    {
+        "Title": "Zero Robotics",
+        "Category": [
+            "Physics",
+            "Robotics",
+            "Computer science"
+        ],
+        "AgeGroup": [
+            "CLS",
+            "IG1",
+            "IG2",
+            "IB1",
+            "IB2"
+        ],
+        "Language": "English proficiency recommended",
+        "Location": [
+            "Online",
+            "International"
+        ],
+        "Description": "A robotics programming competition where students code real satellites aboard the International Space Station — and watch them compete live in microgravity.",
+        "HowToApply": "Gather 5-20 students and a mentor, sign up on their website and join a live event.",
+        "Link1": "https://zerorobotics.mit.edu"
+    },
+    {
+        "Title": "Codeforces contests",
+        "Category": [
+            "Computer science"
+        ],
+        "AgeGroup": [
+            "CLS",
+            "IG1",
+            "IG2",
+            "IB1",
+            "IB2"
+        ],
+        "Language": "English proficiency recommended",
+        "Location": [
+            "Online"
+        ],
+        "Description": "Online coding competition.",
+        "HowToApply": "Registration on linked site.",
+        "Link1": "https://codeforces.com/contests"
+    },
+    {
+        "Title": "AtCoder Contests",
+        "Category": [
+            "Computer science"
+        ],
+        "AgeGroup": [
+            "CLS",
+            "IG1",
+            "IG2",
+            "IB1",
+            "IB2"
+        ],
+        "Language": "English proficiency recommended",
+        "Location": [
+            "Online"
+        ],
+        "Description": "Online coding competition.",
+        "HowToApply": "Registration on linked site.",
+        "Link1": "https://atcoder.jp"
+    },
+    {
+        "Title": "Science Without Borders Challenge\nInternational Student Art Contest",
+        "Category": [
+            "Art"
+        ],
+        "AgeGroup": [
+            "CLS",
+            "IG1",
+            "IG2",
+            "IB1",
+            "IB2"
+        ],
+        "Language": "English proficiency recommended",
+        "Location": [
+            "Online"
+        ],
+        "Description": "The Science Without Borders Challenge is an international art contest that teaches students about important ocean science and conservation issues.",
+        "HowToApply": "Theme varies by year. The Challenge is free to enter, open to primary and secondary school students 11-19 years old, and scholarships of up to $500 are awarded to the winning entries.",
+        "Link1": "https://www.livingoceansfoundation.org/science-without-borders-challenge/"
+    },
+    {
+        "Title": "Global Public Speaking Challenge",
+        "Category": [
+            "Humanities"
+        ],
+        "AgeGroup": [
+            "IG1",
+            "IG2",
+            "IB1",
+            "IB2"
+        ],
+        "Language": "English proficiency recommended",
+        "Location": [
+            "Online",
+            "International"
+        ],
+        "Description": "A free, global virtual speaking challenge for high school students (aged 14-18) around the world who have a message, idea, or question they want to share.",
+        "HowToApply": "Record a short 1-minute video to submit your entry.",
+        "Link1": "https://www.ted.immerse.education/public-speaking-challenge"
+    },
+    {
+        "Title": "YCM (Young Change Makers)",
+        "Category": [
+            "Humanities"
+        ],
+        "AgeGroup": [
+            "IG2",
+            "IB1",
+            "IB2"
+        ],
+        "Language": "English proficiency recommended",
+        "Location": [
+            "Online",
+            "International"
+        ],
+        "Description": "YCM Challenge is the global springboard for young changemakers under 28 with ideas already in motion, offering mentoring, peer feedback, pre-seed funding, and hands-on support to help them scale their impact.",
+        "HowToApply": "See linked site for application form.",
+        "Link1": "https://www.ycmchallenge.org"
+    },
+    {
+        "Title": "WWOOF",
+        "Category": [
+            "Biology"
+        ],
+        "AgeGroup": [
+            "IG1",
+            "IG2",
+            "IB1",
+            "IB2"
+        ],
+        "Language": "English proficiency recommended",
+        "Location": [
+            "International"
+        ],
+        "Description": "WWOOF is a non-profit movement made up of people that are passionate about sustainability and regenerative farming. WWOOF (Worldwide Opportunities on Organic Farms) links visitors with organic farmers, promotes an educational and cultural exchange and builds a global community conscious of ecological farming practices.",
+        "HowToApply": "WWOOFers step into the daily life of  their host family to learn about agro-ecological and sustainable farming methods through hands-on experience. Hosts offer accommodation and meals with no money exchanged between hosts and WWOOFers.",
+        "Link1": "https://wwoof.net"
+    },
+    {
+        "Title": "Zindi",
+        "Category": [
+            "Computer science"
+        ],
+        "AgeGroup": [
+            "CLS",
+            "IG1",
+            "IG2",
+            "IB1",
+            "IB2"
+        ],
+        "Language": "English proficiency recommended",
+        "Location": [
+            "Online"
+        ],
+        "Description": "Zindi is an online platform and community that hosts data science competitions and hackathons to solve real-world AI challenges, primarily focused on Africa. It helps data professionals build skills and portfolios, connects them with jobs, and allows companies and governments to crowdsource AI solutions. ",
+        "HowToApply": "Registration on linked site.",
+        "Link1": "https://zindi.africa"
+    },
+    {
+        "Title": "Project Gutenberg",
+        "Category": [
+            "Humanities"
+        ],
+        "AgeGroup": [
+            "CLS",
+            "IG1",
+            "IG2",
+            "IB1",
+            "IB2"
+        ],
+        "Language": "English proficiency recommended",
+        "Location": [
+            "Online"
+        ],
+        "Description": "Project Gutenberg is the oldest digital library, providing over 75,000 free eBooks, focusing on literature in the public domain. Founded in 1971 by Michael Hart, the project aims to encourage the creation and distribution of eBooks, allowing free reading and redistribution without copyright restrictions. ",
+        "HowToApply": "Open sourced, see linked site.",
+        "Link1": "https://www.gutenberg.org"
     }
 ]
+
